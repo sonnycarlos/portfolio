@@ -1,0 +1,730 @@
+/* Navigation Bar */
+
+header nav > a > .logo {
+  filter: invert(0%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(0%) contrast(75%);
+}
+
+header nav > ul > li > a,
+header nav > ul > li > .link {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+header nav > ul > li > button > .prefix .icon {
+  filter: invert(0%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(0%) contrast(75%);
+}
+
+/* Hero */
+
+#hero > .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 64px;
+  padding: 64px 24px;
+}
+
+#hero .header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  width: 350px;
+}
+
+#hero .header > h1,
+#hero .header > p {
+  text-align: center;
+}
+
+#hero .header > h1 {
+  font-family: var(--sf-pro-display-bold);
+  font-size: 24px;
+}
+
+#hero .header p {
+  line-height: 22px;
+  font-family: var(--sf-pro-display-medium);
+  font-size: 14px;
+}
+
+#hero img {
+  width: 300px;
+}
+
+/* About */
+
+#about {
+  background-color: #F2F2F2;
+}
+
+#about > .container {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding: 48px 24px;
+}
+
+#about > .container > .details {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+#about > .container > .details > div {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+#about > .container > .details > div > div {
+  display: flex;
+  gap: 12px;
+}
+
+#about > .container > .details p {
+  line-height: 20px;
+  font-size: 14px;
+}
+
+#about > .container > .details > div > div > p {
+  font-family: var(--sf-pro-display-bold);
+}
+
+#about > .container > .details > div > div > div {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+#about > .container > .details > p {
+  line-height: 20px;
+}
+
+/* Analysis */
+
+#analysis > .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 48px;
+  padding: 48px 24px;
+}
+
+#analysis > .container > .header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+#analysis > .container > .header > * {
+  text-align: center;
+}
+
+#analysis > .container > .header > h2 {
+  font-family: var(--sf-pro-display-bold);
+}
+
+#analysis > .container > .header > p {
+  text-align: center;
+  line-height: 20px;
+  font-size: 14px;
+}
+
+/* Typography */
+
+#typography > .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 48px;
+  padding: 48px 24px;
+}
+
+#typography > .container > .header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 24px;
+}
+
+#typography > .container > .header > * {
+  text-align: center;
+}
+
+#typography > .container > .header > h2 {
+  font-family: var(--sf-pro-display-bold);
+}
+
+#typography > .container > .header > p {
+  text-align: center;
+  line-height: 20px;
+  font-size: 14px;
+}
+
+#typography > .container > .stack {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #F2F2F2;
+}
+
+#typography > .container > .stack {
+  gap: 24px;
+  width: 100%;
+  height: 200px;
+}
+
+#typography > .container > .stack > p,
+#typography > .container > .stack > div {
+  width: 290px;
+}
+
+#typography > .container > .stack > p {
+  font-family: var(--gilroy-bold);
+  font-size: 24px;
+}
+
+#typography > .container > .stack > div {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+#typography > .container > .stack > div > p {
+  font-family: var(--gilroy-bold);
+  font-size: 24px;
+}
+
+#typography > .container > .stack > div > div {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+#typography > .container > .stack > div > div > p {
+  font-family: var(--gilroy-bold);
+  font-size: 14px;
+}
+
+/* Hues */
+
+#hues > .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 48px;
+  padding: 48px 24px;
+  background-color: #F2F2F2;
+}
+
+#hues > .container > .header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 24px;
+}
+
+#hues > .container > .header > * {
+  text-align: center;
+}
+
+#hues > .container > .header > h2 {
+  font-family: var(--sf-pro-display-bold);
+}
+
+#hues > .container > .header > p {
+  text-align: center;
+  line-height: 20px;
+  font-size: 14px;
+}
+
+#hues > .container > .stacks {
+  display: grid;
+  grid-template-areas:
+    'stack_1 stack_1 stack_1 stack_1'
+    'stack_2 stack_2 stack_2 stack_2'
+    'stack_3 stack_3 stack_3 stack_3';
+  width: 100%;
+}
+
+#hues > .container > .stacks > .stack {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 300px;
+  padding: 16px;
+}
+
+#hues > .container > .stacks > .stack_1 {
+  grid-area: stack_1;
+  height: 382px;
+  background-color: #5443AE;
+}
+
+#hues > .container > .stacks > .stack_1 > img {
+  width: 130px;
+}
+
+#hues > .container > .stacks > .stack_2 {
+  grid-area: stack_2;
+  background-color: #000;
+}
+
+#hues > .container > .stacks > .stack_3 {
+  grid-area: stack_3;
+  background-color: #FFF;
+}
+
+#hues > .container > .stacks > .stack > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+#hues > .container > .stacks > .stack > div > div {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+#hues > .container > .stacks > .stack p {
+  color: var(--secondary-color);
+  font-family: var(--sf-pro-display-medium);
+  font-size: 12px;
+}
+
+#hues > .container > .stacks > .stack_3 p {
+  color: #000;
+}
+
+/* Conclusion */
+
+#conclusion > .container  {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 48px;
+  padding: 48px 24px;
+}
+
+#conclusion > .container > .header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+#conclusion > .container > .header > * {
+  text-align: center;
+}
+
+#conclusion > .container > .header > h2 {
+  font-family: var(--sf-pro-display-bold);
+}
+
+#conclusion > .container > .header > p {
+  text-align: center;
+  line-height: 20px;
+  font-size: 14px;
+}
+
+#conclusion > .container > .header > p > a {
+  text-decoration: underline;
+}
+
+/* Screen Width: 768px */
+
+@media only screen and (min-width: 768px) {
+  /* Hero */
+
+  #hero > .container {
+    gap: 64px;
+    padding: 80px 24px;
+  }
+
+  #hero .header {
+    gap: 24px;
+    width: 600px;
+  }
+  
+  #hero .header > h1 {
+    font-size: 32px;
+  }
+  
+  #hero .header p {
+    line-height: 22px;
+    font-size: 16px;
+  }
+  
+  #hero img {
+    width: 400px;
+  }
+
+  /* About */
+
+  #about > .container {
+    gap: 80px;
+    padding: 100px 64px;
+  }
+
+  #about > .container > .details {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  #about > .container > .details > div > div {
+    gap: 16px;
+  }
+  
+  #about > .container > .details > div > div > div {
+    gap: 8px;
+  }
+
+  #about > .container > .details p {
+    font-size: 16px;
+  }
+
+  #about > .container > .details > p {
+    width: 350px;
+    line-height: 22px;
+  }
+
+  /* Analysis */
+
+  #analysis > .container {
+    padding: 100px 64px;
+    gap: 100px;
+  }
+
+  #analysis > .container > .header {
+    width: 450px;
+  }
+
+  #analysis > .container > .header > h2 {
+    font-size: 32px;
+  }
+
+  #analysis > .container > .header > p {
+    line-height: 22px;
+    font-size: 16px;
+  }
+
+  /* Typography */
+
+  #typography > .container {
+    gap: 64px;
+    padding: 64px;
+  }
+
+  #typography > .container > .header > h2 {
+    font-size: 32px;
+  }
+
+  #typography > .container > .header > p {
+    line-height: 22px;
+    font-size: 16px;
+  }
+
+  #typography > .container > .stack {
+    gap: 40px;
+    height: 284px;
+  }
+  
+  #typography > .container > .stack > p,
+  #typography > .container > .stack > div {
+    width: 450px;
+  }
+  
+  #typography > .container > .stack > p {
+    font-size: 40px;
+  }
+  
+  #typography > .container > .stack > div {
+    gap: 24px;
+  }
+  
+  #typography > .container > .stack > div > p {
+    font-size: 40px;
+  }
+  
+  #typography > .container > .stack > div > div > p {
+    font-size: 20px;
+  }
+
+  /* Hues */
+
+  #hues > .container {
+    padding: 100px 64px;
+    gap: 100px;
+  }
+
+  #hues > .container > .header {
+    width: 450px;
+  }
+
+  #hues > .container > .header > h2 {
+    font-size: 32px;
+  }
+
+  #hues > .container > .header > p {
+    line-height: 22px;
+    font-size: 16px;
+  }
+
+  #hues > .container > .stacks {
+    place-content: center;
+  }
+
+  #hues > .container > .stacks > .stack {
+    width: 640px;
+  }
+
+  #hues > .container > .stacks > .stack_1 {
+    height: 600px;
+  }
+
+  #hues > .container > .stacks > .stack > div:last-child {
+    justify-content: flex-start;
+    gap: 100px;
+  }
+
+  #hues > .container > .stacks > .stack > div > div {
+    gap: 16px;
+  }
+
+  /* Conclusion */
+
+  #conclusion > .container {
+    gap: 64px;
+    padding: 64px;
+  }
+
+  #conclusion > .container > .header {
+    width: 450px;
+  }
+
+  #conclusion > .container > .header > h2 {
+    font-size: 32px;
+  }
+
+  #conclusion > .container > .header > p {
+    line-height: 22px;
+    font-size: 16px;
+  }
+}
+
+/* Screen Width: 900px */
+
+@media only screen and (min-width: 900px) {
+  /* About */
+
+  #about > .container > .details {
+    justify-content: center;
+    gap: 120px;
+  }
+}
+
+/* Screen Width: 1280px */
+
+@media only screen and (min-width: 1280px) {
+  /* Hero */
+
+  #hero > .container {
+    gap: 80px;
+  }
+
+  /* About */
+
+  #about > .container {
+    padding: 120px 200px;
+  }
+
+  #about > .container > .details {
+    padding: 0 96px;
+  }
+
+  #about > .container > .details > p {
+    width: 400px;
+  }
+
+  /* Analysis */
+
+  #analysis > .container {
+    gap: 80px;
+    padding: 80px 200px;
+  }
+
+  #analysis > .container > .header {
+    width: 500px;
+  }
+
+  #analysis > .container > .header > h2 {
+    font-size: 40px;
+  }
+
+  /* Typography */
+
+  #typography > .container {
+    gap: 80px;
+    padding: 80px 200px;
+  }
+
+  #typography > .container > .header {
+    width: 500px;
+  }
+
+  #typography > .container > .header > h2 {
+    font-size: 40px;
+  }
+
+  #typography > .container > .stack {
+    width: 656px;
+  }
+
+  /* Hues */
+
+  #hues > .container {
+    gap: 80px;
+    padding: 80px 200px;
+  }
+
+  #hues > .container > .header {
+    width: 500px;
+  }
+
+  #hues > .container > .header > h2 {
+    font-size: 40px;
+  }
+
+  /* Conclusion */
+
+  #conclusion > .container {
+    gap: 80px;
+    padding: 80px 200px;
+  }
+
+  #conclusion > .container > .header {
+    width: 500px;
+  }
+
+  #conclusion > .container > .header > h2 {
+    font-size: 40px;
+  }
+}
+
+/* Screen Width: 1440px */
+
+@media only screen and (min-width: 1440px) {
+  /* Hero */
+
+  #hero .header {
+    width: 650px;
+  }
+  
+  #hero .header > h1 {
+    font-size: 40px;
+  }
+  
+  #hero .header p {
+    line-height: 22px;
+    font-size: 18px;
+  }
+  
+  #hero img {
+    width: 500px;
+  }
+
+  /* About */
+
+  #about > .container {
+    padding: 120px 200px;
+  }
+
+  #about > .container > .details {
+    padding: 0 150px;
+  }
+
+  /* Analysis */
+
+  #analysis > .container {
+    gap: 120px;
+    padding: 120px 200px;
+  }
+  
+  /* Typography */
+
+  #typography > .container {
+    gap: 120px;
+    padding: 120px 200px;
+  }
+
+  /* Hues */
+
+  #hues > .container {
+    gap: 120px;
+    padding: 120px 200px;
+  }
+
+  #hues > .container > .stacks {
+    grid-template-areas:
+      'stack_1 stack_1 stack_2 stack_2'
+      'stack_1 stack_1 stack_3 stack_3';
+  }
+
+  #hues > .container > .stacks > .stack_1 {
+    width: 500px;
+  }
+
+  #hues > .container > .stacks > .stack_2,
+  #hues > .container > .stacks > .stack_3 {
+    width: 500px;
+  }
+
+  /* Conclusion */
+
+  #conclusion > .container {
+    padding: 120px 200px;
+  }
+}
+
+/* Screen Width: 1745px */
+
+@media only screen and (min-width: 1745px) {
+  /* About */
+
+  #about > .container > div {
+    padding: 0 150px;
+  }
+
+  /* Analysis */
+
+  #analysis > .container {
+    padding: 120px 400px;
+  }
+}
+
+/* Screen Width: 1872px */
+
+@media only screen and (min-width: 1872px) {
+  /* About */
+
+  #about > .container {
+    padding: 120px 400px;
+  }
+}
+
+/* Screen Width: 1920px */
+
+@media only screen and (min-width: 1920px) {
+  /* About */
+
+  #about > .container {
+    padding: 120px 450px;
+  }
+}

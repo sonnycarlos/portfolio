@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <meta charset='UTF-8'>
+  <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+  <title>Esenway</title>
+  <link rel='icon' href='assets/images/favicon.ico' type='image/x-icon'>
+  <link rel='shortcut icon' href='assets/images/favicon.ico' type='image/x-icon'>
+  <link rel='apple-touch-icon' sizes='180x180' href='assets/images/favicon.ico'>
+  <link rel='stylesheet' href='styles/style.css'>
+  <link rel='stylesheet' href='styles/index.css'>
+  <script src='https://cdn.jsdelivr.net/npm/gsap@3.12.2/dist/gsap.min.js'></script>
+</head>
+<body>
+  <!-- Intro -->
+  <section id='intro'>
+    <h1 id='txt'>
+      <span class='span'>Hola.</span>
+      <span class='span'>I'm</span>
+      <span class='span'>Sonny</span>
+      <span class='span'>Carlos,</span>
+      <span class='span'>ese.</span>
+    </h1>
+  </section>
+  
+  <!-- Navigation Bar -->
+  <header>
+    <div class='container'>
+      <nav>
+        <a>
+          <img src='assets/svg/esenway_logo.svg' alt='Logo' class='logo'>
+        </a>
+
+        <ul>
+          <li>
+            <button id='download_resume_btn' class='btn text_btn link'>
+              <span class='prefix'>
+                <img src='assets/svg/icons/download.svg' alt='Icon' class='icon'>
+              </span>
+
+              Resume
+            </button>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Links -->
+  <section id='links'>
+    <div class='container'>
+      <div id='preview'>
+        <div id='thumbnail'></div>
+      </div>
+
+      <div id='project_links'>
+        <div class='link_container' id='1'>
+          <span class='year'>2024</span>
+          <a href='https://www.tribbo.io' target='_blank' class='link'>Tribbo (Coming Soon)</a>
+        </div>
+
+        <div class='link_container' id='2'>
+          <span class='year'>2023</span>
+          <a href='pages/sr_gate_pass.html' class='link'>SR Gate Pass</a>
+        </div>
+
+        <div class='link_container' id='3'>
+          <span class='year'>2021</span>
+          <a href='pages/ladderwise.html' class='link'>LadderWise</a>
+        </div>
+
+        <div class='link_container' id='4'>
+          <span class='year'>2020</span>
+          <a href='pages/agartha.html' class='link'>Agartha</a>
+        </div>
+      </div>
+
+      <a href='https://www.linkedin.com/in/esenway/' target='_blank' class='profile_link link'>Sonny Carlos</a>
+    </div>
+  </section>
+
+  <!-- Script -->
+  <script src='script/hover_effect.js'></script>
+  <script src='script/intro_animation.js'></script>
+  <script src='script/download_resume.js'></script>
+</body>
+</html>

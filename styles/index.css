@@ -1,0 +1,163 @@
+/* Links */
+
+#links > .container {
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+  padding: 0 64px;
+}
+
+#links .year,
+#links .link {
+  color: var(--tertiary-color);
+}
+
+#links .link {
+  position: relative;
+  transition: 0.25s;
+  cursor: pointer;
+  width: fit-content;
+  font-family: var(--sf-pro-display-medium);
+}
+
+#links .link::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: var(--tertiary-color);
+}
+
+#links .link:hover {
+  color: var(--primary-color);
+}
+
+#links .link:hover::after {
+  background-color: var(--primary-color);
+}
+
+#links #project_links {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  width: fit-content;
+}
+
+#links #project_links > .link_container {
+  display: flex;
+  gap: 32px;
+  width: fit-content;
+}
+
+#links #project_links > .link_container > .year {
+  width: 48px;
+}
+
+#links .profile_link {
+  margin-left: 80px;
+}
+
+/* Screen Width: 768px */
+
+@media only screen and (min-width: 768px) {
+  /* Links */
+
+  #links > .container {
+    gap: 80px;
+    padding: 0 200px;
+  }
+
+  #links .year,
+  #links .link {
+    font-size: 20px;
+  }
+
+  #links #project_links > .link_container > .year {
+    width: 64px;
+  }
+
+  #links .profile_link {
+    margin-left: 96px;
+  }
+}
+
+/* Screen Width: 1280px */
+
+@media only screen and (min-width: 1280px) {
+  /* Links */
+
+  #links > .container {
+    padding: 0 350px;
+  }
+}
+
+/* Screen Width: 1440px */
+
+@media only screen and (min-width: 1440px) {
+  /* Navigation Bar */
+
+  header nav {
+    padding: 40px 100px;
+  }
+
+  /* Links */
+
+  #links > .container {
+    padding: 88px 400px;
+  }
+
+  #links #preview {
+    position: absolute;
+    overflow: hidden;
+    z-index: 2;
+    transform: scale(0.5);
+    transform-origin: center;
+    pointer-events: none;
+    width: 300px;
+    height: 180px;
+  }
+
+  #links #preview > #thumbnail {
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+    background-size: cover;
+  }
+}
+
+
+/* Screen Width: 1745px */
+
+@media only screen and (min-width: 1745px) {
+  /* Links */
+
+  #links > .container {
+    padding: 96px 500px;
+  }
+}
+
+/* Screen Width: 1920px */
+
+@media only screen and (min-width: 1920px) {
+  /* Navigation Bar */
+
+  header nav {
+    padding: 40px 300px;
+  }
+
+  /* Links */
+
+  #links > .container {
+    padding: 96px 600px;
+  }
+
+  #links #project_links > .link_container > .year {
+    width: 80px;
+  }
+
+  #links .profile_link {
+    margin-left: 112px;
+  }
+}
