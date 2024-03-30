@@ -13,11 +13,12 @@ const bgPositions = {
 }
 
 const thumbnailImages = {
-  'link-1': 'assets/images/thumbnails/bulsu_pmes.png',
-  'link-2': 'assets/images/thumbnails/tribbo.png',
-  'link-3': 'assets/images/thumbnails/sr_gate_pass.png',
-  'link-4': 'assets/images/thumbnails/ladderwise.png',
-  'link-5': 'assets/images/thumbnails/agartha.png'
+  'link-1': 'assets/images/thumbnails/john_foy.png',
+  'link-2': 'assets/images/thumbnails/bulsu_pmes.png',
+  'link-3': 'assets/images/thumbnails/tribbo.png',
+  'link-4': 'assets/images/thumbnails/sr_gate_pass.png',
+  'link-5': 'assets/images/thumbnails/ladderwise.png',
+  'link-6': 'assets/images/thumbnails/agartha.png'
 }
 
 const moveStuff = (e) => {
