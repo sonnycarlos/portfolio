@@ -1,0 +1,414 @@
+/* Navigation Bar */
+
+header nav > a > .logo {
+  filter: invert(0%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(0%) contrast(75%);
+}
+
+header nav > ul > li > a,
+header nav > ul > li > .link {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+header nav > ul > li > button > .prefix .icon {
+  filter: invert(0%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(0%) contrast(75%);
+}
+
+/* Hero */
+
+#hero > .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 64px;
+  padding: 64px 24px;
+}
+
+#hero .header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  width: 350px;
+}
+
+#hero .header > h1,
+#hero .header > p {
+  text-align: center;
+}
+
+#hero .header > h1 {
+  font-family: var(--sf-pro-display-bold);
+  font-size: 24px;
+}
+
+#hero .header p {
+  line-height: 18px;
+  font-family: var(--sf-pro-display-medium);
+  font-size: 14px;
+}
+
+#hero img {
+  width: 350px;
+  border-radius: 12px;
+}
+
+/* About */
+
+#about {
+  background-color: #F2F2F2;
+}
+
+#about > .container {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding: 48px 24px;
+}
+
+#about > .container > .details {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+#about > .container > .details > div {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+#about > .container > .details > div > div {
+  display: flex;
+  gap: 12px;
+}
+
+#about > .container > .details p {
+  line-height: 20px;
+  font-size: 14px;
+}
+
+#about > .container > .details > div > div > p {
+  font-family: var(--sf-pro-display-bold);
+}
+
+#about > .container > .details > div > div > div {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+#about > .container > .details > p {
+  line-height: 20px;
+}
+
+#about > .container > .link {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+#about > .container > .link > * {
+  font-size: 14px;
+}
+
+#about > .container > .link > a {
+  text-decoration: underline;
+  font-weight: 700;
+}
+
+/* Brand Perception */
+
+#brand_perception > .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 48px;
+  padding: 48px 24px;
+}
+
+#brand_perception > .container > .header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+#brand_perception > .container > .header > * {
+  text-align: center;
+}
+
+#brand_perception > .container > .header > h2 {
+  font-family: var(--sf-pro-display-bold);
+}
+
+#brand_perception > .container > .header > p {
+  text-align: center;
+  line-height: 20px;
+  font-size: 14px;
+}
+
+/* Coming Soon */
+
+#coming_soon {
+  position: relative;
+}
+
+#coming_soon > .container {
+  padding: 48px;
+}
+
+#coming_soon > .container > h2 {
+  margin: 0 auto;
+  color: #AAA;
+  text-align: center;
+  font-size: 20px;
+}
+
+#coming_soon > .container > #overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  width: 100%;
+  height: 200px;
+  background: linear-gradient(to bottom, #FFF 0%, #737373 100%);
+}
+
+/* Screen Width: 768px */
+
+@media only screen and (min-width: 768px) {
+  /* Hero */
+
+  #hero > .container {
+    gap: 64px;
+    padding: 80px 24px;
+  }
+
+  #hero .header {
+    gap: 24px;
+    width: 600px;
+  }
+  
+  #hero .header > h1 {
+    font-size: 32px;
+  }
+  
+  #hero .header p {
+    line-height: 20px;
+    font-size: 16px;
+  }
+  
+  #hero img {
+    width: 650px;
+  }
+
+  /* About */
+
+  #about > .container {
+    gap: 80px;
+    padding: 100px 64px;
+  }
+
+  #about > .container > .details {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  #about > .container > .details > div > div {
+    gap: 16px;
+  }
+
+  #about > .container > .details > div > div > div {
+    gap: 8px;
+  }
+
+  #about > .container > .details p {
+    font-size: 16px;
+  }
+
+  #about > .container > .details > p {
+    width: 350px;
+    line-height: 22px;
+  }
+
+  #about > .container > .link {
+    justify-content: space-between;
+  }
+  
+  #about > .container > .link > * {
+    font-size: 16px;
+  }
+  
+  #about > .container > .link > a {
+    width: 350px;
+  }
+
+  /* Brand Perception */
+
+  #brand_perception > .container {
+    padding: 100px 64px;
+    gap: 100px;
+  }
+
+  #brand_perception > .container > .header {
+    width: 450px;
+  }
+
+  #brand_perception > .container > .header > h2 {
+    font-size: 32px;
+  }
+
+  #brand_perception > .container > .header > p {
+    line-height: 22px;
+    font-size: 16px;
+  }
+
+  /* Coming Soon */
+
+  #coming_soon > .container {
+    padding: 64px;
+  }
+
+  #coming_soon > .container > h2 {
+    font-size: 24px;
+  }
+
+  #coming_soon > .container > #overlay {
+    height: 300px;
+  }
+}
+
+/* Screen Width: 1280px */
+
+@media only screen and (min-width: 1280px) {
+  /* Hero */
+
+  #hero > .container {
+    gap: 80px;
+  }
+
+  #hero img {
+    width: 1000px;
+  }
+
+  /* About */
+
+  #about > .container {
+    padding: 120px 200px;
+  }
+
+  #about > .container > .details {
+    padding: 0 96px;
+  }
+
+  #about > .container > .details > p {
+    width: 400px;
+  }
+  
+  #about > .container > .link {
+    padding: 0 96px;
+  }
+  
+  #about > .container > .link > a {
+    width: 400px;
+  }
+
+  /* Brand Perception */
+
+  #brand_perception > .container {
+    gap: 80px;
+    padding: 80px 200px;
+  }
+
+  #brand_perception > .container > .header {
+    width: 600px;
+  }
+
+  #brand_perception > .container > .header > h2 {
+    font-size: 40px;
+  }
+}
+
+/* Screen Width: 1440px */
+
+@media only screen and (min-width: 1440px) {
+  /* Hero */
+
+  #hero > .container {
+    gap: 64px;
+  }
+
+  #hero .header {
+    width: 650px;
+  }
+  
+  #hero .header > h1 {
+    font-size: 40px;
+  }
+  
+  #hero .header p {
+    line-height: 22px;
+    font-size: 18px;
+  }
+
+  /* About */
+
+  #about > .container {
+    padding: 120px 200px;
+  }
+
+  #about > .container > .details {
+    padding: 0 150px;
+  }
+
+  #about > .container > .link {
+    padding: 0 150px;
+  }
+
+  /* Brand Perception */
+
+  #brand_perception > .container {
+    gap: 120px;
+    padding: 120px 200px;
+  }
+}
+
+/* Screen Width: 1745px */
+
+@media only screen and (min-width: 1745px) {
+  /* About */
+
+  #about > .container > div {
+    padding: 0 150px;
+  }
+
+  /* Brand Perception */
+
+  #brand_perception > .container {
+    padding: 120px 400px;
+  }
+}
+
+/* Screen Width: 1872px */
+
+@media only screen and (min-width: 1872px) {
+  /* About */
+
+  #about > .container {
+    padding: 120px 400px;
+  }
+}
+
+/* Screen Width: 1920px */
+
+@media only screen and (min-width: 1920px) {
+  /* About */
+
+  #about > .container {
+    padding: 120px 450px;
+  }
+}
