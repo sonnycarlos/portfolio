@@ -22,7 +22,7 @@ header nav > ul > li > button > .prefix .icon {
   justify-content: center;
   align-items: center;
   gap: 64px;
-  padding: 64px 24px;
+  padding: 64px 24px 0;
 }
 
 #hero .header {
@@ -545,7 +545,7 @@ header nav > ul > li > button > .prefix .icon {
 
   #hero > .container {
     gap: 64px;
-    padding: 80px 24px;
+    padding: 80px 24px 0;
   }
 
   #hero .header {
@@ -563,7 +563,7 @@ header nav > ul > li > button > .prefix .icon {
   }
   
   #hero img {
-    width: 650px;
+    width: 400px;
   }
 
   /* About */
@@ -797,7 +797,7 @@ header nav > ul > li > button > .prefix .icon {
   }
 
   #hero img {
-    width: 1000px;
+    width: 500px;
   }
 
   /* About */

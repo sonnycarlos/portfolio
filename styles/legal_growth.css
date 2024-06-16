@@ -1,0 +1,922 @@
+/* Navigation Bar */
+
+header nav > a > .logo {
+  filter: invert(0%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(0%) contrast(75%);
+}
+
+header nav > ul > li > a,
+header nav > ul > li > .link {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+header nav > ul > li > button > .prefix .icon {
+  filter: invert(0%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(0%) contrast(75%);
+}
+
+/* Hero */
+
+#hero > .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 64px;
+  padding: 64px 24px;
+}
+
+#hero .header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  width: 350px;
+}
+
+#hero .header > h1,
+#hero .header > p {
+  text-align: center;
+}
+
+#hero .header > h1 {
+  font-family: var(--sf-pro-display-bold);
+  font-size: 24px;
+}
+
+#hero .header p {
+  line-height: 18px;
+  font-family: var(--sf-pro-display-medium);
+  font-size: 14px;
+}
+
+#hero img {
+  width: 350px;
+}
+
+/* About */
+
+#about {
+  background-color: #F2F2F2;
+}
+
+#about > .container {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding: 48px 24px;
+}
+
+#about > .container > .details {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+#about > .container > .details > div {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+#about > .container > .details > div > div {
+  display: flex;
+  gap: 12px;
+}
+
+#about > .container > .details p {
+  line-height: 20px;
+  font-size: 14px;
+}
+
+#about > .container > .details > div > div > p {
+  font-family: var(--sf-pro-display-bold);
+}
+
+#about > .container > .details > div > div > div {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+#about > .container > .details > p {
+  line-height: 20px;
+}
+
+/* Strategy */
+
+#strategy > div > .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 48px;
+  padding: 48px 24px;
+}
+
+#strategy > div > .container > .header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+#strategy > div > .container > .header > * {
+  text-align: center;
+}
+
+#strategy > div > .container > .header > h2 {
+  font-family: var(--sf-pro-display-bold);
+}
+
+#strategy > div > .container > .header > p {
+  text-align: center;
+  line-height: 20px;
+  font-size: 14px;
+}
+
+#strategy > div > .container > .header > p > a {
+  text-decoration: underline;
+}
+
+/* Splash Screen */
+
+#splash_screen > div > .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 48px;
+  padding: 48px 24px;
+}
+
+#splash_screen > div > .container > .header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+#splash_screen > div > .container > .header > * {
+  text-align: center;
+}
+
+#splash_screen > div > .container > .header > h2 {
+  font-family: var(--sf-pro-display-bold);
+}
+
+#splash_screen > div > .container > .header > p {
+  text-align: center;
+  line-height: 20px;
+  font-size: 14px;
+}
+
+#splash_screen > div > .container > .header > p > span {
+  font-style: italic;
+}
+
+#splash_screen > div > .container > video {
+  box-shadow: 0px 0px 20px 0px #CCC;
+}
+
+/* CTA Button */
+
+#cta_button > div > .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 48px;
+  padding: 48px 24px;
+}
+
+#cta_button > div > .container > .header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+#cta_button > div > .container > .header > * {
+  text-align: center;
+}
+
+#cta_button > div > .container > .header > h2 {
+  font-family: var(--sf-pro-display-bold);
+}
+
+#cta_button > div > .container > .header > p {
+  text-align: center;
+  line-height: 20px;
+  font-size: 14px;
+}
+
+#cta_button > div > .container > .header > p > span {
+  font-style: italic;
+}
+
+#cta_button > div > .container > video {
+  box-shadow: 0px 0px 20px 0px #CCC;
+}
+
+/* Testimonials Section */
+
+#testimonials_section > div > .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 48px;
+  padding: 48px 24px;
+}
+
+#testimonials_section > div > .container > h2 {
+  font-family: var(--sf-pro-display-bold);
+}
+
+#testimonials_section > div > .container > img {
+  box-shadow: 0px 0px 20px 0px #CCC;
+}
+
+/* Typography */
+
+#typography > .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 48px;
+  padding: 48px 24px;
+}
+
+#typography > .container > .header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 24px;
+}
+
+#typography > .container > .header > * {
+  text-align: center;
+}
+
+#typography > .container > .header > h2 {
+  font-family: var(--sf-pro-display-bold);
+}
+
+#typography > .container > .header > p {
+  text-align: center;
+  line-height: 20px;
+  font-size: 14px;
+}
+
+#typography > .container > .stacks {
+  display: grid;
+  grid-template-areas:
+    'stack_1 stack_1 stack_1 stack_1'
+    'stack_2 stack_2 stack_2 stack_2'
+    'stack_3 stack_3 stack_3 stack_3';
+  gap: 16px;
+  width: 100%;
+}
+
+#typography > .container > .stacks > .stack {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #F2F2F2;
+}
+
+#typography > .container > .stacks > .stack_1,
+#typography > .container > .stacks > .stack_2 {
+  gap: 24px;
+  height: 200px;
+}
+
+#typography > .container > .stacks > .stack_1 > p,
+#typography > .container > .stacks > .stack_2 > p,
+#typography > .container > .stacks > .stack_1 > div,
+#typography > .container > .stacks > .stack_2 > div {
+  width: 290px;
+}
+
+#typography > .container > .stacks > .stack_1 > p {
+  font-family: var(--libre-baskerville-bold) !important;
+}
+
+#typography > .container > .stacks > .stack_2 > p {
+  font-family: 'Inter';
+}
+
+#typography > .container > .stacks > .stack_1 > div,
+#typography > .container > .stacks > .stack_2 > div {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+#typography > .container > .stacks > .stack_1 > div > p,
+#typography > .container > .stacks > .stack_2 > div > p {
+  font-size: 24px;
+}
+
+#typography > .container > .stacks > .stack_1 > div > p {
+  font-family: var(--libre-baskerville-bold);
+}
+
+#typography > .container > .stacks > .stack_2 > div > p {
+  font-family: 'Inter';
+  font-weight: 700;
+}
+
+#typography > .container > .stacks > .stack_1 > div > div,
+#typography > .container > .stacks > .stack_2 > div > div {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+#typography > .container > .stacks > .stack_1 > div > div > p {
+  font-family: var(--libre-baskerville-bold);
+  font-size: 12px;
+}
+
+#typography > .container > .stacks > .stack_2 > div > div > p {
+  font-family: 'Inter';
+  font-size: 13px;
+  font-weight: 700;
+}
+
+#typography > .container > .stacks > .stack_1 {
+  grid-area: stack_1;
+}
+
+#typography > .container > .stacks > .stack_1 > p {
+  font-family: var(--gilroy-bold);
+  font-size: 24px;
+}
+
+#typography > .container > .stacks > .stack_2 {
+  grid-area: stack_2;
+}
+
+#typography > .container > .stacks > .stack_2 > p {
+  font-family: 'Inter';
+  font-size: 24px;
+  font-weight: 700;
+}
+
+#typography > .container > .stacks > .stack_3 {
+  position: relative;
+  grid-area: stack_3;
+  overflow: hidden;
+  padding-top: 48px;
+  padding-bottom: 48px;
+}
+
+#typography > .container > .stacks > .stack_3 > img {
+  width: 250px;
+}
+
+/* Conclusion */
+
+#conclusion > .container  {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 48px;
+  padding: 48px 24px;
+}
+
+#conclusion > .container > .header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+#conclusion > .container > .header > * {
+  text-align: center;
+}
+
+#conclusion > .container > .header > h2 {
+  font-family: var(--sf-pro-display-bold);
+}
+
+#conclusion > .container > .header > p {
+  text-align: center;
+  line-height: 20px;
+  font-size: 14px;
+}
+
+#conclusion > .container > .header > p > a {
+  text-decoration: underline;
+}
+
+/* Screen Width: 768px */
+
+@media only screen and (min-width: 768px) {
+  /* Hero */
+
+  #hero > .container {
+    gap: 64px;
+    padding: 80px 24px;
+  }
+
+  #hero .header {
+    gap: 24px;
+    width: 600px;
+  }
+  
+  #hero .header > h1 {
+    font-size: 32px;
+  }
+  
+  #hero .header p {
+    line-height: 20px;
+    font-size: 16px;
+  }
+  
+  #hero img {
+    width: 650px;
+  }
+
+  /* About */
+
+  #about > .container {
+    gap: 80px;
+    padding: 100px 64px;
+  }
+
+  #about > .container > .details {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  #about > .container > .details > div > div {
+    gap: 16px;
+  }
+
+  #about > .container > .details > div > div > div {
+    gap: 8px;
+  }
+
+  #about > .container > .details p {
+    font-size: 16px;
+  }
+
+  #about > .container > .details > p {
+    width: 350px;
+    line-height: 22px;
+  }
+
+  /* Strategy */
+
+  #strategy > div > .container {
+    padding: 100px 64px;
+    gap: 100px;
+  }
+
+  #strategy > div > .container > .header {
+    width: 450px;
+  }
+
+  #strategy > div > .container > .header > h2 {
+    font-size: 32px;
+  }
+
+  #strategy > div > .container > .header > p {
+    line-height: 22px;
+    font-size: 16px;
+  }
+
+  /* Splash Screen */
+
+  #splash_screen > div > .container {
+    padding: 100px 64px;
+    gap: 100px;
+  }
+
+  #splash_screen > div > .container > .header {
+    width: 450px;
+  }
+
+  #splash_screen > div > .container > .header > h2 {
+    font-size: 32px;
+  }
+
+  #splash_screen > div > .container > .header > p {
+    line-height: 22px;
+    font-size: 16px;
+  }
+
+  #splash_screen .video_container {
+    gap: 40px;
+  }
+
+  #splash_screen .video_container > h3 {
+    font-size: 20px;
+  }
+
+  /* CTA Button */
+
+  #cta_button > div > .container {
+    padding: 100px 64px;
+    gap: 100px;
+  }
+
+  #cta_button > div > .container > .header {
+    width: 450px;
+  }
+
+  #cta_button > div > .container > .header > h2 {
+    font-size: 32px;
+  }
+
+  #cta_button > div > .container > .header > p {
+    line-height: 22px;
+    font-size: 16px;
+  }
+
+  #cta_button .video_container {
+    gap: 40px;
+  }
+
+  #cta_button .video_container > h3 {
+    font-size: 20px;
+  }
+
+  /* Testimonials Section */
+
+  #testimonials_section > div > .container {
+    padding: 100px 64px;
+    gap: 100px;
+  }
+
+  #testimonials_section > div > .container > h2 {
+    font-size: 32px;
+  }
+
+  /* Typography */
+
+  #typography > .container {
+    gap: 64px;
+    padding: 64px;
+  }
+
+  #typography > .container > .header > h2 {
+    font-size: 32px;
+  }
+
+  #typography > .container > .header > p {
+    line-height: 22px;
+    font-size: 16px;
+  }
+
+  #typography > .container > .stacks {
+    place-items: center;
+  }
+
+  #typography > .container > .stacks > .stack {
+    width: 656px;
+  }
+
+  #typography > .container > .stacks > .stack_1,
+  #typography > .container > .stacks > .stack_2 {
+    gap: 40px;
+    height: 284px;
+  }
+
+  #typography > .container > .stacks > .stack_1 > p,
+  #typography > .container > .stacks > .stack_2 > p,
+  #typography > .container > .stacks > .stack_1 > div,
+  #typography > .container > .stacks > .stack_2 > div {
+    width: 450px;
+  }
+  
+  #typography > .container > .stacks > .stack_1 > p,
+  #typography > .container > .stacks > .stack_2 > p {
+    font-size: 40px;
+  }
+  
+  #typography > .container > .stacks > .stack_1 > div,
+  #typography > .container > .stacks > .stack_2 > div {
+    gap: 24px;
+  }
+  
+  #typography > .container > .stacks > .stack_1 > div > p,
+  #typography > .container > .stacks > .stack_2 > div > p {
+    font-size: 40px;
+  }
+  
+  #typography > .container > .stacks > .stack_1 > div > div > p,
+  #typography > .container > .stacks > .stack_2 > div > div > p {
+    font-size: 20px;
+  }
+
+  #typography > .container > .stacks > .stack_1 > div > div > p {
+    font-size: 18px;
+  }
+
+  #typography > .container > .stacks > .stack_3 > img {
+    width: 300px;
+  }
+  
+  /* Conclusion */
+
+  #conclusion > .container {
+    gap: 64px;
+    padding: 64px;
+  }
+
+  #conclusion > .container > .header {
+    width: 450px;
+  }
+
+  #conclusion > .container > .header > h2 {
+    font-size: 32px;
+  }
+
+  #conclusion > .container > .header > p {
+    line-height: 22px;
+    font-size: 16px;
+  }
+}
+
+/* Screen Width: 900px */
+
+@media only screen and (min-width: 900px) {
+  /* About */
+
+  #about > .container > .details {
+    justify-content: center;
+    gap: 120px;
+  }
+}
+
+/* Screen Width: 1280px */
+
+@media only screen and (min-width: 1280px) {
+  /* Hero */
+
+  #hero > .container {
+    gap: 80px;
+  }
+
+  #hero img {
+    width: 850px;
+  }
+
+  /* About */
+
+  #about > .container {
+    padding: 120px 200px;
+  }
+
+  #about > .container > .details {
+    padding: 0 96px;
+  }
+
+  #about > .container > .details > div > div {
+    width: 250px;
+  }
+
+  #about > .container > .details > p {
+    width: 400px;
+  }
+
+  /* Strategy */
+
+  #strategy > div > .container {
+    gap: 80px;
+    padding: 80px 200px;
+  }
+
+  #strategy > div > .container > .header {
+    width: 500px;
+  }
+
+  #strategy > div > .container > .header > h2 {
+    font-size: 40px;
+  }
+
+  /* Splash Screen */
+
+  #splash_screen > div > .container {
+    gap: 80px;
+    padding: 80px 200px;
+  }
+
+  #splash_screen > div > .container > .header {
+    width: 500px;
+  }
+
+  #splash_screen > div > .container > .header > h2 {
+    font-size: 40px;
+  }
+
+  /* CTA Button */
+
+  #cta_button > div > .container {
+    gap: 80px;
+    padding: 80px 200px;
+  }
+
+  #cta_button > div > .container > .header {
+    width: 500px;
+  }
+
+  #cta_button > div > .container > .header > h2 {
+    font-size: 40px;
+  }
+
+  /* Testimonials Section */
+
+  #testimonials_section > div > .container {
+    gap: 80px;
+    padding: 80px 200px;
+  }
+
+  #testimonials_section > div > .container > h2 {
+    font-size: 40px;
+  }
+
+  /* Typography */
+
+  #typography > .container {
+    gap: 80px;
+    padding: 80px 200px;
+  }
+
+  #typography > .container > .header {
+    width: 500px;
+  }
+
+  #typography > .container > .header > h2 {
+    font-size: 40px;
+  }
+
+  /* Conclusion */
+
+  #conclusion > .container {
+    gap: 80px;
+    padding: 80px 200px;
+  }
+
+  #conclusion > .container > .header {
+    width: 500px;
+  }
+
+  #conclusion > .container > .header > h2 {
+    font-size: 40px;
+  }
+}
+
+/* Screen Width: 1440px */
+
+@media only screen and (min-width: 1440px) {
+  /* Hero */
+
+  #hero > .container {
+    gap: 64px;
+  }
+
+  #hero .header {
+    width: 650px;
+  }
+  
+  #hero .header > h1 {
+    font-size: 40px;
+  }
+  
+  #hero .header p {
+    line-height: 22px;
+    font-size: 18px;
+  }
+
+  /* About */
+
+  #about > .container {
+    padding: 120px 200px;
+  }
+
+  #about > .container > .details {
+    padding: 0 150px;
+  }
+
+  /* Strategy */
+
+  #strategy > div > .container {
+    gap: 120px;
+    padding: 120px 200px;
+  }
+
+  /* Splash Screen */
+
+  #splash_screen > div > .container {
+    gap: 120px;
+    padding: 120px 200px;
+  }
+
+  /* CTA Button */
+
+  #cta_button > div > .container {
+    gap: 120px;
+    padding: 120px 200px;
+  }
+
+  /* Testimonials Section */
+
+  #testimonials_section > div > .container {
+    gap: 120px;
+    padding: 120px 200px;
+  }
+
+  /* Typography */
+
+  #typography > .container {
+    gap: 120px;
+    padding: 120px 200px;
+  }
+  
+  #typography > .container > .stacks {
+    grid-template-areas:
+      'stack_1 stack_1 stack_3 stack_3'
+      'stack_2 stack_2 stack_3 stack_3';
+    gap: 24px;
+    width: fit-content;
+  }
+
+  #typography > .container > .stacks > .stack_1,
+  #typography > .container > .stacks > .stack_2 {
+    width: 600px;
+    height: 260px;
+  }
+
+  #typography > .container > .stacks > .stack_3 {
+    width: 320px;
+    height: 100%;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  #typography > .container > .stacks > .stack_3 > img {
+    width: fit-content;
+    height: 500px;
+  }
+
+  /* Conclusion */
+
+  #conclusion > .container {
+    padding: 120px 200px;
+  }
+}
+
+/* Screen Width: 1745px */
+
+@media only screen and (min-width: 1745px) {
+  /* About */
+
+  #about > .container > div {
+    padding: 0 150px;
+  }
+
+  /* Strategy */
+
+  #strategy > div > .container {
+    padding: 120px 400px;
+  }
+
+  /* Splash Screen */
+
+  #splash_screen > div > .container {
+    padding: 120px 400px;
+  }
+
+  /* CTA Button */
+
+  #cta_button > div > .container {
+    padding: 120px 400px;
+  }
+
+  /* Testimonials Section */
+
+  #testimonials_section > div > .container {
+    padding: 120px 400px;
+  }
+}
+
+/* Screen Width: 1872px */
+
+@media only screen and (min-width: 1872px) {
+  /* About */
+
+  #about > .container {
+    padding: 120px 400px;
+  }
+}
+
+/* Screen Width: 1920px */
+
+@media only screen and (min-width: 1920px) {
+  /* About */
+
+  #about > .container {
+    padding: 120px 450px;
+  }
+}

@@ -51,7 +51,6 @@ header nav > ul > li > button > .prefix .icon {
 
 #hero img {
   width: 350px;
-  border-radius: 12px;
 }
 
 /* About */
@@ -103,24 +102,9 @@ header nav > ul > li > button > .prefix .icon {
   line-height: 20px;
 }
 
-#about > .container > .link {
-  display: flex;
-  align-items: center;
-  gap: 14px;
-}
-
-#about > .container > .link > * {
-  font-size: 14px;
-}
-
-#about > .container > .link > a {
-  text-decoration: underline;
-  font-weight: 700;
-}
-
 /* Brand Perception */
 
-#brand_perception > .container {
+#brand_perception > div > .container {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -128,54 +112,162 @@ header nav > ul > li > button > .prefix .icon {
   padding: 48px 24px;
 }
 
-#brand_perception > .container > .header {
+#brand_perception > div > .container > .header {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 24px;
 }
 
-#brand_perception > .container > .header > * {
+#brand_perception > div > .container > .header > * {
   text-align: center;
 }
 
-#brand_perception > .container > .header > h2 {
+#brand_perception > div > .container > .header > h2 {
   font-family: var(--sf-pro-display-bold);
 }
 
-#brand_perception > .container > .header > p {
+#brand_perception > div > .container > .header > p {
   text-align: center;
   line-height: 20px;
   font-size: 14px;
 }
 
-/* Coming Soon */
-
-#coming_soon {
-  position: relative;
+#brand_perception > div > .container > .header > p > a {
+  text-decoration: underline;
 }
 
-#coming_soon > .container {
-  padding: 48px;
+#brand_perception > div > .container > video {
+  box-shadow: 0px 0px 20px 0px #CCC;
 }
 
-#coming_soon > .container > h2 {
-  margin: 0 auto;
-  color: #AAA;
+/* Programs Stacks */
+
+#programs_stacks > div > .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 48px;
+  padding: 48px 24px;
+}
+
+#programs_stacks > div > .container > .header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+#programs_stacks > div > .container > .header > * {
   text-align: center;
-  font-size: 20px;
 }
 
-#coming_soon > .container > #overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  z-index: -1;
-  width: 100%;
-  height: 200px;
-  background: linear-gradient(to bottom, #FFF 0%, #737373 100%);
+#programs_stacks > div > .container > .header > h2 {
+  font-family: var(--sf-pro-display-bold);
+}
+
+#programs_stacks > div > .container > .header > p {
+  text-align: center;
+  line-height: 20px;
+  font-size: 14px;
+}
+
+#programs_stacks .stacks {
+  display: grid;
+  gap: 24px;
+}
+
+/* Mentors Section */
+
+#mentors_section {
+  background-color: #2B3260;
+}
+
+#mentors_section > div > .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 48px;
+  padding: 48px 24px;
+}
+
+#mentors_section > div > .container > h2 {
+  color: var(--secondary-color);
+  text-align: center;
+  font-family: var(--sf-pro-display-bold);
+}
+
+/* Testimonials Section */
+
+#testimonials_section > div > .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 48px;
+  padding: 48px 24px;
+}
+
+#testimonials_section > div > .container > h2 {
+  text-align: center;
+  font-family: var(--sf-pro-display-bold);
+}
+
+#testimonials_section > div > .container > img {
+  box-shadow: 0px 0px 20px 0px #CCC;
+}
+
+/* FAQs Section */
+
+#faqs_section > div > .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 48px;
+  padding: 48px 24px;
+}
+
+#faqs_section > div > .container > h2 {
+  text-align: center;
+  font-family: var(--sf-pro-display-bold);
+}
+
+#faqs_section > div > .container > img {
+  box-shadow: 0px 0px 20px 0px #CCC;
+}
+
+/* Conclusion */
+
+#conclusion > .container  {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 48px;
+  padding: 48px 24px;
+}
+
+#conclusion > .container > .header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+#conclusion > .container > .header > * {
+  text-align: center;
+}
+
+#conclusion > .container > .header > h2 {
+  font-family: var(--sf-pro-display-bold);
+}
+
+#conclusion > .container > .header > p {
+  text-align: center;
+  line-height: 20px;
+  font-size: 14px;
+}
+
+#conclusion > .container > .header > p > a {
+  text-decoration: underline;
 }
 
 /* Screen Width: 768px */
@@ -235,50 +327,113 @@ header nav > ul > li > button > .prefix .icon {
     line-height: 22px;
   }
 
-  #about > .container > .link {
-    justify-content: space-between;
-  }
-  
-  #about > .container > .link > * {
-    font-size: 16px;
-  }
-  
-  #about > .container > .link > a {
-    width: 350px;
-  }
-
   /* Brand Perception */
 
-  #brand_perception > .container {
+  #brand_perception > div > .container {
     padding: 100px 64px;
     gap: 100px;
   }
 
-  #brand_perception > .container > .header {
+  #brand_perception > div > .container > .header {
     width: 450px;
   }
 
-  #brand_perception > .container > .header > h2 {
+  #brand_perception > div > .container > .header > h2 {
     font-size: 32px;
   }
 
-  #brand_perception > .container > .header > p {
+  #brand_perception > div > .container > .header > p {
     line-height: 22px;
     font-size: 16px;
   }
 
-  /* Coming Soon */
+  /* Programs Stacks */
 
-  #coming_soon > .container {
+  #programs_stacks > div > .container {
+    padding: 100px 64px;
+    gap: 100px;
+  }
+
+  #programs_stacks > div > .container > .header {
+    width: 450px;
+  }
+
+  #programs_stacks > div > .container > .header > h2 {
+    font-size: 32px;
+  }
+
+  #programs_stacks > div > .container > .header > p {
+    line-height: 22px;
+    font-size: 16px;
+  }
+
+  #programs_stacks .stacks {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+  }
+
+  /* Mentors Section */
+
+  #mentors_section > div > .container {
+    padding: 100px 64px;
+    gap: 100px;
+  }
+
+  #mentors_section > div > .container > h2 {
+    font-size: 32px;
+  }
+
+  /* Testimonials Section */
+
+  #testimonials > div > .container {
+    padding: 100px 64px;
+    gap: 100px;
+  }
+
+  #testimonials > div > .container > h2 {
+    font-size: 32px;
+  }
+
+  /* FAQs Section */
+
+  #faqs_section > div > .container {
+    padding: 100px 64px;
+    gap: 100px;
+  }
+
+  #faqs_section > div > .container > h2 {
+    font-size: 32px;
+  }
+
+  /* Conclusion */
+
+  #conclusion > .container {
+    gap: 64px;
     padding: 64px;
   }
 
-  #coming_soon > .container > h2 {
-    font-size: 24px;
+  #conclusion > .container > .header {
+    width: 450px;
   }
 
-  #coming_soon > .container > #overlay {
-    height: 300px;
+  #conclusion > .container > .header > h2 {
+    font-size: 32px;
+  }
+
+  #conclusion > .container > .header > p {
+    line-height: 22px;
+    font-size: 16px;
+  }
+}
+
+/* Screen Width: 900px */
+
+@media only screen and (min-width: 900px) {
+  /* About */
+
+  #about > .container > .details {
+    justify-content: center;
+    gap: 120px;
   }
 }
 
@@ -292,7 +447,7 @@ header nav > ul > li > button > .prefix .icon {
   }
 
   #hero img {
-    width: 1000px;
+    width: 850px;
   }
 
   /* About */
@@ -305,30 +460,89 @@ header nav > ul > li > button > .prefix .icon {
     padding: 0 96px;
   }
 
+  #about > .container > .details > div > div {
+    width: 250px;
+  }
+
   #about > .container > .details > p {
-    width: 400px;
-  }
-  
-  #about > .container > .link {
-    padding: 0 96px;
-  }
-  
-  #about > .container > .link > a {
     width: 400px;
   }
 
   /* Brand Perception */
 
-  #brand_perception > .container {
+  #brand_perception > div > .container {
     gap: 80px;
     padding: 80px 200px;
   }
 
-  #brand_perception > .container > .header {
-    width: 600px;
+  #brand_perception > div > .container > .header {
+    width: 500px;
   }
 
-  #brand_perception > .container > .header > h2 {
+  #brand_perception > div > .container > .header > h2 {
+    font-size: 40px;
+  }
+
+  /* Programs Stacks */
+
+  #programs_stacks > div > .container {
+    gap: 80px;
+    padding: 80px 200px;
+  }
+
+  #programs_stacks > div > .container > .header {
+    width: 500px;
+  }
+
+  #programs_stacks > div > .container > .header > h2 {
+    font-size: 40px;
+  }
+
+  /* Mentors Section */
+
+  #mentors_section > div > .container {
+    gap: 80px;
+    padding: 80px 200px;
+  }
+
+  #mentors_section > div > .container > .header > h2 {
+    font-size: 40px;
+  }
+
+  /* Testimonials Section */
+
+  #testimonials_section > div > .container {
+    gap: 80px;
+    padding: 80px 200px;
+  }
+
+  #testimonials_section > div > .container > .header > h2 {
+    font-size: 40px;
+  }
+
+  /* FAQs Section */
+
+  #faqs_section > div > .container {
+    gap: 80px;
+    padding: 80px 200px;
+  }
+
+  #faqs_section > div > .container > .header > h2 {
+    font-size: 40px;
+  }
+
+  /* Conclusion */
+
+  #conclusion > .container {
+    gap: 80px;
+    padding: 80px 200px;
+  }
+
+  #conclusion > .container > .header {
+    width: 500px;
+  }
+
+  #conclusion > .container > .header > h2 {
     font-size: 40px;
   }
 }
@@ -365,14 +579,52 @@ header nav > ul > li > button > .prefix .icon {
     padding: 0 150px;
   }
 
-  #about > .container > .link {
-    padding: 0 150px;
-  }
-
   /* Brand Perception */
 
-  #brand_perception > .container {
+  #brand_perception > div > .container {
     gap: 120px;
+    padding: 120px 200px;
+  }
+
+  #brand_perception > div > .container > .header > h2 {
+    width: 630px;
+  }
+
+  /* Programs Stacks */
+
+  #programs_stacks > div > .container {
+    gap: 120px;
+    padding: 120px 200px;
+  }
+
+  #programs_stacks .stacks {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  /* Mentors Section */
+
+  #mentors_section > div > .container {
+    gap: 120px;
+    padding: 120px 200px;
+  }
+
+  /* Testimonials Section */
+
+  #testimonials_section > div > .container {
+    gap: 120px;
+    padding: 120px 200px;
+  }
+
+  /* FAQs Section */
+
+  #faqs_section > div > .container {
+    gap: 120px;
+    padding: 120px 200px;
+  }
+
+  /* Conclusion */
+
+  #conclusion > .container {
     padding: 120px 200px;
   }
 }
@@ -388,7 +640,31 @@ header nav > ul > li > button > .prefix .icon {
 
   /* Brand Perception */
 
-  #brand_perception > .container {
+  #brand_perception > div > .container {
+    padding: 120px 400px;
+  }
+
+  /* Programs Stacks */
+
+  #programs_stacks > div > .container {
+    padding: 120px 400px;
+  }
+
+  /* Mentors Section */
+
+  #mentors_section > div > .container {
+    padding: 120px 400px;
+  }
+
+  /* Testimonials Section */
+
+  #testimonials_section > div > .container {
+    padding: 120px 400px;
+  }
+
+  /* FAQs Section */
+
+  #faqs_section > div > .container {
     padding: 120px 400px;
   }
 }
