@@ -4,42 +4,31 @@
   <meta charset='UTF-8'>
   <meta name='viewport' content='width=device-width, initial-scale=1.0'>
   <title>Esenway</title>
-  <link rel='icon' href='assets/images/favicon.ico' type='image/x-icon'>
-  <link rel='shortcut icon' href='assets/images/favicon.ico' type='image/x-icon'>
-  <link rel='apple-touch-icon' sizes='180x180' href='assets/images/favicon.ico'>
-  <link rel='stylesheet' href='styles/style.css'>
-  <link rel='stylesheet' href='styles/index.css'>
-  <script src='https://cdn.jsdelivr.net/npm/gsap@3.12.2/dist/gsap.min.js'></script>
-
-  <meta property='og:title' content='Esenway'>
-  <meta property='og:description' content='Porfolio of Sonny Carlos'>
-  <meta property='og:image' content='assets/images/thumbnails/esenway.png'>
+  <link rel='icon' href='../assets/images/favicon.ico' type='image/x-icon'>
+  <link rel='shortcut icon' href='../assets/images/favicon.ico' type='image/x-icon'>
+  <link rel='apple-touch-icon' sizes='180x180' href='../assets/images/favicon.ico'>
+  <link rel='stylesheet' href='../styles/style.css'>
+  <link rel='stylesheet' href='../styles/index.css'>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js'></script>
 </head>
 <body>
-  <!-- Intro -->
-  <section id='intro'>
-    <h1 id='txt'>
-      <span class='span'>Hola.</span>
-      <span class='span'>I'm</span>
-      <span class='span'>Sonny</span>
-      <span class='span'>Carlos,</span>
-      <span class='span'>ese.</span>
-    </h1>
-  </section>
-  
   <!-- Navigation Bar -->
   <header>
     <div class='container'>
       <nav>
-        <a>
-          <img src='assets/svg/esenway_logo.svg' alt='Logo' class='logo'>
+        <a href='./work.html'>
+          <img src='../assets/svg/esenway_logo.svg' alt='Logo' class='logo'>
         </a>
 
         <ul>
           <li>
-            <button id='download_resume_btn' class='btn text_btn link'>
+            <a href='./about.html'>About</a>
+          </li>
+
+          <li>
+            <button id='download_resume_btn_1' class='btn text_btn link'>
               <span class='prefix'>
-                <img src='assets/svg/icons/download.svg' alt='Icon' class='icon'>
+                <img src='../assets/svg/icons/download.svg' alt='Icon' class='icon'>
               </span>
 
               Resume
@@ -50,52 +39,237 @@
     </div>
   </header>
 
-  <!-- Links -->
-  <section id='links'>
+  <!-- Heading Container -->
+  <section id='heading_container'>
     <div class='container'>
-      <div id='preview'>
-        <div id='thumbnail'></div>
-      </div>
-
-      <div id='project_links'>
-        <div class='link_container' id='1'>
-          <span class='year'>2024</span>
-          <a href='#' class='link'>John Foy</a>
-        </div>
-
-        <div class='link_container' id='2'>
-          <span class='year'>2024</span>
-          <a href='https://pdo-bulsupmes.web.app' target='_blank' class='link'>BulSU PMES (Coming Soon)</a>
-        </div>
-
-        <div class='link_container' id='3'>
-          <span class='year'>2024</span>
-          <a href='./pages/tribbo.html' class='link'>Tribbo (Coming Soon)</a>
-        </div>
-
-        <div class='link_container' id='4'>
-          <span class='year'>2023</span>
-          <a href='./pages/sr_gate_pass.html' class='link'>SR Gate Pass</a>
-        </div>
-
-        <div class='link_container' id='5'>
-          <span class='year'>2021</span>
-          <a href='./pages/ladderwise.html' class='link'>LadderWise</a>
-        </div>
-
-        <div class='link_container' id='6'>
-          <span class='year'>2020</span>
-          <a href='./pages/agartha.html' class='link'>Agartha</a>
-        </div>
-      </div>
-
-      <a href='https://www.linkedin.com/in/esenway/' target='_blank' class='profile_link link'>Sonny Carlos</a>
+      <p>Hola,</p>
+      <h1>I’m on a mission to help companies grow by leveraging creativity, strategic planning, and design expertise to drive innovation.</h1>
     </div>
   </section>
 
+  <!-- Museo -->
+  <section id='museo'>
+    <div class='container'>
+      <div class='heading_container'>
+        <span></span>
+        <h2>Museo</h2>
+      </div>
+
+      <div class='projects'>
+        <a href='./legal_growth.html' id='legal_growth' class='stack'>
+          <div class='thumbnail'>
+            <div>
+              <p>Click to open</p>
+            </div>
+          </div>
+
+          <div class='title_and_year'>
+            <p class='title'>Legal Growth</p>
+            <p class='year'>2024</p>
+          </div>
+        </a>
+        
+        <a href='./sr_gate_pass.html' id='sr_gate_pass' class='stack'>
+          <div class='thumbnail'>
+            <div>
+              <p>Click to open</p>
+            </div>
+          </div>
+
+          <div class='title_and_year'>
+            <p class='title'>SR Gate Pass</p>
+            <p class='year'>2023</p>
+          </div>
+        </a>
+
+        <a href='./ladderwise.html' id='ladderwise' class='stack'>
+          <div class='thumbnail'>
+            <div>
+              <p>Click to open</p>
+            </div>
+          </div>
+
+          <div class='title_and_year'>
+            <p class='title'>LadderWise</p>
+            <p class='year'>2022</p>
+          </div>
+        </a>
+        
+        <a href='./tribbo.html' id='tribbo' class='stack'>
+          <div class='thumbnail'>
+            <div>
+              <p>Click to open</p>
+            </div>
+          </div>
+
+          <div class='title_and_year'>
+            <p class='title'>Tribbo</p>
+            <p class='year'>2024</p>
+          </div>
+        </a>
+      
+        <a href='./bulsu_pmes.html' id='bulsu_pmes' class='stack'>
+          <div class='thumbnail'>
+            <div>
+              <p>Click to open</p>
+            </div>
+          </div>
+
+          <div class='title_and_year'>
+            <p class='title'>BulSU PMES</p>
+            <p class='year'>2024</p>
+          </div>
+        </a>
+        
+        <a href='./agartha.html' id='agartha' class='stack'>
+          <div class='thumbnail'>
+            <div>
+              <p>Click to open</p>
+            </div>
+          </div>
+
+          <div class='title_and_year'>
+            <p class='title'>Agartha</p>
+            <p class='year'>2020</p>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id='about'>
+    <div class='container'>
+      <h2>Hi everyone, I'm Sonny Carlos, a Filipino designer specializing in creating visually stunning and eye-catching designs. Design is my everyday bread and butter. With a keen eye for detail and a love for innovative solutions and strategies, I strive to bring ideas to life and make a lasting impact through my work.</h2>
+
+      <button onclick="location.href='./about.html'" class='btn text_btn'>
+        <p>Learn More</p>
+
+        <span class='suffix'>
+          <svg class='icon' xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'>
+            <path fill='#BBB' d='M8.59,16.58L13.17,12 8.59,7.41 10,6l6,6-6,6z'/>
+          </svg>
+        </span>
+      </button>
+    </div>
+  </section>
+
+  <!-- Blogs -->
+  <section id='blogs'>
+    <div class='container'>
+      <h2>Check out my blog posts coming soon</h2>
+
+      <div class='stacks'>
+        <div class='stack'>
+          <div class='thumbnail'></div>
+
+          <div class='title_and_description'>
+            <h3 class='title'>Landing a Job with a Creative Design Approach</h3>
+            <p class='description'>How I used design to make a lasting impression and ace my job interview.</p>
+          </div>
+        </div>
+        
+        <div class='stack'>
+          <div class='thumbnail'></div>
+
+          <div class='title_and_description'>
+            <h3 class='title'>Enjoy The Journey, Not Just The Destination</h3>
+            <p class='description'>Finding joy and growth in every step of your personal and professional path.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Resume -->
+  <section id='resume'>
+    <div class='container'>
+      <div>
+        <div class='heading_and_paragraph'>
+          <h3>Download my resume</h3>
+          <p>Are you interested in learning more about my professional background and skills? Click the link below to download my resume.</p>
+        </div>
+  
+        <button id='download_resume_btn_1_2' class='btn solid_btn'>
+          <p>Download</p>
+    
+          <span class='suffix'>
+            <img src='../assets/svg/icons/download.svg' alt='Icon' class='icon'>
+          </span>
+        </button>
+      </div>
+  
+      <img src='../assets/images/resume.webp' alt='Image'>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class='container'>
+      <div class='text_and_links'>
+        <p>More than 4 years of expertise</p>
+
+        <div class='links'>
+          <a href='mailto:holasonnycarlos@gmail.com?subject=Mail%20from%20website'>Email</a>
+          <a href='https://www.linkedin.com/in/esenway' target='_blank'>LinkedIn</a>
+          <a href='https://www.behance.net/sonnycarlos' target='_blank'>Behance</a>
+          <a href='https://dribbble.com/sonnycarlos' target='_blank'>Dribbble</a>
+          <a href='https://twitter.com/sonnyccarlos' target='_blank'>Twitter</a>
+          <a href='https://www.instagram.com/sonnyparkour' target='_blank'>Instagram</a>
+          <a href='https://www.facebook.com/esenway' target='_blank'>Facebook</a>
+        </div>
+      </div>
+
+      <div class='logo_and_paragraph'>
+        <img src='../assets/svg/brand_logo.svg' alt='Brand Logo'>
+        <p>I’m on a mission to help companies grow by leveraging creativity, strategic planning, and design expertise to drive innovation.</p>
+      </div>
+
+      <span class='separator'></span>
+
+      <div class='credit_and_country'>
+        <p class='credit'>© <span id='current_year'></span> Sonny Carlos</p>
+
+        <div class='country'>
+          <p>Philippines</p>
+          <img src='../assets/svg/icons/flag.svg' alt='Icon'>
+        </div>
+      </div>
+    </div>
+  </footer>
+
   <!-- Script -->
-  <script src='script/hover_effect.js'></script>
-  <script src='script/intro_animation.js'></script>
-  <script src='script/download_resume.js'></script>
+  <script src='../script/hover_effect.js'></script>
+  <script src='../script/download_resume.js'></script>
+  <script src='../script/intro_animation.js'></script>
+
+  <script>
+    var currentYear = new Date().getFullYear()
+    document.getElementById('current_year').textContent = currentYear
+  </script>
+
+  <script>
+    let countdownElement = document.getElementById('countdown')
+    let totalMilliseconds = 2000
+    let interval = 10
+    let steps = totalMilliseconds / interval
+
+    let initialTime = 59 * 10000 + 59 * 100 + 59
+    let finalTime = 0
+
+    const countdown = setInterval(() => {
+        steps--
+        initialTime -= (595959 / (totalMilliseconds / interval))
+        let displayTime = Math.max(Math.round(initialTime), 0).toString().padStart(8, '0')
+        countdownElement.textContent = '00•' + displayTime.slice(0, 2) + '•' + displayTime.slice(2, 4) + '•' + displayTime.slice(4, 6) + '•' + displayTime.slice(6)
+
+        if (steps <= 0) {
+            clearInterval(countdown)
+            countdownElement.textContent = '00•00•00•00•00'
+            countdownElement.style.color = '#CCC'
+            countdownElement.style.textShadow = 'none'
+        }
+    }, interval)
+  </script>
 </body>
 </html>
