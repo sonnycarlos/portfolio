@@ -763,6 +763,10 @@ header nav > ul > li > button > .prefix .icon {
   #conclusion > .container > .header > h2 {
     font-size: 40px;
   }
+
+  #conclusion > .container > img {
+    width: 600px;
+  }
 }
 
 /* Screen Width: 1440px */
