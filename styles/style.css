@@ -234,6 +234,7 @@ header nav > ul > li > .link {
 header nav > ul > li > a:hover,
 header nav > ul > li > .link:hover {
   color: var(--primary-color);
+  text-decoration: underline;
 }
 
 header nav > ul > li > button > .prefix .icon {

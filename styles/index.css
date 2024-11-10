@@ -235,6 +235,14 @@
   color: #BBB;
 }
 
+#about > .container > .btn > span {
+  transition: all 250ms ease;
+}
+
+#about > .container > .btn:hover > span {
+  transform: translateX(2px);
+}
+
 /* Blogs */
 
 #blogs > .container {
@@ -323,6 +331,14 @@
   color: #D9D9D9;
   line-height: 20px;
   font-size: 14px;
+}
+
+#resume > .container > div > .btn > .suffix {
+  transition: all 250ms ease;
+}
+
+#resume > .container > div > .btn:hover > .suffix {
+  transform: translateX(2px);
 }
 
 #resume > .container > div > .btn > .suffix > .icon {
