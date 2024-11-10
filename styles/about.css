@@ -13,7 +13,7 @@
   margin-top: 24px;
 }
 
-#hero > .container > .texts > h1 {
+#hero > .container > .texts > .heading_wrapper > h1 {
   width: 200px;
   color: #C5C5C5;
   line-height: 100%;
@@ -22,9 +22,8 @@
   font-weight: 700;
 }
 
-#hero > .container > .texts > h1 > span {
+#hero > .container > .texts > .heading_wrapper > h1:last-child {
   color: #232323;
-  font-family: var(--sf-pro-display-bold);
   font-size: 40px;
   font-weight: 700;
 }
@@ -191,12 +190,12 @@
     margin-top: 56px;
   }
   
-  #hero > .container > .texts > h1 {
+  #hero > .container > .texts > .heading_wrapper > h1 {
     width: 350px;
     font-size: 72px;
   }
   
-  #hero > .container > .texts > h1 > span {
+  #hero > .container > .texts > .heading_wrapper > h1:last-child {
     line-height: 90%;
     font-size: 80px;
   }
@@ -304,12 +303,12 @@
     margin-left: 200px;
   }
   
-  #hero > .container > .texts > h1 {
+  #hero > .container > .texts > .heading_wrapper > h1 {
     width: 550px;
     font-size: 72px;
   }
   
-  #hero > .container > .texts > h1 > span {
+  #hero > .container > .texts > .heading_wrapper > h1:last-child {
     line-height: 100%;
     font-size: 88px;
   }
@@ -409,7 +408,7 @@
     gap: 32px;
   }
 
-  #hero > .container > .texts > h1 {
+  #hero > .container > .texts > .heading_wrapper > h1 {
     font-size: 88px;
   }
 
