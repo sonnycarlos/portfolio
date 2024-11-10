@@ -1,0 +1,106 @@
+/* Button With Hammer */
+
+#button_with_hammer {
+  position: relative;
+}
+
+#button_with_hammer > .icon {
+  position: absolute;
+  top: -88px;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0;
+  width: 80px;
+}
+
+#button_with_hammer:hover > .icon.hoverAnimate {
+  animation: hammerBtnHoverAnimation 750ms ease forwards;
+}
+
+#button_with_hammer:hover > .icon.clickAnimate {
+  animation: hammerBtnClickAnimation 750ms ease forwards;
+}
+
+#button_with_hammer > button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transition: all 150ms ease-out;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  width: 280px;
+  padding: 20px 20px 20px 32px;
+  background-color: #19335E;
+}
+
+#button_with_hammer > button:hover {
+  background-color: #2A4B83;
+}
+
+#button_with_hammer > button .text_container {
+  margin-right: 48px;
+}
+
+#button_with_hammer > button > .text_container {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+#button_with_hammer > button > .text_container > p {
+  color: #FFF;
+}
+
+#button_with_hammer > button > .text_container > p:first-child {
+  text-transform: uppercase;
+  text-decoration-line: underline;
+  text-underline-offset: 6px;
+  font-family: 'Libre Baskerville';
+  font-size: 26px;
+}
+
+#button_with_hammer > button > .text_container > p:last-child {
+  line-height: normal;
+  font-size: 14px;
+}
+
+#button_with_hammer > button > .icon {
+  position: absolute;
+  right: 40px;
+  transition: transform 250ms ease-out;
+  width: 32px;
+  height: 32px;
+}
+
+#button_with_hammer > button:hover > .icon {
+  transform: translateX(4px);
+}
+
+@keyframes hammerBtnHoverAnimation {
+  0% {
+    transform: translateX(-40px) translateY(8px) rotate(0deg);
+  }
+
+  35% {
+    transform: translateX(-40px) translateY(-9px) rotate(24deg);
+    opacity: 1;
+  }
+
+  100% {
+    transform: translateX(-40px) translateY(-9px) rotate(24deg);
+    opacity: 1;
+  }
+}
+
+@keyframes hammerBtnClickAnimation {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 100%;
+  }
+}

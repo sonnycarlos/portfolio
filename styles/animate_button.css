@@ -1,0 +1,105 @@
+/* Animate Button */
+
+#animate_button {
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 280px;
+  height: 60px;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.00);
+  background: radial-gradient(238.39% 44.19% at 96.59% 31.25%, rgba(255, 255, 255, 0.30) 0%, rgba(255, 255, 255, 0.30) 100%), radial-gradient(182.56% 55.34% at 5.68% 100%, rgba(255, 228, 0, 0.50) 0%, #FF8E00 100%), radial-gradient(178.09% 220.16% at 94.89% -132.81%, #FF4B00 0%, rgba(255, 228, 0, 0.38) 100%), var(--secondary-yellow-500, #FFE300);
+  background: radial-gradient(238.39% 44.19% at 96.59% 31.25%, color(display-p3 1 1 1 / 0.30) 0%, color(display-p3 1 1 1 / 0.00) 100%), radial-gradient(182.56% 55.34% at 5.68% 100%, color(display-p3 1 0.898 0 / 0.50) 0%, color(display-p3 1 0.5843 0.1961 / 0.00) 100%), radial-gradient(178.09% 220.16% at 94.89% -132.81%, color(display-p3 1 0.3608 0) 0%, color(display-p3 1 0.898 0 / 0.38) 100%), var(--secondary-yellow-500, color(display-p3 1 0.898 0));
+  box-shadow: 0px 5px 0px 0px color(display-p3 0.9922 0.6941 0.2353), 0px 5px 0px 0px var(--Secondary-Orange-400, color(display-p3 1 0.5843 0.1961)), 0px 4.045px 9.439px 0px color(display-p3 1 0.5843 0.1961 / 0.22), 0px 0px 0px 0px color(display-p3 1 0.5843 0.1961 / 0.23), 0px 0px 8.392px 0px color(display-p3 1 1 1 / 0.90) inset;
+}
+
+#animate_button > span {
+  color: #0E133B;
+  line-height: 110%;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Plus Jakarta Sans';
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+}
+
+#animate_button:hover > .default_txt {
+  animation: animateDefaultTxtOut 350ms ease forwards;
+}
+
+#animate_button:hover > .hover_txt {
+  animation: animateHoverTxtIn 350ms ease forwards;
+}
+
+#animate_button:not(:hover) > .default_txt {
+  animation: animateDefaultTxtIn 350ms ease forwards;
+}
+
+#animate_button:not(:hover) > .hover_txt {
+  animation: animateHoverTxtOut 350ms ease forwards;
+}
+
+#animate_button > .txt {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: all 250ms ease;
+  width: 200px;
+}
+
+#animate_button > .default_txt {
+  transition: transform 350ms ease, opacity 350ms ease;
+}
+
+#animate_button > .hover_txt {
+  transform: translate(-50%, -200%);
+  opacity: 0;
+}
+
+@keyframes animateDefaultTxtOut {
+  from {
+    transform: translate(-50%, -50%);
+    opacity: 1;
+  }
+  to {
+    transform: translate(-50%, 150%);
+    opacity: 0;
+  }
+}
+
+@keyframes animateHoverTxtIn {
+  from {
+    transform: translate(-50%, -150%);
+    opacity: 0;
+  }
+  to {
+    transform: translate(-50%, -50%);
+    opacity: 1;
+  }
+}
+
+@keyframes animateDefaultTxtIn {
+  from {
+    transform: translate(-50%, 150%);
+    opacity: 0;
+  }
+  to {
+    transform: translate(-50%, -50%);
+    opacity: 1;
+  }
+}
+
+@keyframes animateHoverTxtOut {
+  from {
+    transform: translate(-50%, -50%);
+    opacity: 1;
+  }
+  to {
+    transform: translate(-50%, -150%);
+    opacity: 0;
+  }
+}
