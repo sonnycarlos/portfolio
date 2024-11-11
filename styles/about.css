@@ -167,6 +167,14 @@
   font-size: 14px;
 }
 
+#resume > .container > div > .btn > .suffix {
+  transition: all 250ms ease;
+}
+
+#resume > .container > div > .btn:hover > .suffix {
+  transform: translateX(2px);
+}
+
 #resume > .container > div > .btn > .suffix > .icon {
   width: 16px;
   filter: brightness(0) saturate(100%) invert(100%);
