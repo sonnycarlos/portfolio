@@ -198,13 +198,8 @@
   align-items: center;
 }
 
-#interactions > .container > .work > .stack > .title_and_year:hover > * {
-  text-decoration: underline;
-}
-
 #interactions > .container > .work > .stack > .title_and_year > * {
   color: #CCC;
-  cursor: pointer;
 }
 
 /* About */
