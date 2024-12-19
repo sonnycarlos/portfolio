@@ -18,7 +18,7 @@
   -webkit-text-fill-color: transparent;
   line-height: 32px;
   letter-spacing: -0.48px;
-  font-family: var(--sf-pro-display-bold);
+  font-family: 'Inter', sans-serif;
   font-size: 24px;
   font-weight: 700;
 }
@@ -217,7 +217,7 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   letter-spacing: -0.48px;
-  font-family: var(--sf-pro-display-bold);
+  font-family: 'Inter', sans-serif;
   font-size: 24px;
   font-weight: 700;
 }
@@ -510,6 +510,10 @@
     padding: 80px 120px;
   }
 
+  #heading_container > .container > h1 {
+    font-family: var(--sf-pro-display-bold);
+  }
+
   /* Museo */
 
   #museo > .container {
@@ -542,6 +546,10 @@
 
   #about > .container {
     padding: 64px 120px;
+  }
+
+  #about > .container > h2 {
+    font-family: var(--sf-pro-display-bold);
   }
 
   /* Blogs */
