@@ -210,6 +210,10 @@ header nav > a:hover > .logo {
   filter: invert(0%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(0%) contrast(75%);
 }
 
+header nav > a > .brand_logo {
+  display: none;
+}
+
 header nav > ul {
   display: flex;
   align-items: center;
@@ -416,6 +420,17 @@ footer > .container > .credit_and_country > .country > img {
     display: inline-block;
   }
 
+  /* Navigation Bar */
+
+  header nav > a > .esenway_logo {
+    display: none;
+  }
+
+  header nav > a > .brand_logo {
+    display: block;
+    width: 120px;
+  }
+
   /* Footer */
 
   footer > .container {
@@ -447,6 +462,11 @@ footer > .container > .credit_and_country > .country > img {
 
   header nav {
     padding: 40px 100px;
+  }
+
+  header nav > a > .brand_logo {
+    display: block;
+    width: 140px;
   }
 
   header nav > ul {
