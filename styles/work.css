@@ -29,7 +29,7 @@
   display: flex;
   flex-direction: column;
   gap: 40px;
-  padding: 0 24px 48px;
+  padding: 24px 24px 48px;
 }
 
 #museo > .container > .heading_container {
@@ -375,7 +375,7 @@
   /* Museo */
 
   #museo > .container {
-    padding: 0 64px 96px;
+    padding: 64px 64px 96px;
   }
 
   #museo > .container > .heading_container {
@@ -525,7 +525,7 @@
   /* Museo */
 
   #museo > .container {
-    padding: 0 120px 96px;
+    padding: 48px 120px 96px;
   }
 
   #museo > .container > .projects > .stack > .thumbnail {
@@ -616,7 +616,7 @@
   /* Museo */
 
   #museo > .container {
-    padding: 0 64px 96px;
+    padding: 24px 64px 96px;
   }
 
   #museo > .container > .heading_container {
@@ -762,7 +762,7 @@
   /* Museo */
 
   #museo > .container {
-    padding: 0 120px 96px;
+    padding: 48px 120px 96px;
   }
 
   #museo > .container > .projects > .stack > .thumbnail {
@@ -839,7 +839,7 @@
   /* Museo */
 
   #museo > .container {
-    padding: 0 200px 96px;
+    padding: 48px 200px 96px;
   }
 
   /* Interactions */
@@ -879,7 +879,7 @@
   /* Museo */
 
   #museo > .container {
-    padding: 0 220px 96px;
+    padding: 48px 220px 96px;
   }
 
   /* Interactions */
