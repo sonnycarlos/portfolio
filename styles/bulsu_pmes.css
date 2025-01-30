@@ -545,6 +545,26 @@ header nav > ul > li > button > .prefix .icon {
   height: 250px;
 }
 
+#conclusion > .container > .members > div > #sonny > img {
+  width: 159.45px;
+}
+
+#conclusion > .container > .members > div > #jazpher > img {
+  width: 182.41px;
+}
+
+#conclusion > .container > .members > div > #david > img {
+  width: 158.14px;
+}
+
+#conclusion > .container > .members > div > #wilmer > img {
+  width: 178.48px;
+}
+
+#conclusion > .container > .members > div > #rigel > img {
+  width: 189.63px;
+}
+
 #conclusion > .container > .members > div > .member > .name_and_position {
   display: flex;
   flex-direction: column;
@@ -895,6 +915,26 @@ header nav > ul > li > button > .prefix .icon {
   
   #conclusion > .container > .members > div > .member > img {
     height: 380px;
+  }
+
+  #conclusion > .container > .members > div > #sonny > img {
+    width: 242.36px;
+  }
+  
+  #conclusion > .container > .members > div > #jazpher > img {
+    width: 277.27px;
+  }
+  
+  #conclusion > .container > .members > div > #david > img {
+    width: 240.37px;
+  }
+  
+  #conclusion > .container > .members > div > #wilmer > img {
+    width: 271.29px;
+  }
+  
+  #conclusion > .container > .members > div > #rigel > img {
+    width: 288.24px;
   }
 }
 
