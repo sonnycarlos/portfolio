@@ -40,6 +40,16 @@
   src: url('../assets/fonts/Gilroy-Bold.ttf');
 }
 
+@font-face {
+  font-family: 'BebasNeue-Regular';
+  src: url('../assets/fonts/BebasNeue-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'NeueMontreal-Medium';
+  src: url('../assets/fonts/NeueMontreal-Medium.otf');
+}
+
 /* Root */
 
 :root {
@@ -63,6 +73,8 @@
   --poppins-bold: 'Poppins-Bold';
   --source-sans-pro-bold: 'SourceSansPro-Bold';
   --gilroy-bold: 'Gilroy-Bold';
+  --bebas-neue-regular: 'BebasNeue-Regular';
+  --neue-montreal-medium: 'NeueMontreal-Medium';
 }
 
 /* Global */
