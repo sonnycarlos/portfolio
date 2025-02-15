@@ -538,6 +538,14 @@ header nav > ul > li > button > .prefix .icon {
   text-decoration: underline;
 }
 
+#conclusion > .container > .btn > .suffix {
+  transition: all 250ms ease;
+}
+
+#conclusion > .container > .btn:hover > .suffix {
+  transform: translateX(2px);
+}
+
 /* Screen Width: 768px */
 
 @media only screen and (min-width: 768px) {
