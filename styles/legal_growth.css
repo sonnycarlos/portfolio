@@ -104,7 +104,7 @@ header nav > ul > li > button > .prefix .icon {
 
 /* Strategy */
 
-#strategy > div > .container {
+#strategy > .container {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -112,34 +112,34 @@ header nav > ul > li > button > .prefix .icon {
   padding: 48px 24px;
 }
 
-#strategy > div > .container > .header {
+#strategy > .container > .header {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 24px;
 }
 
-#strategy > div > .container > .header > * {
+#strategy > .container > .header > * {
   text-align: center;
 }
 
-#strategy > div > .container > .header > h2 {
+#strategy > .container > .header > h2 {
   font-family: var(--sf-pro-display-bold);
 }
 
-#strategy > div > .container > .header > p {
+#strategy > .container > .header > p {
   text-align: center;
   line-height: 20px;
   font-size: 14px;
 }
 
-#strategy > div > .container > .header > p > a {
+#strategy > .container > .header > p > a {
   text-decoration: underline;
 }
 
 /* Splash Screen */
 
-#splash_screen > div > .container {
+#splash_screen > .container {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -147,38 +147,38 @@ header nav > ul > li > button > .prefix .icon {
   padding: 48px 24px;
 }
 
-#splash_screen > div > .container > .header {
+#splash_screen > .container > .header {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 24px;
 }
 
-#splash_screen > div > .container > .header > * {
+#splash_screen > .container > .header > * {
   text-align: center;
 }
 
-#splash_screen > div > .container > .header > h2 {
+#splash_screen > .container > .header > h2 {
   font-family: var(--sf-pro-display-bold);
 }
 
-#splash_screen > div > .container > .header > p {
+#splash_screen > .container > .header > p {
   text-align: center;
   line-height: 20px;
   font-size: 14px;
 }
 
-#splash_screen > div > .container > .header > p > span {
+#splash_screen > .container > .header > p > span {
   font-style: italic;
 }
 
-#splash_screen > div > .container > video {
+#splash_screen > .container > video {
   box-shadow: 0px 0px 20px 0px #CCC;
 }
 
 /* CTA Button */
 
-#cta_button > div > .container {
+#cta_button > .container {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -186,38 +186,38 @@ header nav > ul > li > button > .prefix .icon {
   padding: 48px 24px;
 }
 
-#cta_button > div > .container > .header {
+#cta_button > .container > .header {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 24px;
 }
 
-#cta_button > div > .container > .header > * {
+#cta_button > .container > .header > * {
   text-align: center;
 }
 
-#cta_button > div > .container > .header > h2 {
+#cta_button > .container > .header > h2 {
   font-family: var(--sf-pro-display-bold);
 }
 
-#cta_button > div > .container > .header > p {
+#cta_button > .container > .header > p {
   text-align: center;
   line-height: 20px;
   font-size: 14px;
 }
 
-#cta_button > div > .container > .header > p > span {
+#cta_button > .container > .header > p > span {
   font-style: italic;
 }
 
-#cta_button > div > .container > video {
+#cta_button > .container > video {
   box-shadow: 0px 0px 20px 0px #CCC;
 }
 
 /* Testimonials Section */
 
-#testimonials_section > div > .container {
+#testimonials_section > .container {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -225,11 +225,11 @@ header nav > ul > li > button > .prefix .icon {
   padding: 48px 24px;
 }
 
-#testimonials_section > div > .container > h2 {
+#testimonials_section > .container > h2 {
   font-family: var(--sf-pro-display-bold);
 }
 
-#testimonials_section > div > .container > img {
+#testimonials_section > .container > img {
   box-shadow: 0px 0px 20px 0px #CCC;
 }
 
@@ -467,40 +467,40 @@ header nav > ul > li > button > .prefix .icon {
 
   /* Strategy */
 
-  #strategy > div > .container {
+  #strategy > .container {
     padding: 100px 64px;
     gap: 100px;
   }
 
-  #strategy > div > .container > .header {
+  #strategy > .container > .header {
     width: 450px;
   }
 
-  #strategy > div > .container > .header > h2 {
+  #strategy > .container > .header > h2 {
     font-size: 32px;
   }
 
-  #strategy > div > .container > .header > p {
+  #strategy > .container > .header > p {
     line-height: 22px;
     font-size: 16px;
   }
 
   /* Splash Screen */
 
-  #splash_screen > div > .container {
+  #splash_screen > .container {
     padding: 100px 64px;
     gap: 100px;
   }
 
-  #splash_screen > div > .container > .header {
+  #splash_screen > .container > .header {
     width: 450px;
   }
 
-  #splash_screen > div > .container > .header > h2 {
+  #splash_screen > .container > .header > h2 {
     font-size: 32px;
   }
 
-  #splash_screen > div > .container > .header > p {
+  #splash_screen > .container > .header > p {
     line-height: 22px;
     font-size: 16px;
   }
@@ -509,26 +509,22 @@ header nav > ul > li > button > .prefix .icon {
     gap: 40px;
   }
 
-  #splash_screen .video_container > h3 {
-    font-size: 20px;
-  }
-
   /* CTA Button */
 
-  #cta_button > div > .container {
+  #cta_button > .container {
     padding: 100px 64px;
     gap: 100px;
   }
 
-  #cta_button > div > .container > .header {
+  #cta_button > .container > .header {
     width: 450px;
   }
 
-  #cta_button > div > .container > .header > h2 {
+  #cta_button > .container > .header > h2 {
     font-size: 32px;
   }
 
-  #cta_button > div > .container > .header > p {
+  #cta_button > .container > .header > p {
     line-height: 22px;
     font-size: 16px;
   }
@@ -543,12 +539,12 @@ header nav > ul > li > button > .prefix .icon {
 
   /* Testimonials Section */
 
-  #testimonials_section > div > .container {
+  #testimonials_section > .container {
     padding: 100px 64px;
     gap: 100px;
   }
 
-  #testimonials_section > div > .container > h2 {
+  #testimonials_section > .container > h2 {
     font-size: 32px;
   }
 
@@ -682,57 +678,57 @@ header nav > ul > li > button > .prefix .icon {
 
   /* Strategy */
 
-  #strategy > div > .container {
+  #strategy > .container {
     gap: 80px;
     padding: 80px 200px;
   }
 
-  #strategy > div > .container > .header {
+  #strategy > .container > .header {
     width: 500px;
   }
 
-  #strategy > div > .container > .header > h2 {
+  #strategy > .container > .header > h2 {
     font-size: 40px;
   }
 
   /* Splash Screen */
 
-  #splash_screen > div > .container {
+  #splash_screen > .container {
     gap: 80px;
     padding: 80px 200px;
   }
 
-  #splash_screen > div > .container > .header {
+  #splash_screen > .container > .header {
     width: 500px;
   }
 
-  #splash_screen > div > .container > .header > h2 {
+  #splash_screen > .container > .header > h2 {
     font-size: 40px;
   }
 
   /* CTA Button */
 
-  #cta_button > div > .container {
+  #cta_button > .container {
     gap: 80px;
     padding: 80px 200px;
   }
 
-  #cta_button > div > .container > .header {
+  #cta_button > .container > .header {
     width: 500px;
   }
 
-  #cta_button > div > .container > .header > h2 {
+  #cta_button > .container > .header > h2 {
     font-size: 40px;
   }
 
   /* Testimonials Section */
 
-  #testimonials_section > div > .container {
+  #testimonials_section > .container {
     gap: 80px;
     padding: 80px 200px;
   }
 
-  #testimonials_section > div > .container > h2 {
+  #testimonials_section > .container > h2 {
     font-size: 40px;
   }
 
@@ -801,7 +797,7 @@ header nav > ul > li > button > .prefix .icon {
 
   /* Strategy */
 
-  #strategy > div > .container {
+  #strategy > .container {
     gap: 120px;
     padding: 120px 200px;
   }
@@ -815,14 +811,14 @@ header nav > ul > li > button > .prefix .icon {
 
   /* CTA Button */
 
-  #cta_button > div > .container {
+  #cta_button > .container {
     gap: 120px;
     padding: 120px 200px;
   }
 
   /* Testimonials Section */
 
-  #testimonials_section > div > .container {
+  #testimonials_section > .container {
     gap: 120px;
     padding: 120px 200px;
   }
@@ -878,25 +874,25 @@ header nav > ul > li > button > .prefix .icon {
 
   /* Strategy */
 
-  #strategy > div > .container {
+  #strategy > .container {
     padding: 120px 400px;
   }
 
   /* Splash Screen */
 
-  #splash_screen > div > .container {
+  #splash_screen > .container {
     padding: 120px 400px;
   }
 
   /* CTA Button */
 
-  #cta_button > div > .container {
+  #cta_button > .container {
     padding: 120px 400px;
   }
 
   /* Testimonials Section */
 
-  #testimonials_section > div > .container {
+  #testimonials_section > .container {
     padding: 120px 400px;
   }
 }
