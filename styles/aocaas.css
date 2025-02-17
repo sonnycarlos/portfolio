@@ -266,7 +266,6 @@ header nav > ul > li > button > .prefix .icon {
 }
 
 #typography_and_colors > .container > .stacks > .stack_2 > div > div > p {
-  letter-spacing: 1px;
   font-family: var(--neue-montreal-medium) !important;
   font-size: 13px;
   font-weight: 700;
