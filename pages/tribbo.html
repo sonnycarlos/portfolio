@@ -15,8 +15,11 @@
   <link rel='stylesheet' href='../styles/tribbo.css'>
 </head>
 <body>
+  <!-- Menu Modal -->
+  <div class='menu_modal'></div>
+
   <!-- Navigation Bar -->
-  <header id='navigation_bar'>
+  <header id='navigation_bar' class='navigation_bar__project'>
     <div class='container'>
       <nav>
         <a href='../index.html'>
@@ -41,6 +44,13 @@
             <a href='https://drive.google.com/file/d/1dl5iitIK1fgp_-02HhPzcJHcqCE95-yt/view?usp=sharing' target='_blank' class='btn text_btn link'>
               Resume
             </a>
+          </li>
+        </ul>
+
+        <ul>
+          <li class='open_menu'>
+            <img src='../assets/svg/icons/hamburger_menu.svg' alt='Icon'>
+            <p>Menu</p>
           </li>
         </ul>
       </nav>
@@ -225,6 +235,7 @@
   </footer>
 
   <!-- Script --> 
+  <script src='../scripts/toggle_menu_modal.js'></script>
   <script src='../scripts/check_if_device_is_ios.js'></script>
   <script src='../scripts/check_if_device_is_android.js'></script>
   <script src='../scripts/download_resume.js'></script>

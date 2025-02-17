@@ -226,10 +226,8 @@ header nav > a > .brand_logo {
   display: none;
 }
 
-header nav > ul {
-  display: flex;
-  align-items: center;
-  gap: 24px;
+header nav > ul:first-of-type {
+  display: none;
 }
 
 header nav > ul > li {
@@ -251,6 +249,21 @@ header nav > ul > li > a:hover,
 header nav > ul > li > .link:hover {
   color: var(--primary-color);
   text-decoration: underline;
+}
+
+header.navigation_bar__project nav > ul > li > img {
+  filter: invert(1) grayscale(1) brightness(0) contrast(100%);
+}
+
+header.navigation_bar__project nav > ul > li > p {
+  color: #1D1D1F;
+}
+
+header nav > ul > li > p {
+  margin-left: 6px;
+  margin-bottom: 2px;
+  font-size: 14px;
+  color: var(--tertiary-color);
 }
 
 header nav > ul > li > button > .prefix .icon {
@@ -441,6 +454,16 @@ footer > .container > .credit_and_country > .country > img {
   header nav > a > .brand_logo {
     display: block;
     width: 120px;
+  }
+
+  header nav > ul:first-of-type {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+  }
+
+  header nav > ul:last-of-type {
+    display: none;
   }
 
   /* Footer */

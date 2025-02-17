@@ -15,10 +15,32 @@
   <link rel='stylesheet' href='./styles/index.css'>
   <link rel='stylesheet' href='./styles/button_with_hammer.css'>
   <link rel='stylesheet' href='./styles/animate_button.css'>
+  <link rel='stylesheet' href='./styles/menu_modal.css'>
   <link href='https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;700&display=swap' rel='stylesheet'>
   <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js'></script>
 </head>
 <body>
+  <!-- Menu Modal -->
+  <div class='menu_modal'>
+    <!-- Header -->
+    <header>
+      <button class='close_menu'>
+        <img src='./assets/svg/icons/close_menu.svg' alt='Icon'>
+        <p>Close</p>
+      </button>
+    </header>
+
+    <!-- Links -->
+    <div class='links'>
+      <a href='../index.html'>Home</a>
+      <a href='../pages/work.html'>Work</a>
+      <a href='../pages/about.html'>About</a>
+      <a href='https://drive.google.com/file/d/1dl5iitIK1fgp_-02HhPzcJHcqCE95-yt/view?usp=sharing' target='_blank'>
+        Resume
+      </a>
+    </div>
+  </div>
+
   <!-- Navigation Bar -->
   <header id='navigation_bar'>
     <div class='container'>
@@ -41,6 +63,13 @@
             <a href='https://drive.google.com/file/d/1dl5iitIK1fgp_-02HhPzcJHcqCE95-yt/view?usp=sharing' target='_blank' class='btn text_btn link'>
               Resume
             </a>
+          </li>
+        </ul>
+
+        <ul>
+          <li class='open_menu'>
+            <img src='./assets/svg/icons/hamburger_menu.svg' alt='Icon'>
+            <p>Menu</p>
           </li>
         </ul>
       </nav>
@@ -305,6 +334,27 @@
   <script src='./scripts/intro_animation.js'></script>
   <script src='./scripts/navigation_bar_animation.js'></script>
   <script src='./scripts/button_with_hammer.js'></script>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      fetch('./components/menu_modal.html')
+        .then(response => response.text())
+        .then(html => {
+          document.querySelector('.menu_modal').innerHTML = html
+          
+          document.querySelector('.menu_modal .modal').style.display = 'none'
+
+          document.querySelector('.open_menu').addEventListener('click', function () {
+            document.querySelector('.menu_modal .modal').style.display = 'flex'
+          })
+
+          document.querySelector('.close_menu').addEventListener('click', function () {
+            document.querySelector('.menu_modal .modal').style.display = 'none'
+          })
+        })
+        .catch(error => console.error('Error loading the menu:', error))
+    })
+  </script>
 
   <script>
     var currentYear = new Date().getFullYear()
