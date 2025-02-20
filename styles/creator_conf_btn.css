@@ -1,0 +1,127 @@
+#creator_conf_btn {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 18px 32px;
+  border-radius: 100px;
+  background: radial-gradient(115.95% 81.16% at 100% 110.98%, #9A6AFF 0%, rgba(154, 106, 255, 0.00) 100%), radial-gradient(114.76% 84.41% at 0% 0%, #FFD955 0%, rgba(255, 217, 85, 0.00) 100%), #FF157D;
+}
+
+#creator_conf_btn > .icon {
+  width: 32px;
+  height: 32px;
+}
+
+#creator_conf_btn > .hover_icon {
+  display: none;
+}
+
+#creator_conf_btn > p {
+  text-transform: uppercase;
+  font-family: var(--ballinger-condensed-x-bold);
+  font-size: 24px;
+}
+
+/* Screen Width: 768px */
+
+@media only screen and (min-width: 768px) {
+  #creator_conf_btn {
+    padding: 24px 44px;
+  }
+}
+
+/* Screen Width: 1280px */
+
+@media only screen and (min-width: 1280px) {
+  #creator_conf_btn {
+    width: 300px;
+    height: 80px;
+    padding: 32px 64px;
+  }
+
+  #creator_conf_btn > .icon {
+    position: absolute;
+    top: 50%;
+    left: 64px;
+    transform: translateY(-50%);
+    transition: all 250ms ease;
+  }
+  
+  #creator_conf_btn > .default_icon {
+    animation: animateDefaultIconOut 450ms ease forwards;
+  }
+  
+  #creator_conf_btn > .hover_icon {
+    animation: animateHoverIconIn 450ms ease forwards;
+    display: block;
+  }
+  
+  #creator_conf_btn:not(:hover) > .default_icon {
+    animation: animateDefaultIconIn 450ms ease forwards;
+  }
+  
+  #creator_conf_btn:not(:hover) > .hover_icon {
+    animation: animateHoverIconOut 450ms ease forwards;
+  }
+  
+  #creator_conf_btn > .default_icon {
+    transition: transform 450ms ease, opacity 450ms ease;
+  }
+  
+  #creator_conf_btn > .hover_icon {
+    transform: translate(-50%, -200%);
+    opacity: 0;
+  }
+
+  #creator_conf_btn > p {
+    position: absolute;
+    top: 50%;
+    right: 48px;
+    transform: translateY(-50%);
+  }
+}
+
+@keyframes animateDefaultIconIn {
+  from {
+    transform: translate(-50%, 150%);
+    opacity: 0;
+  }
+  to {
+    transform: translate(-50%, -50%);
+    opacity: 1;
+  }
+}
+
+@keyframes animateDefaultIconOut {
+  from {
+    transform: translate(-50%, -50%);
+    opacity: 1;
+  }
+  to {
+    transform: translate(-50%, 150%);
+    opacity: 0;
+  }
+}
+
+@keyframes animateHoverIconIn {
+  from {
+    transform: translate(-50%, -150%);
+    opacity: 0;
+  }
+  to {
+    transform: translate(-50%, -50%);
+    opacity: 1;
+  }
+}
+
+@keyframes animateHoverIconOut {
+  from {
+    transform: translate(-50%, -50%);
+    opacity: 1;
+  }
+  to {
+    transform: translate(-50%, -150%);
+    opacity: 0;
+  }
+}

@@ -110,6 +110,10 @@
   color: #CCC;
 }
 
+#museo > .container > .projects > #creator_conf > .thumbnail {
+  background-image: url('../assets/images/thumbnails/creator_conf.webp');
+}
+
 #museo > .container > .projects > #aocaas > .thumbnail {
   background-image: url('../assets/images/thumbnails/aocaas.webp');
 }

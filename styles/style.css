@@ -50,6 +50,16 @@
   src: url('../assets/fonts/NeueMontreal-Medium.otf');
 }
 
+@font-face {
+  font-family: 'Ballinger-Condensed-X-Bold';
+  src: url('../assets/fonts/Ballinger-Condensed-X-Bold.otf');
+}
+
+@font-face {
+  font-family: 'NeueHaasGroteskTXPro-65Md';
+  src: url('../assets/fonts/NeueHaasGroteskTXPro-65Md.otf');
+}
+
 /* Root */
 
 :root {
@@ -75,6 +85,8 @@
   --gilroy-bold: 'Gilroy-Bold';
   --bebas-neue-regular: 'BebasNeue-Regular';
   --neue-montreal-medium: 'NeueMontreal-Medium';
+  --neue-haas-grostesk-tx-pro-65-medium: 'NeueHaasGroteskTXPro-65Md';
+  --ballinger-condensed-x-bold: 'Ballinger-Condensed-X-Bold';
 }
 
 /* Global */

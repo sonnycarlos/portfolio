@@ -1,0 +1,1390 @@
+/* Navigation Bar */
+
+header nav > a > .logo {
+  filter: invert(0%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(0%) contrast(75%);
+}
+
+header nav > ul > li > a,
+header nav > ul > li > .link {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+header nav > ul > li > button > .prefix .icon {
+  filter: invert(0%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(0%) contrast(75%);
+}
+
+/* Hero */
+
+#hero > .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 64px;
+  padding: 64px 24px;
+}
+
+#hero .header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  width: 350px;
+}
+
+#hero .header > h1,
+#hero .header > p {
+  text-align: center;
+}
+
+#hero .header > h1 {
+  font-family: var(--sf-pro-display-bold);
+  font-size: 24px;
+}
+
+#hero .header p {
+  line-height: 18px;
+  font-family: var(--sf-pro-display-medium);
+  font-size: 14px;
+}
+
+#hero img {
+  width: 350px;
+}
+
+/* About */
+
+#about {
+  background-color: #F2F2F2;
+}
+
+#about > .container {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding: 48px 24px;
+}
+
+#about > .container > .details {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+#about > .container > .details > div {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+#about > .container > .details > div > div {
+  display: flex;
+  gap: 12px;
+}
+
+#about > .container > .details p {
+  line-height: 20px;
+  font-size: 14px;
+}
+
+#about > .container > .details > div > div > p {
+  font-family: var(--sf-pro-display-bold);
+}
+
+#about > .container > .details > div > div > div {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+#about > .container > .details > p {
+  line-height: 20px;
+}
+
+/* Hero Section */
+
+#hero_section > .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 48px;
+  padding: 48px 24px;
+}
+
+#hero_section > .container > .header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+#hero_section > .container > .header > * {
+  text-align: center;
+}
+
+#hero_section > .container > .header > h2 {
+  font-family: var(--sf-pro-display-bold);
+}
+
+#hero_section > .container > .header > p {
+  text-align: center;
+  line-height: 20px;
+  font-size: 14px;
+}
+
+/* CTA Button */
+
+#cta_button > .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 48px;
+  padding: 48px 24px;
+}
+
+#cta_button > .container > .header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+#cta_button > .container > .header > * {
+  text-align: center;
+}
+
+#cta_button > .container > .header > h2 {
+  font-family: var(--sf-pro-display-bold);
+}
+
+#cta_button > .container > .header > p {
+  text-align: center;
+  line-height: 20px;
+  font-size: 14px;
+}
+
+#cta_button > .container  > .button_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 300px;
+  box-shadow: 0px 0px 20px 0px #CCC;
+}
+
+/* Countdown Bars */
+
+#countdown_bars > .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 48px;
+  padding: 48px 24px;
+}
+
+#countdown_bars > .container > h2 {
+  text-align: center;
+  font-family: var(--sf-pro-display-bold);
+}
+
+/* About Section */
+
+#about_section > .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 48px;
+  padding: 48px 24px;
+}
+
+#about_section > .container > h2 {
+  text-align: center;
+  font-family: var(--sf-pro-display-bold);
+}
+
+/* Tracks Section */
+
+#tracks_section > .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 48px;
+  padding: 48px 24px;
+}
+
+#tracks_section > .container > h2 {
+  text-align: center;
+  font-family: var(--sf-pro-display-bold);
+}
+
+/* Speakers Section */
+
+#speakers_section > .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 48px;
+  padding: 48px 24px;
+}
+
+#speakers_section > .container > h2 {
+  text-align: center;
+  font-family: var(--sf-pro-display-bold);
+}
+
+/* Past Speakers Section */
+
+#past_speakers_section > .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 48px;
+  padding: 48px 24px;
+}
+
+#past_speakers_section > .container > .header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+#past_speakers_section > .container > .header > * {
+  text-align: center;
+}
+
+#past_speakers_section > .container > .header > h2 {
+  font-family: var(--sf-pro-display-bold);
+}
+
+#past_speakers_section > .container > .header > p {
+  text-align: center;
+  line-height: 20px;
+  font-size: 14px;
+}
+
+/* Tickets Section */
+
+#tickets_section > .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 48px;
+  padding: 48px 24px;
+}
+
+#tickets_section > .container > h2 {
+  text-align: center;
+  font-family: var(--sf-pro-display-bold);
+}
+
+/* Audience Section */
+
+#audience_section > .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 48px;
+  padding: 48px 24px;
+}
+
+#audience_section > .container > h2 {
+  text-align: center;
+  font-family: var(--sf-pro-display-bold);
+}
+
+#audience_section > .container > img {
+  box-shadow: 0px 0px 20px 0px #CCC;
+}
+
+/* Learning & Networking Section */
+
+#learning_and_networking_section > .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 48px;
+  padding: 48px 24px;
+}
+
+#learning_and_networking_section > .container > h2 {
+  text-align: center;
+  font-family: var(--sf-pro-display-bold);
+}
+
+#learning_and_networking_section > .container > img {
+  box-shadow: 0px 0px 20px 0px #CCC;
+}
+
+/* Testimonials Section */
+
+#testimonials > .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 48px;
+  padding: 48px 24px;
+}
+
+#testimonials > .container > h2 {
+  text-align: center;
+  font-family: var(--sf-pro-display-bold);
+}
+
+/* Community Section */
+
+#community_section > .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 48px;
+  padding: 48px 24px;
+}
+
+#community_section > .container > h2 {
+  text-align: center;
+  font-family: var(--sf-pro-display-bold);
+}
+
+/* Footer Section */
+
+#footer_section > .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 48px;
+  padding: 48px 24px;
+}
+
+#footer_section > .container > h2 {
+  text-align: center;
+  font-family: var(--sf-pro-display-bold);
+}
+
+/* Typography & Colors & Colors */
+
+#typography_and_colors > .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 48px;
+  padding: 48px 24px;
+}
+
+#typography_and_colors > .container > h2 {
+  font-family: var(--sf-pro-display-bold);
+}
+
+#typography_and_colors > .container > .stacks {
+  display: grid;
+  grid-template-areas:
+    'stack_1 stack_1 stack_1 stack_1'
+    'stack_2 stack_2 stack_2 stack_2'
+    'stack_3 stack_3 stack_3 stack_3';
+  gap: 16px;
+  width: 100%;
+}
+
+#typography_and_colors > .container > .stacks > .stack {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 24px !important;
+  background-color: #F2F2F2;
+}
+
+#typography_and_colors > .container > .stacks > .stack_1,
+#typography_and_colors > .container > .stacks > .stack_2 {
+  gap: 24px;
+  height: 200px;
+}
+
+#typography_and_colors > .container > .stacks > .stack_1 {
+  gap: 8px;
+}
+
+#typography_and_colors > .container > .stacks > .stack_1 > p,
+#typography_and_colors > .container > .stacks > .stack_2 > p,
+#typography_and_colors > .container > .stacks > .stack_1 > div,
+#typography_and_colors > .container > .stacks > .stack_2 > div {
+  width: 290px;
+}
+
+#typography_and_colors > .container > .stacks > .stack_1 > p {
+  font-family: var(--ballinger-condensed-x-bold) !important;
+  font-size: 30px !important;
+}
+
+#typography_and_colors > .container > .stacks > .stack_2 > p {
+  font-family: var(--neue-haas-grostesk-tx-pro-65-medium) !important;
+  font-size: 24px;
+}
+
+#typography_and_colors > .container > .stacks > .stack_1 > div,
+#typography_and_colors > .container > .stacks > .stack_2 > div {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+#typography_and_colors > .container > .stacks > .stack_1 > div > p {
+  font-family: var(--ballinger-condensed-x-bold) !important;
+  font-size: 30px;
+}
+
+#typography_and_colors > .container > .stacks > .stack_2 > div > p {
+  font-size: 24px;
+  font-family: var(--neue-haas-grostesk-tx-pro-65-medium) !important;
+  font-weight: 700;
+}
+
+#typography_and_colors > .container > .stacks > .stack_1 > div > div,
+#typography_and_colors > .container > .stacks > .stack_2 > div > div {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+#typography_and_colors > .container > .stacks > .stack_1 > div > div > p {
+  font-family: var(--ballinger-condensed-x-bold) !important;
+  font-size: 16px;
+}
+
+#typography_and_colors > .container > .stacks > .stack_2 > div > div > p {
+  font-family: var(--neue-haas-grostesk-tx-pro-65-medium) !important;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+#typography_and_colors > .container > .stacks > .stack_1 {
+  grid-area: stack_1;
+}
+
+#typography_and_colors > .container > .stacks > .stack_1 > p {
+  font-family: var(--ballinger-condensed-x-bold) !important;
+  font-size: 24px;
+}
+
+#typography_and_colors > .container > .stacks > .stack_2 {
+  grid-area: stack_2;
+}
+
+#typography_and_colors > .container > .stacks > .stack_2 > p {
+  font-family: var(--neue-haas-grostesk-tx-pro-65-medium) !important;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+#typography_and_colors > .container > .stacks > .stack_3 {
+  overflow: hidden;
+  position: relative;
+  grid-area: stack_3;
+  display: block;
+  height: 700px;
+  background: radial-gradient(112.5% 85.88% at -5.13% 34.15%, #9A6AFF 0%, rgba(154, 106, 255, 0.00) 100%), radial-gradient(113.83% 121.54% at 93.59% 117.07%, #FFD955 0%, rgba(255, 236, 21, 0.00) 100%), #FF157D;
+}
+
+#typography_and_colors > .container > .stacks > .stack_3 > img {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+#typography_and_colors > .container > .stacks > .stack_3 > .ticket_header,
+#typography_and_colors > .container > .stacks > .stack_3 > .ticket_footer {
+  height: 48px;
+  width: fit-content;
+}
+
+#typography_and_colors > .container > .stacks > .stack_3 > .ticket_header {
+  top: 0;
+}
+
+#typography_and_colors > .container > .stacks > .stack_3 > .ticket {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: fit-content;
+  height: 400px;
+}
+
+#typography_and_colors > .container > .stacks > .stack_3 > .ticket_footer {
+  bottom: 0;
+}
+
+/* Conclusion */
+
+#conclusion > .container  {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 48px;
+  padding: 48px 24px;
+}
+
+#conclusion > .container > .header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+#conclusion > .container > .header > * {
+  text-align: center;
+}
+
+#conclusion > .container > .header > h2 {
+  font-family: var(--sf-pro-display-bold);
+}
+
+#conclusion > .container > .header > p {
+  text-align: center;
+  line-height: 20px;
+  font-size: 14px;
+}
+
+#conclusion > .container > .txt_and_image {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+
+#conclusion > .container > .btn > .suffix {
+  transition: all 250ms ease;
+}
+
+#conclusion > .container > .btn:hover > .suffix {
+  transform: translateX(2px);
+}
+
+/* Screen Width: 768px */
+
+@media only screen and (min-width: 768px) {
+  /* Hero */
+
+  #hero > .container {
+    gap: 64px;
+    padding: 80px 24px;
+  }
+
+  #hero .header {
+    gap: 24px;
+    width: 600px;
+  }
+  
+  #hero .header > h1 {
+    font-size: 32px;
+  }
+  
+  #hero .header p {
+    line-height: 20px;
+    font-size: 16px;
+  }
+  
+  #hero img {
+    width: 650px;
+  }
+
+  /* About */
+
+  #about > .container {
+    gap: 80px;
+    padding: 100px 64px;
+  }
+
+  #about > .container > .details {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  #about > .container > .details > div > div {
+    gap: 16px;
+  }
+
+  #about > .container > .details > div > div > div {
+    gap: 8px;
+  }
+
+  #about > .container > .details p {
+    font-size: 16px;
+  }
+
+  #about > .container > .details > p {
+    width: 350px;
+    line-height: 22px;
+  }
+
+  /* Hero Section */
+
+  #hero_section > .container {
+    padding: 100px 64px;
+    gap: 100px;
+  }
+
+  #hero_section > .container > .header {
+    width: 450px;
+  }
+
+  #hero_section > .container > .header > h2 {
+    font-size: 32px;
+  }
+
+  #hero_section > .container > .header > p {
+    line-height: 22px;
+    font-size: 16px;
+  }
+
+  /* CTA Button */
+
+  #cta_button > .container {
+    padding: 100px 64px;
+    gap: 100px;
+  }
+
+  #cta_button > .container > .header {
+    width: 450px;
+  }
+
+  #cta_button > .container > .header > h2 {
+    font-size: 32px;
+  }
+
+  #cta_button > .container > .header > p {
+    line-height: 22px;
+    font-size: 16px;
+  }
+
+  #cta_button > .container  > .button_container {
+    width: 500px;
+    height: 400px;
+  }
+
+  /* Countdown Bars */
+
+  #countdown_bars > .container {
+    padding: 100px 64px;
+    gap: 100px;
+  }
+
+  /* About Section */
+
+  #about_section > .container {
+    padding: 100px 64px;
+    gap: 100px;
+  }
+
+  #about_section > .container > h2 {
+    font-size: 32px;
+  }
+
+  /* Tracks Section */
+
+  #tracks_section > .container {
+    padding: 100px 64px;
+    gap: 100px;
+  }
+
+  #tracks_section > .container > h2 {
+    font-size: 32px;
+  }
+
+  /* Speakers Section */
+
+  #speakers_section > .container {
+    padding: 100px 64px;
+    gap: 100px;
+  }
+
+  #speakers_section > .container > h2 {
+    font-size: 32px;
+  }
+
+  /* Past Speakers */
+
+  #past_speakers_section > .container {
+    padding: 100px 64px;
+    gap: 100px;
+  }
+
+  #past_speakers_section > .container > .header {
+    width: 450px;
+  }
+
+  #past_speakers_section > .container > .header > h2 {
+    font-size: 32px;
+  }
+
+  #past_speakers_section > .container > .header > p {
+    line-height: 22px;
+    font-size: 16px;
+  }
+
+  /* Tickets Section */
+
+  #tickets_section > .container {
+    padding: 100px 64px;
+    gap: 100px;
+  }
+
+  #tickets_section > .container > h2 {
+    font-size: 32px;
+  }
+
+  /* Audience Section */
+
+  #audience_section > .container {
+    padding: 100px 64px;
+    gap: 100px;
+  }
+
+  #audience_section > .container > h2 {
+    font-size: 32px;
+  }
+
+  /* Learning & Networking Section */
+
+  #learning_and_networking_section > .container {
+    padding: 100px 64px;
+    gap: 100px;
+  }
+
+  #learning_and_networking_section > .container > h2 {
+    font-size: 32px;
+  }
+
+  /* Testimonials Section */
+
+  #testimonials > .container {
+    padding: 100px 64px;
+    gap: 100px;
+  }
+
+  #testimonials > .container > h2 {
+    font-size: 32px;
+  }
+
+  /* Community Section */
+
+  #community_section > .container {
+    padding: 100px 64px;
+    gap: 100px;
+  }
+
+  #community_section > .container > h2 {
+    font-size: 32px;
+  }
+
+  /* Footer Section */
+
+  #footer_section > .container {
+    padding: 100px 64px;
+    gap: 100px;
+  }
+
+  #footer_section > .container > h2 {
+    font-size: 32px;
+  }
+
+  /* Typography & Colors */
+
+  #typography_and_colors > .container {
+    gap: 64px;
+    padding: 64px;
+  }
+
+  #typography_and_colors > .container > h2 {
+    font-size: 32px;
+  }
+
+  #typography_and_colors > .container > .stacks {
+    place-items: center;
+  }
+
+  #typography_and_colors > .container > .stacks > .stack {
+    width: 656px;
+    gap: 32px !important;
+  }
+
+  #typography_and_colors > .container > .stacks > .stack_1,
+  #typography_and_colors > .container > .stacks > .stack_2 {
+    height: 270px;
+  }
+
+  #typography_and_colors > .container > .stacks > .stack_1 > p,
+  #typography_and_colors > .container > .stacks > .stack_2 > p,
+  #typography_and_colors > .container > .stacks > .stack_1 > div,
+  #typography_and_colors > .container > .stacks > .stack_2 > div {
+    width: 450px;
+  }
+  
+  #typography_and_colors > .container > .stacks > .stack_1 > p {
+    font-size: 48px !important;
+  }
+
+  #typography_and_colors > .container > .stacks > .stack_2 > p {
+    font-size: 40px;
+  }
+  
+  #typography_and_colors > .container > .stacks > .stack_1 > div,
+  #typography_and_colors > .container > .stacks > .stack_2 > div {
+    gap: 24px;
+  }
+  
+  #typography_and_colors > .container > .stacks > .stack_1 > div > p {
+    font-size: 48px;
+  }
+
+  #typography_and_colors > .container > .stacks > .stack_2 > div > p {
+    font-size: 40px;
+  }
+  
+  #typography_and_colors > .container > .stacks > .stack_1 > div > div > p {
+    font-size: 24px !important;
+  }
+
+  #typography_and_colors > .container > .stacks > .stack_2 > div > div > p {
+    font-size: 20px;
+  }
+
+  #typography_and_colors > .container > .stacks > .stack_3 {
+    height: 850px;
+  }
+
+  #typography_and_colors > .container > .stacks > .stack_3 > .ticket {
+    height: 550px;
+  }
+  
+  /* Conclusion */
+
+  #conclusion > .container {
+    gap: 64px;
+    padding: 64px;
+  }
+
+  #conclusion > .container > .header {
+    width: 450px;
+  }
+
+  #conclusion > .container > .header > h2 {
+    font-size: 32px;
+  }
+
+  #conclusion > .container > .header > p {
+    line-height: 22px;
+    font-size: 16px;
+  }
+
+  #conclusion > .container > .txt_and_image > img {
+    width: 500px;
+  }
+}
+
+/* Screen Width: 900px */
+
+@media only screen and (min-width: 900px) {
+  /* About */
+
+  #about > .container > .details {
+    justify-content: center;
+    gap: 120px;
+  }
+}
+
+/* Screen Width: 1280px */
+
+@media only screen and (min-width: 1280px) {
+  /* Hero */
+
+  #hero > .container {
+    gap: 80px;
+  }
+
+  #hero img {
+    width: 850px;
+  }
+
+  /* About */
+
+  #about > .container {
+    padding: 120px 200px;
+  }
+
+  #about > .container > .details {
+    padding: 0 96px;
+  }
+
+  #about > .container > .details > div > div {
+    width: 250px;
+  }
+
+  #about > .container > .details > p {
+    width: 400px;
+  }
+
+  /* Hero Section */
+
+  #hero_section > .container {
+    gap: 80px;
+    padding: 80px 200px;
+  }
+
+  #hero_section > .container > .header {
+    width: 500px;
+  }
+
+  #hero_section > .container > .header > h2 {
+    font-size: 40px;
+  }
+
+  /* CTA Button */
+
+  #cta_button > .container {
+    gap: 80px;
+    padding: 80px 200px;
+  }
+
+  #cta_button > .container > .header {
+    width: 500px;
+  }
+
+  #cta_button > .container > .header > h2 {
+    font-size: 40px;
+  }
+
+  #cta_button > .container  > .button_container {
+    width: 800px;
+    height: 650px;
+  }
+
+  /* Countdown Bars */
+
+  #countdown_bars > .container {
+    gap: 80px;
+    padding: 80px 200px;
+  }
+
+  #countdown_bars > .container > h2 {
+    font-size: 40px;
+  }
+
+  #countdown_bars > .container > img {
+    width: 800px;
+  }
+
+  /* About Section */
+
+  #about_section > .container {
+    gap: 80px;
+    padding: 80px 200px;
+  }
+
+  #about_section > .container > h2 {
+    font-size: 40px;
+  }
+
+  /* Speakers Section */
+
+  #speakers_section > .container {
+    gap: 80px;
+    padding: 80px 200px;
+  }
+
+  #speakers_section > .container > h2 {
+    font-size: 40px;
+  }
+
+  /* Tracks Section */
+
+  #tracks_section > .container {
+    gap: 80px;
+    padding: 80px 200px;
+  }
+
+  #tracks_section > .container > h2 {
+    font-size: 40px;
+  }
+
+  /* Past Speakers */
+
+  #past_speakers > .container {
+    gap: 80px;
+    padding: 80px 200px;
+  }
+
+  #past_speakers > .container > .header {
+    width: 500px;
+  }
+
+  #past_speakers > .container > .header > h2 {
+    font-size: 40px;
+  }
+
+  /* Tickets Section */
+
+  #tickets_section > .container {
+    gap: 80px;
+    padding: 80px 200px;
+  }
+
+  #tickets_section > .container > h2 {
+    font-size: 40px;
+  }
+
+  /* Audience Section */
+
+  #audience_section > .container {
+    gap: 80px;
+    padding: 80px 200px;
+  }
+
+  #audience_section > .container > h2 {
+    font-size: 40px;
+  }
+
+  /* Learning & Networking Section */
+
+  #learning_and_networking_section > .container {
+    gap: 80px;
+    padding: 80px 200px;
+  }
+
+  #learning_and_networking_section > .container > h2 {
+    font-size: 40px;
+  }
+
+  /* Testimonials Section */
+
+  #testimonials > .container {
+    gap: 80px;
+    padding: 80px 200px;
+  }
+
+  #testimonials > .container > h2 {
+    font-size: 40px;
+  }
+
+  /* Community Section */
+
+  #community_section > .container {
+    gap: 80px;
+    padding: 80px 200px;
+  }
+
+  #community_section > .container > h2 {
+    font-size: 40px;
+  }
+
+  /* Footer Section */
+
+  #footer_section > .container {
+    gap: 80px;
+    padding: 80px 200px;
+  }
+
+  #footer_section > .container > h2 {
+    font-size: 40px;
+  }
+
+  /* Typography & Colors */
+
+  #typography_and_colors > .container {
+    gap: 80px;
+    padding: 80px 200px;
+  }
+
+  #typography_and_colors > .container > h2 {
+    font-size: 40px;
+  }
+
+  /* Conclusion */
+
+  #conclusion > .container {
+    gap: 80px;
+    padding: 80px 200px;
+  }
+
+  #conclusion > .container > .header {
+    width: 500px;
+  }
+
+  #conclusion > .container > .header > h2 {
+    font-size: 40px;
+  }
+}
+
+/* Screen Width: 1440px */
+
+@media only screen and (min-width: 1440px) {
+  /* Hero */
+
+  #hero > .container {
+    gap: 64px;
+  }
+
+  #hero .header {
+    width: 650px;
+  }
+  
+  #hero .header > h1 {
+    font-size: 40px;
+  }
+  
+  #hero .header p {
+    line-height: 22px;
+    font-size: 18px;
+  }
+
+  /* About */
+
+  #about > .container {
+    padding: 120px 200px;
+  }
+
+  #about > .container > .details {
+    padding: 0 150px;
+  }
+
+  /* Hero Section */
+
+  #hero_section > .container {
+    gap: 120px;
+    padding: 120px 200px;
+  }
+
+  /* CTA Button */
+
+  #cta_button > .container {
+    gap: 120px;
+    padding: 120px 200px;
+  }
+
+  /* Countdown Bars */
+
+  #countdown_bars > .container {
+    gap: 120px;
+    padding: 120px 200px;
+  }
+
+  /* About Section */
+
+  #about_section > .container {
+    gap: 120px;
+    padding: 120px 200px;
+  }
+
+  /* Tracks Section */
+
+  #tracks_section > .container {
+    gap: 120px;
+    padding: 120px 200px;
+  }
+
+  /* Speakers Section */
+
+  #speakers_section > .container {
+    gap: 120px;
+    padding: 120px 200px;
+  }
+
+  /* Past Speakers */
+
+  #past_speakers > .container {
+    gap: 120px;
+    padding: 120px 200px;
+  }
+
+  /* Tickets Section */
+
+  #tickets_section > .container {
+    gap: 120px;
+    padding: 120px 200px;
+  }
+
+  /* Audience Section */
+
+  #audience_section > .container {
+    gap: 120px;
+    padding: 120px 200px;
+  }
+
+  /* Learning & Networking Section */
+
+  #learning_and_networking_section > .container {
+    gap: 120px;
+    padding: 120px 200px;
+  }
+  
+  /* Testimonials Section */
+
+  #testimonials > .container {
+    gap: 120px;
+    padding: 120px 200px;
+  }
+
+  /* Community Section */
+
+  #community_section > .container {
+    gap: 120px;
+    padding: 120px 200px;
+  }
+
+  /* Footer Section */
+
+  #footer_section > .container {
+    gap: 120px;
+    padding: 120px 200px;
+  }
+
+  /* Typography & Colors */
+
+  #typography_and_colors > .container {
+    gap: 120px;
+    padding: 120px 200px;
+  }
+  
+  #typography_and_colors > .container > .stacks {
+    grid-template-areas:
+      'stack_1 stack_1 stack_3 stack_3'
+      'stack_2 stack_2 stack_3 stack_3';
+    gap: 24px;
+    width: fit-content;
+  }
+
+  #typography_and_colors > .container > .stacks > .stack_1,
+  #typography_and_colors > .container > .stacks > .stack_2 {
+    width: 600px;
+    height: 260px;
+  }
+
+  #typography_and_colors > .container > .stacks > .stack_3 {
+    width: 350px;
+    height: 100%;
+  }
+
+  #typography_and_colors > .container > .stacks > .stack_3 > .ticket_header,
+  #typography_and_colors > .container > .stacks > .stack_3 > .ticket_footer {
+    height: 36px;
+  }
+
+  #typography_and_colors > .container > .stacks > .stack_3 > .ticket {
+    height: 350px;
+  }
+  
+  /* Conclusion */
+
+  #conclusion > .container {
+    padding: 120px 200px;
+  }
+}
+
+/* Screen Width: 1745px */
+
+@media only screen and (min-width: 1745px) {
+  /* About */
+
+  #about > .container > div {
+    padding: 0 150px;
+  }
+
+  /* Hero Section */
+
+  #hero_section > .container {
+    padding: 120px 400px;
+  }
+
+  /* CTA Button */
+
+  #cta_button > .container {
+    padding: 120px 400px;
+  }
+
+  /* Countdown Bars */
+
+  #countdown_bars > .container {
+    padding: 120px 400px;
+  }
+
+  /* About Section */
+
+  #about_section > .container {
+    padding: 120px 400px;
+  }
+
+  /* Tracks Section */
+
+  #tracks_section > .container {
+    padding: 120px 400px;
+  }
+
+  /* Speakers Section */
+
+  #speakers_section > .container {
+    padding: 120px 400px;
+  }
+
+  /* Past Speakers Section */
+
+  #past_speakers_section > .container {
+    padding: 120px 400px;
+  }
+
+  /* Tickets Section */
+
+  #tickets_section > .container {
+    padding: 120px 400px;
+  }
+
+  /* Audience Section */
+
+  #audience_section > .container {
+    padding: 120px 400px;
+  }
+
+  /* Learning & Networking Section */
+
+  #learning_and_networking_section > .container {
+    padding: 120px 400px;
+  }
+
+  /* Testimonials Section */
+
+  #testimonials > .container {
+    padding: 120px 400px;
+  }
+
+  /* Community Section */
+
+  #community_section > .container {
+    padding: 120px 400px;
+  }
+
+  /* Footer Section */
+
+  #footer_section > .container {
+    padding: 120px 400px;
+  }
+}
+
+/* Screen Width: 1872px */
+
+@media only screen and (min-width: 1872px) {
+  /* About */
+
+  #about > .container {
+    padding: 120px 400px;
+  }
+}
+
+/* Screen Width: 1920px */
+
+@media only screen and (min-width: 1920px) {
+  /* About */
+
+  #about > .container {
+    padding: 120px 450px;
+  }
+}
