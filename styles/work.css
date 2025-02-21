@@ -189,42 +189,6 @@
   color: #CCC;
 }
 
-/* About */
-
-#about > .container {
-  display: flex;
-  flex-direction: column;
-  gap: 48px;
-  padding: 48px 24px;
-}
-
-#about > .container > h2 {
-  background: linear-gradient(90deg, #DDD 0%, #BBB 65%, #DDD 100%);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  letter-spacing: -0.48px;
-  font-family: 'Inter', sans-serif;
-  font-size: 24px;
-  font-weight: 700;
-}
-
-#about > .container > .btn {
-  gap: 2px;
-}
-
-#about > .container > .btn > p {
-  color: #BBB;
-}
-
-#about > .container > .btn > span {
-  transition: all 250ms ease;
-}
-
-#about > .container > .btn:hover > span {
-  transform: translateX(2px);
-}
-
 /* Blogs */
 
 #blogs > .container {
@@ -403,22 +367,6 @@
     height: 266px;
   }
 
-  /* About */
-
-  #about > .container {
-    gap: 80px;
-    padding: 64px;
-  }
-
-  #about > .container > h2 {
-    line-height: 44px;
-    font-size: 28px;
-  }
-
-  #about > .container > .btn > p {
-    font-size: 16px;
-  }
-
   /* Blogs */
 
   #blogs > .container {
@@ -503,16 +451,6 @@
     font-size: 20px;
   }
 
-  /* About */
-
-  #about > .container {
-    padding: 64px 120px;
-  }
-
-  #about > .container > h2 {
-    font-family: var(--sf-pro-display-bold);
-  }
-
   /* Blogs */
 
   #blogs > .container {
@@ -562,12 +500,6 @@
     padding: 0 200px 96px;
   }
 
-  /* About */
-
-  #about > .container {
-    padding: 64px 200px;
-  }
-
   /* Blogs */
 
   #blogs > .container {
@@ -605,12 +537,6 @@
     background-size: contain;
   }
 
-  /* About */
-
-  #about > .container {
-    padding: 64px 220px;
-  }
-
   /* Blogs */
 
   #blogs > .container {
@@ -638,7 +564,6 @@
 @media only screen and (min-width: 1872px) {
   #museo > .container,
   #interactions > .container,
-  #about > .container,
   #blogs > .container,
   #resume > .container {
     padding-left: 280px;
@@ -651,7 +576,6 @@
 @media only screen and (min-width: 1920px) {
   #museo > .container,
   #interactions > .container,
-  #about > .container,
   #blogs > .container,
   #resume > .container {
     padding-left: 300px;
