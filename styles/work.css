@@ -636,7 +636,6 @@
 /* Screen Width: 1872px */
 
 @media only screen and (min-width: 1872px) {
-  #heading_container > .container,
   #museo > .container,
   #interactions > .container,
   #about > .container,
@@ -650,7 +649,6 @@
 /* Screen Width: 1920px */
 
 @media only screen and (min-width: 1920px) {
-  #heading_container > .container,
   #museo > .container,
   #interactions > .container,
   #about > .container,
