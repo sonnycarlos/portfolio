@@ -51,6 +51,17 @@
   font-weight: 700;
 }
 
+#modal > .links > a:last-child {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+#modal > .links > a:last-child > .icon {
+  width: 40px;
+  height: 40px;
+}
+
 /* Screen Width: 768px */
 
 @media only screen and (min-width: 768px) {
@@ -68,6 +79,15 @@
 
   #modal > .links > a {
     font-size: 40px;
+  }
+
+  #modal > .links > a:last-child {
+    gap: 12px;
+  }
+  
+  #modal > .links > a:last-child > .icon {
+    width: 56px;
+    height: 56px;
   }
 }
 
