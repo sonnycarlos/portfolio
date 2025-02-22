@@ -1,0 +1,327 @@
+/* Navigation Bar */
+
+header nav > a > .logo {
+  filter: invert(0%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(0%) contrast(75%);
+}
+
+header nav > ul > li > a,
+header nav > ul > li > .link {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+header nav > ul > li > button > .prefix .icon {
+  filter: invert(0%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(0%) contrast(75%);
+}
+
+/* Hero */
+
+#hero > .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 64px;
+  padding: 64px 24px 24px;
+}
+
+#hero > .container > h1 {
+  text-align: center;
+  font-family: var(--sf-pro-display-bold);
+  font-size: 24px;
+}
+
+#hero > .container > .stack {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 350px;
+  height: 350px;
+  background-color: #EEE;
+}
+
+#hero > .container > .date_and_paragraph {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+#hero > .container > .date_and_paragraph > .date {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+#hero > .container > .date_and_paragraph > .date > p:first-child {
+  font-family: var(--sf-pro-display-bold);
+  font-weight: 700;
+}
+
+#hero > .container > .date_and_paragraph p {
+  font-size: 14px;
+}
+
+#hero > .container > .date_and_paragraph > .paragraph {
+  line-height: 20px;
+}
+
+/* More Interactions */
+
+#more_interactions > .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  padding: 48px 24px 64px;
+}
+
+#more_interactions > .container > * {
+  width: 350px;
+}
+
+#more_interactions > .container > .heading_container {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+#more_interactions > .container > .heading_container > span {
+  display: inline-block;
+  width: 100%;
+  height: 1px;
+  background: linear-gradient(90deg, #DDD 0%, #AAA 65%, #DDD 100%);
+}
+
+#more_interactions > .container > .heading_container > h2 {
+  color: #CCC;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+#more_interactions > .container > .work {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+#more_interactions > .container > .work > .stack {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+#more_interactions > .container > .heading_container > div > a:hover {
+  text-decoration: underline;
+}
+
+#more_interactions > .container > .work {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 24px;
+}
+
+#more_interactions > .container > .work > .stack {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+}
+
+#more_interactions > .container > .work > .stack:hover > .thumbnail > div {
+  opacity: 1;
+}
+
+#more_interactions > .container > .work > .stack:hover > .title_and_year > * {
+  text-decoration: underline;
+}
+
+#more_interactions > .container > .work > .stack > .thumbnail {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  background-position: center;
+  background-size: cover;
+}
+
+#more_interactions > .container > .work > .stack > .thumbnail > div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  transition: all 200ms ease-in-out;
+  opacity: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(0, 0, 0, 0.5);
+}
+
+#more_interactions > .container > .work > .stack > .thumbnail > div > p {
+  color: var(--secondary-color);
+}
+
+#more_interactions > .container > .work > .stack > .title_and_year {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#more_interactions > .container > .work > .stack > .title_and_year > * {
+  color: #CCC;
+}
+
+#more_interactions > .container > .work > #creator_conf_speakers > .thumbnail {
+  background-image: url('../assets/images/thumbnails/creator_conf_speakers.webp');
+}
+
+#more_interactions > .container > .work > #law_firm_cta_button > .thumbnail {
+  background-image: url('../assets/images/thumbnails/law_firm_cta_button.webp');
+}
+
+#more_interactions > .container > .work > #affiliate_world_cta_button > .thumbnail {
+  background-image: url('../assets/images/thumbnails/affiliate_world_cta_button.webp');
+}
+
+/* Screen Width: 768px */
+
+@media only screen and (min-width: 768px) {
+  /* Hero */
+
+  #hero > .container {
+    gap: 64px;
+    padding: 80px 24px 32px;
+  }
+
+  #hero > .container >  h1 {
+    font-size: 32px;
+  }
+  
+  #hero > .container > .stack {
+    width: 650px;
+    height: 400px;
+  }
+
+  #hero > .container > .date_and_paragraph {
+    width: 500px;
+    gap: 24px;
+  }
+  
+  #hero > .container > .date_and_paragraph > .date > p {
+    font-size: 16px;
+  }
+  
+  #hero > .container > .date_and_paragraph > .paragraph {
+    line-height: 26px;
+    font-size: 18px;
+  }
+
+  /* More Interactions */
+
+  #more_interactions > .container {
+    padding: 80px 24px 100px;
+  }
+
+  #more_interactions > .container > * {
+    width: 650px;
+  }
+
+  #more_interactions > .container > .work {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  #more_interactions > .container > .work > .stack > .thumbnail {
+    height: 160px;
+  }
+
+  #more_interactions > .container > .work > .stack > .title_and_year {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+  }
+
+  #more_interactions > .container > .work > .stack > .title_and_year > .year {
+    font-size: 14px;
+  }
+}
+
+/* Screen Width: 1280px */
+
+@media only screen and (min-width: 1280px) {
+  /* Hero */
+
+  #hero > .container {
+    gap: 80px;
+    padding-bottom: 64px;
+  }
+
+  #hero > .container > .stack {
+    width: 850px;
+    height: 500px;
+  }
+
+  /* More Interactions */
+
+  #more_interactions > .container {
+    padding-bottom: 120px;
+  }
+
+  #more_interactions > .container > * {
+    width: 850px;
+  }
+
+  #more_interactions > .container > .work > .stack > .thumbnail {
+    height: 200px;
+  }
+}
+
+/* Screen Width: 1440px */
+
+@media only screen and (min-width: 1440px) {
+  /* Hero */
+
+  #hero > .container {
+    gap: 64px;
+  }
+
+  #hero > .container > h1 {
+    font-size: 40px;
+  }
+
+  #hero > .container > .date_and_paragraph {
+    width: 500px;
+    gap: 24px;
+  }
+
+  #hero > .container > .date_and_paragraph > .date > p {
+    font-size: 18px;
+  }
+  
+  #hero > .container > .date_and_paragraph > .paragraph {
+    font-size: 20px;
+  }
+}
+
+/* Screen Width: 1872px */
+
+@media only screen and (min-width: 1872px) {
+  /* About */
+
+  #about > .container {
+    padding: 120px 400px;
+  }
+}
+
+/* Screen Width: 1920px */
+
+@media only screen and (min-width: 1920px) {
+  /* About */
+
+  #about > .container {
+    padding: 120px 450px;
+  }
+}

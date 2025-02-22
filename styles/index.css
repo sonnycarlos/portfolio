@@ -183,10 +183,21 @@ body {
   background: linear-gradient(90deg, #DDD 0%, #AAA 65%, #DDD 100%);
 }
 
-#interactions > .container > .heading_container > h2 {
+#interactions > .container > .heading_container > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#interactions > .container > .heading_container > div > h2,
+#interactions > .container > .heading_container > div > a {
   color: #CCC;
   font-size: 16px;
   font-weight: 500;
+}
+
+#interactions > .container > .heading_container > div > a:hover {
+  text-decoration: underline;
 }
 
 #interactions > .container > .work {

@@ -1,0 +1,426 @@
+/* Interactions */
+
+#interactions > .container {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding: 24px 24px 48px;
+}
+
+#interactions > .container > .heading_container {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+#interactions > .container > .heading_container > span {
+  display: inline-block;
+  width: 100%;
+  height: 1px;
+  background: linear-gradient(90deg, #DDD 0%, #AAA 65%, #DDD 100%);
+}
+
+#interactions > .container > .heading_container > h2 {
+  color: #CCC;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+#interactions > .container > .work {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 24px;
+}
+
+#interactions > .container > .work > .stack {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+}
+
+#interactions > .container > .work > .stack:hover > .thumbnail > div {
+  opacity: 1;
+}
+
+#interactions > .container > .work > .stack:hover > .title_and_year > * {
+  text-decoration: underline;
+}
+
+#interactions > .container > .work > .stack > .thumbnail {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  background-position: center;
+  background-size: cover;
+}
+
+#interactions > .container > .work > .stack > .thumbnail > div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  transition: all 200ms ease-in-out;
+  opacity: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(0, 0, 0, 0.5);
+}
+
+#interactions > .container > .work > .stack > .thumbnail > div > p {
+  color: var(--secondary-color);
+}
+
+#interactions > .container > .work > .stack > .title_and_year {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#interactions > .container > .work > .stack > .title_and_year > * {
+  color: #CCC;
+}
+
+#interactions > .container > .work > #law_firm_cta_button_interaction > .thumbnail {
+  background-image: url('../assets/images/thumbnails/law_firm_cta_button.webp');
+}
+
+#interactions > .container > .work > #affiliate_world_cta_button_interaction > .thumbnail {
+  background-image: url('../assets/images/thumbnails/affiliate_world_cta_button.webp');
+}
+
+#interactions > .container > .work > #creator_conf_cta_button_interaction > .thumbnail {
+  background-image: url('../assets/images/thumbnails/creator_conf_cta_button.webp');
+}
+
+#interactions > .container > .work > #creator_conf_speakers_interaction > .thumbnail {
+  background-image: url('../assets/images/thumbnails/creator_conf_speakers.webp');
+}
+
+/* Blogs */
+
+#blogs > .container {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 48px 24px;
+}
+
+#blogs > .container > h2 {
+  color: #D9D9D9;
+  font-size: 24px;
+}
+
+#blogs > .container > .stacks {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+#blogs > .container > .stacks > .stack {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+#blogs > .container > .stacks > .stack > .thumbnail {
+  width: 100%;
+  height: 300px;
+  background-size: cover;
+}
+
+#blogs > .container > .stacks > .stack:nth-child(1) > .thumbnail {
+  background-image: url('../assets/images/thumbnails/blog_post_1.webp');
+}
+
+#blogs > .container > .stacks > .stack:nth-child(2) > .thumbnail {
+  background-image: url('../assets/images/thumbnails/blog_post_2.webp');
+}
+
+#blogs > .container > .stacks > .stack > .title_and_description {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+#blogs > .container > .stacks > .stack > .title_and_description > * {
+  color: #CCC;
+}
+
+#blogs > .container > .stacks > .stack > .title_and_description > .title {
+  font-size: 18px;
+}
+
+#blogs > .container > .stacks > .stack > .title_and_description > .description {
+  font-size: 14px;
+}
+
+/* Resume */
+
+#resume > .container {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  padding: 48px 24px;
+}
+
+#resume > .container > div {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+#resume > .container > div > .heading_and_paragraph {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+#resume > .container > div > .heading_and_paragraph > h3 {
+  color: #D9D9D9;
+  font-size: 24px;
+}
+
+#resume > .container > div > .heading_and_paragraph > p {
+  color: #D9D9D9;
+  line-height: 20px;
+  font-size: 14px;
+}
+
+#resume > .container > div > .btn > .suffix {
+  transition: all 250ms ease;
+}
+
+#resume > .container > div > .btn:hover > .suffix {
+  transform: translateX(2px);
+}
+
+#resume > .container > div > .btn > .suffix > .icon {
+  width: 16px;
+  filter: brightness(0) saturate(100%) invert(100%);
+}
+
+#resume > .container > img {
+  box-shadow: 0px 0px 20px 0px #CCC;
+}
+
+/* Screen Width: 768px */
+
+@media only screen and (min-width: 768px) {
+  /* Interactions */
+
+  #interactions > .container {
+    padding: 64px 64px 96px;
+  }
+
+  #interactions > .container > .heading_container {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+  }
+
+  #interactions > .container > .heading_container > span {
+    display: inline-block;
+    width: 100%;
+    height: 1px;
+    background: linear-gradient(90deg, #DDD 0%, #AAA 65%, #DDD 100%);
+  }
+
+  #interactions > .container > .heading_container > h2 {
+    color: #CCC;
+    font-size: 16px;
+    font-weight: 500;
+  }
+
+  #interactions > .container > .work {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+  }
+
+  #interactions > .container > .work > .stack > .thumbnail {
+    height: 266px;
+  }
+
+  /* Blogs */
+
+  #blogs > .container {
+    gap: 40px;
+    padding: 80px 64px;
+  }
+
+  #blogs > .container > h2 {
+    font-size: 28px;
+  }
+
+  #blogs > .container > .stacks {
+    flex-direction: row;
+    gap: 32px;
+  }
+
+  #blogs > .container > .stacks > .stack > .thumbnail {
+    height: 266px;
+  }
+
+  #blogs > .container > .stacks > .stack > .title_and_description > .title {
+    font-size: 20px;
+  }
+
+  #blogs > .container > .stacks > .stack > .title_and_description > .description {
+    font-size: 16px;
+  }
+
+  /* Resume */
+
+  #resume > .container {
+    gap: 80px;
+    padding: 80px 64px;
+  }
+
+  #resume > .container > div {
+    gap: 48px;
+  }
+
+  #resume > .container > div > .heading_and_paragraph > h3 {
+    font-size: 28px;
+  }
+
+  #resume > .container > div > .heading_and_paragraph > p {
+    line-height: 30px;
+    font-size: 20px;
+  }
+
+  #resume > .container > img {
+    width: 350px;
+  }
+}
+
+/* Screen Width: 1280px */
+
+@media only screen and (min-width: 1280px) {
+  /* Interactions */
+
+  #interactions > .container {
+    padding: 48px 120px 96px;
+  }
+
+  #interactions > .container > .work > .stack > .thumbnail {
+    height: 400px;
+  }
+
+  #interactions > .container > .work > .stack > .title_and_year > * {
+    font-size: 20px;
+  }
+
+  /* Blogs */
+
+  #blogs > .container {
+    padding: 80px 120px;
+  }
+
+  #blogs > .container > .stacks {
+    flex-direction: row;
+    gap: 32px;
+  }
+
+  #blogs > .container > .stacks > .stack {
+    width: 100%;
+  }
+
+  #blogs > .container > .stacks > .stack > .thumbnail {
+    height: 380px;
+  }
+
+  /* Resume */
+
+  #resume > .container {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 120px;
+  }
+
+  #resume > .container > div {
+    width: 550px;
+    gap: 64px;
+  }
+}
+
+/* Screen Width: 1440px */
+
+@media only screen and (min-width: 1440px) {
+  /* Interactions */
+
+  #interactions > .container {
+    padding: 48px 200px 96px;
+  }
+
+  /* Blogs */
+
+  #blogs > .container {
+    padding: 80px 200px;
+  }
+
+  /* Resume */
+
+  #resume > .container {
+    padding: 80px 200px 120px;
+  }
+}
+
+/* Screen Width: 1745px */
+
+@media only screen and (min-width: 1745px) {
+  /* Interactions */
+
+  #interactions > .container {
+    padding: 48px 220px 96px;
+  }
+
+  /* Blogs */
+
+  #blogs > .container {
+    padding: 80px 220px;
+  }
+
+  #blogs > .container > .stacks > .stack > .thumbnail {
+    height: 420px;
+  }
+
+  /* Resume */
+
+  #resume > .container {
+    gap: 150px;
+    padding: 80px 220px 120px;
+  }
+
+  #resume > .container > img {
+    width: 400px;
+  }
+}
+
+/* Screen Width: 1872px */
+
+@media only screen and (min-width: 1872px) {
+  #interactions > .container,
+  #blogs > .container,
+  #resume > .container {
+    padding-left: 280px;
+    padding-right: 280px;
+  }
+}
+
+/* Screen Width: 1920px */
+
+@media only screen and (min-width: 1920px) {
+  #interactions > .container,
+  #interactions > .container,
+  #blogs > .container,
+  #resume > .container {
+    padding-left: 300px;
+    padding-right: 300px;
+  }
+}
