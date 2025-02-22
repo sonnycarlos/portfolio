@@ -55,7 +55,6 @@ header nav > ul > li > button > .prefix .icon {
 
 #hero > .container > .date_and_paragraph > .date > p:first-child {
   font-family: var(--sf-pro-display-bold);
-  font-weight: 700;
 }
 
 #hero > .container > .date_and_paragraph p {
