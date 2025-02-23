@@ -21,7 +21,27 @@
 </head>
 <body>
   <!-- Menu Modal -->
-  <div class='menu_modal'></div>
+  <div class='menu_modal'>
+    <div id='modal'>
+      <header>
+        <button class='close_menu'>
+          <img src='../assets/svg/icons/close_menu.svg' alt='Icon'>
+          <p>Close</p>
+        </button>
+      </header>
+  
+      <div class='links'>
+        <a href='./index.html'>Home</a>
+        <a href='./pages/about.html'>About</a>
+        <a href='./pages/work.html'>Work</a>
+        <a href='./pages/interactions.html'>Interactions</a>
+        <a href='https://drive.google.com/file/d/1dl5iitIK1fgp_-02HhPzcJHcqCE95-yt/view?usp=sharing' target='_blank'>
+          Resume
+          <img src='./assets/svg/icons/link_external.svg' alt='Icon' class='icon'>
+        </a>
+      </div>
+    </div>
+  </div>
 
   <!-- Navigation Bar -->
   <header id='navigation_bar'>
@@ -327,22 +347,15 @@
 
   <script>
     document.addEventListener('DOMContentLoaded', function () {
-      fetch('./components/menu_modal.html')
-        .then(response => response.text())
-        .then(html => {
-          document.querySelector('.menu_modal').innerHTML = html
-          
-          document.querySelector('.menu_modal .modal').style.display = 'none'
+      document.querySelector('.menu_modal #modal').style.display = 'none'
 
-          document.querySelector('.open_menu').addEventListener('click', function () {
-            document.querySelector('.menu_modal .modal').style.display = 'flex'
-          })
+      document.querySelector('.open_menu').addEventListener('click', function () {
+        document.querySelector('.menu_modal #modal').style.display = 'flex'
+      })
 
-          document.querySelector('.close_menu').addEventListener('click', function () {
-            document.querySelector('.menu_modal .modal').style.display = 'none'
-          })
-        })
-        .catch(error => console.error('Error loading the menu:', error))
+      document.querySelector('.close_menu').addEventListener('click', function () {
+        document.querySelector('.menu_modal #modal').style.display = 'none'
+      })
     })
   </script>
 
