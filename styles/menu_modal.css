@@ -47,7 +47,7 @@
 
 #modal > .links > a {
   color: #CCC;
-  font-size: 32px;
+  font-size: 24px;
   font-weight: 700;
 }
 
@@ -58,8 +58,8 @@
 }
 
 #modal > .links > a:last-child > .icon {
-  width: 40px;
-  height: 40px;
+  width: 32px;
+  height: 32px;
 }
 
 /* Screen Width: 768px */
@@ -78,7 +78,7 @@
   }
 
   #modal > .links > a {
-    font-size: 40px;
+    font-size: 32px;
   }
 
   #modal > .links > a:last-child {
@@ -86,8 +86,8 @@
   }
   
   #modal > .links > a:last-child > .icon {
-    width: 56px;
-    height: 56px;
+    width: 48px;
+    height: 48px;
   }
 }
 
