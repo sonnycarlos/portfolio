@@ -162,6 +162,10 @@
   font-size: 12px;
 }
 
+#work_experience_and_education > .container > div > .container > .experience > .details > .paragraphs > p {
+  padding-bottom: 12px;
+}
+
 #work_experience_and_education > .container > div > .container > .experience > .details > .experience {
   display: flex;
   gap: 16px;
