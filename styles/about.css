@@ -139,6 +139,7 @@
 }
 
 #work_experience_and_education > .container > div > .container > .experience > .details > .header > div > p {
+  font-family: var(--sf-pro-display-medium);
   font-size: 14px;
 }
 
@@ -197,6 +198,7 @@
 
 #work_experience_and_education > .container > div > .container > .experience > .details > .experience > .details > .header > div > p {
   color: #232323;
+  font-family: var(--sf-pro-display-medium);
   font-size: 14px;
 }
 
