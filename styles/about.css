@@ -143,8 +143,9 @@
   font-size: 14px;
 }
 
-#work_experience_and_education > .container > div > .container > .experience > .details > .header > div:last-child > p {
-  color: #CCC;
+#work_experience_and_education > .container > div > .container > .experience > .details > .header > div > p:last-child,
+#work_experience_and_education > .container > div > .container > .experience > .details > .experience > .details > .header > div > p:last-child {
+  font-family: var(--sf-pro-display-regular);
 }
 
 #work_experience_and_education > .container > div > .container > .experience > .details > .paragraphs {
