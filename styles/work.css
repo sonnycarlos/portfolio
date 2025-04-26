@@ -85,6 +85,10 @@
   color: #CCC;
 }
 
+#museo > .container > .projects > #awc_networking_app > .thumbnail {
+  background-image: url('../assets/images/thumbnails/awc_networking_app.webp');
+}
+
 #museo > .container > .projects > #creator_conf > .thumbnail {
   background-image: url('../assets/images/thumbnails/creator_conf.webp');
 }
