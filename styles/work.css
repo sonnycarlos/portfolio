@@ -39,6 +39,10 @@
   width: 100%;
 }
 
+#museo > .container > .projects > .stack.coming_soon {
+  cursor: default !important;
+}
+
 #museo > .container > .projects > .stack:hover > .thumbnail > div {
   opacity: 1;
 }
@@ -87,6 +91,10 @@
 
 #museo > .container > .projects > #awc_networking_app > .thumbnail {
   background-image: url('../assets/images/thumbnails/awc_networking_app.webp');
+}
+
+#museo > .container > .projects > #adwai > .thumbnail {
+  background-image: url('../assets/images/thumbnails/adwai.webp');
 }
 
 #museo > .container > .projects > #creator_conf > .thumbnail {
