@@ -56,10 +56,22 @@ body {
 }
 
 #museo > .container > .heading_container > div > h2,
-#museo > .container > .heading_container > div > a {
+#museo > .container > .heading_container > div > a > span {
   color: #CCC;
   font-size: 16px;
   font-weight: 500;
+}
+
+#museo > .container > .heading_container > div > a {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+
+#museo > .container > .heading_container > div > a > .icon {
+  width: 18px;
+  height: 18px;
+  filter: brightness(0) saturate(100%) invert(82%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(96%) contrast(95%);
 }
 
 #museo > .container > .heading_container > div > a:hover {
@@ -190,10 +202,22 @@ body {
 }
 
 #interactions > .container > .heading_container > div > h2,
-#interactions > .container > .heading_container > div > a {
+#interactions > .container > .heading_container > div > a > span {
   color: #CCC;
   font-size: 16px;
   font-weight: 500;
+}
+
+#interactions > .container > .heading_container > div > a {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+
+#interactions > .container > .heading_container > div > a > .icon {
+  width: 18px;
+  height: 18px;
+  filter: brightness(0) saturate(100%) invert(82%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(96%) contrast(95%);
 }
 
 #interactions > .container > .heading_container > div > a:hover {
