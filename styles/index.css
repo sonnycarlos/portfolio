@@ -13,6 +13,7 @@ body {
 
 #heading_container > .container > p {
   color: #CCC;
+  font-weight: 500;
 }
 
 #heading_container > .container > h1 {
