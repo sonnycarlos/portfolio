@@ -27,7 +27,7 @@ header nav > ul > li > button > .prefix .icon {
 
 #hero > .container > h1 {
   text-align: center;
-  font-family: var(--sf-pro-display-bold);
+  /* font-family: var(--sf-pro-display-bold); */
   font-size: 24px;
 }
 
@@ -53,7 +53,8 @@ header nav > ul > li > button > .prefix .icon {
 }
 
 #hero > .container > .date_and_paragraph > .date > p:first-child {
-  font-family: var(--sf-pro-display-bold);
+  /* font-family: var(--sf-pro-display-bold); */
+  font-weight: 700;
 }
 
 #hero > .container > .date_and_paragraph p {
@@ -171,6 +172,10 @@ header nav > ul > li > button > .prefix .icon {
 
 #more_interactions > .container > .work > .stack > .title_and_year > * {
   color: #CCC;
+}
+
+#more_interactions > .container > .work > .stack > .title_and_year > .title {
+  font-weight: 500;
 }
 
 #more_interactions > .container > .work > #affiliate_world_cta_button > .thumbnail {

@@ -39,14 +39,16 @@ header nav > ul > li > button > .prefix .icon {
 }
 
 #hero .header > h1 {
-  font-family: var(--sf-pro-display-bold);
+  /* font-family: var(--sf-pro-display-bold); */
   font-size: 24px;
 }
 
 #hero .header p {
   line-height: 18px;
-  font-family: var(--sf-pro-display-medium);
+  letter-spacing: -0.4px;
+  /* font-family: var(--sf-pro-display-medium); */
   font-size: 14px;
+  font-weight: 500;
 }
 
 #hero img {
@@ -89,7 +91,8 @@ header nav > ul > li > button > .prefix .icon {
 }
 
 #about > .container > .details > div > div > p {
-  font-family: var(--sf-pro-display-bold);
+  /* font-family: var(--sf-pro-display-bold); */
+  font-weight: 700;
 }
 
 #about > .container > .details > div > div > div {
@@ -124,7 +127,7 @@ header nav > ul > li > button > .prefix .icon {
 }
 
 #strategy > .container > .header > h2 {
-  font-family: var(--sf-pro-display-bold);
+  /* font-family: var(--sf-pro-display-bold); */
 }
 
 #strategy > .container > .header > p {
@@ -159,7 +162,7 @@ header nav > ul > li > button > .prefix .icon {
 }
 
 #splash_screen > .container > .header > h2 {
-  font-family: var(--sf-pro-display-bold);
+  /* font-family: var(--sf-pro-display-bold); */
 }
 
 #splash_screen > .container > .header > p {
@@ -198,7 +201,7 @@ header nav > ul > li > button > .prefix .icon {
 }
 
 #cta_button > .container > .header > h2 {
-  font-family: var(--sf-pro-display-bold);
+  /* font-family: var(--sf-pro-display-bold); */
 }
 
 #cta_button > .container > .header > p {
@@ -226,7 +229,7 @@ header nav > ul > li > button > .prefix .icon {
 }
 
 #testimonials_section > .container > h2 {
-  font-family: var(--sf-pro-display-bold);
+  /* font-family: var(--sf-pro-display-bold); */
 }
 
 #testimonials_section > .container > img {
@@ -255,7 +258,7 @@ header nav > ul > li > button > .prefix .icon {
 }
 
 #typography > .container > .header > h2 {
-  font-family: var(--sf-pro-display-bold);
+  /* font-family: var(--sf-pro-display-bold); */
 }
 
 #typography > .container > .header > p {
@@ -395,7 +398,7 @@ header nav > ul > li > button > .prefix .icon {
 }
 
 #conclusion > .container > .header > h2 {
-  font-family: var(--sf-pro-display-bold);
+  /* font-family: var(--sf-pro-display-bold); */
 }
 
 #conclusion > .container > .header > p {

@@ -39,14 +39,16 @@ header nav > ul > li > button > .prefix .icon {
 }
 
 #hero .header > h1 {
-  font-family: var(--sf-pro-display-bold);
+  /* font-family: var(--sf-pro-display-bold); */
   font-size: 24px;
 }
 
 #hero .header p {
   line-height: 18px;
-  font-family: var(--sf-pro-display-medium);
+  letter-spacing: -0.4px;
+  /* font-family: var(--sf-pro-display-medium); */
   font-size: 14px;
+  font-weight: 500;
 }
 
 #hero img {
@@ -89,7 +91,8 @@ header nav > ul > li > button > .prefix .icon {
 }
 
 #about > .container > .details > div > div > p {
-  font-family: var(--sf-pro-display-bold);
+  /* font-family: var(--sf-pro-display-bold); */
+  font-weight: 700;
 }
 
 #about > .container > .details > div > div > div {
@@ -124,7 +127,7 @@ header nav > ul > li > button > .prefix .icon {
 }
 
 #journey > div > .container > .header > h2 {
-  font-family: var(--sf-pro-display-bold);
+  /* font-family: var(--sf-pro-display-bold); */
 }
 
 #journey > div > .container > .header > p {
@@ -163,7 +166,7 @@ header nav > ul > li > button > .prefix .icon {
 }
 
 #design_system > div > .container > .header > h2 {
-  font-family: var(--sf-pro-display-bold);
+  /* font-family: var(--sf-pro-display-bold); */
 }
 
 #design_system > div > .container > .header > p {
@@ -202,7 +205,7 @@ header nav > ul > li > button > .prefix .icon {
 }
 
 #typography > .container > .header > h2 {
-  font-family: var(--sf-pro-display-bold);
+  /* font-family: var(--sf-pro-display-bold); */
 }
 
 #typography > .container > .header > p {
@@ -252,8 +255,16 @@ header nav > ul > li > button > .prefix .icon {
 
 #typography > .container > .stacks > .stack_1 > div > p,
 #typography > .container > .stacks > .stack_2 > div > p {
-  font-family: var(--sf-pro-display-bold);
+  /* font-family: var(--sf-pro-display-bold); */
   font-size: 24px;
+}
+
+#typography > .container > .stacks > .stack_1 > div > p {
+  font-family: var(--poppins-bold);
+}
+
+#typography > .container > .stacks > .stack_2 > div > p {
+  font-family: var(--source-sans-pro-bold);
 }
 
 #typography > .container > .stacks > .stack_1 > div > div,
@@ -265,8 +276,16 @@ header nav > ul > li > button > .prefix .icon {
 
 #typography > .container > .stacks > .stack_1 > div > div > p,
 #typography > .container > .stacks > .stack_2 > div > div > p {
-  font-family: var(--sf-pro-display-bold);
+  /* font-family: var(--sf-pro-display-bold); */
   font-size: 14px;
+}
+
+#typography > .container > .stacks > .stack_1 > div > div > p {
+  font-family: var(--poppins-bold);
+}
+
+#typography > .container > .stacks > .stack_2 > div > div > p {
+  font-family: var(--source-sans-pro-bold);
 }
 
 #typography > .container > .stacks > .stack_1 {
@@ -309,7 +328,7 @@ header nav > ul > li > button > .prefix .icon {
 }
 
 #logos > .container > h2 {
-  font-family: var(--sf-pro-display-bold);
+  /* font-family: var(--sf-pro-display-bold); */
 }
 
 #logos > .container > .vectors {
@@ -338,7 +357,7 @@ header nav > ul > li > button > .prefix .icon {
 }
 
 #hues > .container > h2 {
-  font-family: var(--sf-pro-display-bold);
+  /* font-family: var(--sf-pro-display-bold); */
 }
 
 #hues > .container > .stacks {
@@ -461,7 +480,7 @@ header nav > ul > li > button > .prefix .icon {
 
 #hues > .container > .stacks > .stack_1 > div > div:first-child > p {
   color: var(--secondary-color);
-  font-family: var(--sf-pro-display-medium);
+  /* font-family: var(--sf-pro-display-medium); */
   font-size: 12px;
 }
 
@@ -493,7 +512,7 @@ header nav > ul > li > button > .prefix .icon {
 }
 
 #hues > .container > .stacks > .stack_2 > div > p {
-  font-family: var(--sf-pro-display-medium);
+  /* font-family: var(--sf-pro-display-medium); */
   font-size: 12px;
 }
 
@@ -525,7 +544,7 @@ header nav > ul > li > button > .prefix .icon {
 }
 
 #conclusion > .container > .header > h2 {
-  font-family: var(--sf-pro-display-bold);
+  /* font-family: var(--sf-pro-display-bold); */
 }
 
 #conclusion > .container > .header > p {

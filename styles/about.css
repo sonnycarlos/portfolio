@@ -139,13 +139,17 @@
 }
 
 #work_experience_and_education > .container > div > .container > .experience > .details > .header > div > p {
-  font-family: var(--sf-pro-display-medium);
+  /* font-family: var(--sf-pro-display-medium); */
+  letter-spacing: -0.16px;
   font-size: 14px;
+  font-weight: 550;
 }
 
 #work_experience_and_education > .container > div > .container > .experience > .details > .header > div > p:last-child,
 #work_experience_and_education > .container > div > .container > .experience > .details > .experience > .details > .header > div > p:last-child {
-  font-family: var(--sf-pro-display-regular);
+  /* font-family: var(--sf-pro-display-regular); */
+  letter-spacing: -0.16px;
+  font-weight: 500;
 }
 
 #work_experience_and_education > .container > div > .container > .experience > .details > .paragraphs {
@@ -203,8 +207,9 @@
 
 #work_experience_and_education > .container > div > .container > .experience > .details > .experience > .details > .header > div > p {
   color: #232323;
-  font-family: var(--sf-pro-display-medium);
+  /* font-family: var(--sf-pro-display-medium); */
   font-size: 14px;
+  font-weight: 550;
 }
 
 #work_experience_and_education > .container > div > .container > .experience > .details > .experience > .details > .header > div:last-child > p {
@@ -215,6 +220,7 @@
   color: #999;
   line-height: 18px;
   font-size: 12px;
+  font-weight: 500;
 }
 
 #work_experience_and_education > .container > div > .container > .experience > .details > .experience > .details > .paragraphs {
@@ -235,6 +241,7 @@
 #blogs > .container > h2 {
   color: #D9D9D9;
   font-size: 24px;
+  font-weight: 600;
 }
 
 #blogs > .container > .stacks {
@@ -275,6 +282,7 @@
 
 #blogs > .container > .stacks > .stack > .title_and_description > .title {
   font-size: 18px;
+  font-weight: 550;
 }
 
 #blogs > .container > .stacks > .stack > .title_and_description > .description {

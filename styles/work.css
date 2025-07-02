@@ -236,6 +236,7 @@
 #blogs > .container > h2 {
   color: #D9D9D9;
   font-size: 24px;
+  font-weight: 600;
 }
 
 #blogs > .container > .stacks {
@@ -276,6 +277,7 @@
 
 #blogs > .container > .stacks > .stack > .title_and_description > .title {
   font-size: 18px;
+  font-weight: 550;
 }
 
 #blogs > .container > .stacks > .stack > .title_and_description > .description {
@@ -470,6 +472,7 @@
 
   #museo > .container > .projects > .stack > .title_and_year > * {
     font-size: 20px;
+    font-weight: 500;
   }
 
   /* Interactions */
@@ -484,6 +487,7 @@
 
   #interactions > .container > .work > .stack > .title_and_year > * {
     font-size: 20px;
+    font-weight: 500;
   }
 
   /* Blogs */

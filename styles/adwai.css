@@ -39,14 +39,16 @@ header nav > ul > li > button > .prefix .icon {
 }
 
 #hero .header > h1 {
-  font-family: var(--sf-pro-display-bold);
+  /* font-family: var(--sf-pro-display-bold); */
   font-size: 24px;
 }
 
 #hero .header p {
   line-height: 18px;
-  font-family: var(--sf-pro-display-medium);
+  letter-spacing: -0.4px;
+  /* font-family: var(--sf-pro-display-medium); */
   font-size: 14px;
+  font-weight: 500;
 }
 
 #hero img {
@@ -89,7 +91,8 @@ header nav > ul > li > button > .prefix .icon {
 }
 
 #about > .container > .details > div > div > p {
-  font-family: var(--sf-pro-display-bold);
+  /* font-family: var(--sf-pro-display-bold); */
+  font-weight: 700;
 }
 
 #about > .container > .details > div > div > div {
@@ -114,7 +117,7 @@ header nav > ul > li > button > .prefix .icon {
 
 #brand_dna_section > .container > h2 {
   text-align: center;
-  font-family: var(--sf-pro-display-bold);
+  /* font-family: var(--sf-pro-display-bold); */
 }
 
 #brand_dna_section > .container > div {
@@ -271,6 +274,8 @@ header nav > ul > li > button > .prefix .icon {
 
 #brand_dna_section > .container > div > .colors > div > div > h4 {
   color: #00A8E8;
+  letter-spacing: -0.4px;
+  font-weight: 600;
 }
 
 #brand_dna_section > .container > div > .colors > div > .primary_colors > div,
@@ -346,7 +351,7 @@ header nav > ul > li > button > .prefix .icon {
 
 #adwai_hero_section_content_alignment_rule_section > .container > h2 {
   text-align: center;
-  font-family: var(--sf-pro-display-bold);
+  /* font-family: var(--sf-pro-display-bold); */
 }
 
 #adwai_hero_section_content_alignment_rule_section > .container > div {
@@ -375,7 +380,7 @@ header nav > ul > li > button > .prefix .icon {
 
 #landing_page_section > .container > h2 {
   text-align: center;
-  font-family: var(--sf-pro-display-bold);
+  /* font-family: var(--sf-pro-display-bold); */
 }
 
 #landing_page_section > .container > div {
@@ -399,7 +404,7 @@ header nav > ul > li > button > .prefix .icon {
 
 #buy_tickets_page_section > .container > h2 {
   text-align: center;
-  font-family: var(--sf-pro-display-bold);
+  /* font-family: var(--sf-pro-display-bold); */
 }
 
 #buy_tickets_page_section > .container > div {
@@ -423,7 +428,7 @@ header nav > ul > li > button > .prefix .icon {
 
 #checkout_page_section > .container > h2 {
   text-align: center;
-  font-family: var(--sf-pro-display-bold);
+  /* font-family: var(--sf-pro-display-bold); */
 }
 
 #checkout_page_section > .container > div {
@@ -447,7 +452,7 @@ header nav > ul > li > button > .prefix .icon {
 
 #buy_vip_ticket_page_section > .container > h2 {
   text-align: center;
-  font-family: var(--sf-pro-display-bold);
+  /* font-family: var(--sf-pro-display-bold); */
 }
 
 #buy_vip_ticket_page_section > .container > div {
@@ -471,7 +476,7 @@ header nav > ul > li > button > .prefix .icon {
 
 #speakers_page_section > .container > h2 {
   text-align: center;
-  font-family: var(--sf-pro-display-bold);
+  /* font-family: var(--sf-pro-display-bold); */
 }
 
 #speakers_page_section > .container > div {
@@ -495,7 +500,7 @@ header nav > ul > li > button > .prefix .icon {
 
 #faqs_page_section > .container > h2 {
   text-align: center;
-  font-family: var(--sf-pro-display-bold);
+  /* font-family: var(--sf-pro-display-bold); */
 }
 
 #faqs_page_section > .container > div {
@@ -519,7 +524,7 @@ header nav > ul > li > button > .prefix .icon {
 
 #page_not_found_section > .container > h2 {
   text-align: center;
-  font-family: var(--sf-pro-display-bold);
+  /* font-family: var(--sf-pro-display-bold); */
 }
 
 #page_not_found_section > .container > div {
@@ -553,7 +558,7 @@ header nav > ul > li > button > .prefix .icon {
 }
 
 #conclusion > .container > .header > h2 {
-  font-family: var(--sf-pro-display-bold);
+  /* font-family: var(--sf-pro-display-bold); */
 }
 
 #conclusion > .container > .header > p {

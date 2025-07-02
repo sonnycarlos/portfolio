@@ -98,7 +98,12 @@
   margin: 0;
   padding: 0;
   color: var(--primary-color);
-  font-family: -apple-system, BlinkMacSystemFont, var(--sf-pro-display-regular), sans-serif;
+  /* font-family: -apple-system, BlinkMacSystemFont, var(--sf-pro-display-regular), sans-serif; */
+  font-family: Inter, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  letter-spacing: -0.8px !important;
 }
 
 body.ios_device h1,
@@ -107,7 +112,8 @@ body.ios_device h3,
 body.ios_device h4,
 body.ios_device h5,
 body.ios_device h6 {
-  font-family: -apple-system, BlinkMacSystemFont, sans-serif !important;
+  /* font-family: -apple-system, BlinkMacSystemFont, sans-serif !important; */
+  font-family: Inter, sans-serif;
 }
 
 body.android_device h1,
@@ -116,7 +122,12 @@ body.android_device h3,
 body.android_device h4,
 body.android_device h5,
 body.android_device h6 {
-  font-family: 'SFProDisplay-Bold', sans-serif;
+  /* font-family: 'SFProDisplay-Bold', sans-serif; */
+  font-family: Inter, sans-serif;
+}
+
+p {
+  letter-spacing: -0.8px;
 }
 
 ul {
@@ -492,6 +503,11 @@ footer > .container > .credit_and_country > .country > img {
     display: none;
   }
 
+  header nav > ul > li > a {
+    letter-spacing: -0.5px;
+    font-weight: 500;
+  }
+
   /* Footer */
 
   footer > .container {
@@ -503,8 +519,18 @@ footer > .container > .credit_and_country > .country > img {
     margin-bottom: 70px;
   }
 
+  footer > .container > .text_and_links > p {
+    letter-spacing: -0.4px;
+    font-size: 18px;
+    font-weight: 500;
+  }
+
   footer > .container > .text_and_links > .links {
     width: 150px;
+  }
+
+  footer > .container > .text_and_links > .links > a {
+    letter-spacing: -0.14px;
   }
 
   footer > .container > .text_and_links > .links > a:hover {
@@ -551,7 +577,8 @@ footer > .container > .credit_and_country > .country > img {
   }
 
   footer > .container > .text_and_links > .links > a {
-    font-size: 16px;
+    letter-spacing: -0.6px;
+    font-size: 15px;
   }
 
   footer > .container > .logo_and_paragraph > p {

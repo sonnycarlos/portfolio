@@ -39,14 +39,16 @@ header nav > ul > li > button > .prefix .icon {
 }
 
 #hero .header > h1 {
-  font-family: var(--sf-pro-display-bold);
+  /* font-family: var(--sf-pro-display-bold); */
   font-size: 24px;
 }
 
 #hero .header p {
   line-height: 18px;
-  font-family: var(--sf-pro-display-medium);
+  letter-spacing: -0.4px;
+  /* font-family: var(--sf-pro-display-medium); */
   font-size: 14px;
+  font-weight: 500;
 }
 
 #hero img {
@@ -89,7 +91,8 @@ header nav > ul > li > button > .prefix .icon {
 }
 
 #about > .container > .details > div > div > p {
-  font-family: var(--sf-pro-display-bold);
+  /* font-family: var(--sf-pro-display-bold); */
+  font-weight: 700;
 }
 
 #about > .container > .details > div > div > div {
@@ -124,7 +127,7 @@ header nav > ul > li > button > .prefix .icon {
 }
 
 #innovation > div > .container > .header > h2 {
-  font-family: var(--sf-pro-display-bold);
+  /* font-family: var(--sf-pro-display-bold); */
 }
 
 #innovation > div > .container > .header > p {
@@ -163,7 +166,7 @@ header nav > ul > li > button > .prefix .icon {
 }
 
 #app_tour > div > .container > .header > h2 {
-  font-family: var(--sf-pro-display-bold);
+  /* font-family: var(--sf-pro-display-bold); */
 }
 
 #app_tour > div > .container > .header > p {
@@ -196,7 +199,7 @@ header nav > ul > li > button > .prefix .icon {
 
 #responsive_design > div > .container > h2 {
   text-align: center;
-  font-family: var(--sf-pro-display-bold);
+  /* font-family: var(--sf-pro-display-bold); */
 }
 
 #responsive_design .image_container > h3 {
@@ -230,7 +233,7 @@ header nav > ul > li > button > .prefix .icon {
 }
 
 #landing_page > div > .container > h2 {
-  font-family: var(--sf-pro-display-bold);
+  /* font-family: var(--sf-pro-display-bold); */
 }
 
 #landing_page > div > .container > video {
@@ -249,7 +252,7 @@ header nav > ul > li > button > .prefix .icon {
 
 #authentication_pages > div > .container > h2 {
   text-align: center;
-  font-family: var(--sf-pro-display-bold);
+  /* font-family: var(--sf-pro-display-bold); */
 }
 
 #authentication_pages .image_container > h3 {
@@ -280,7 +283,7 @@ header nav > ul > li > button > .prefix .icon {
 
 #forms_page > div > .container > h2 {
   text-align: center;
-  font-family: var(--sf-pro-display-bold);
+  /* font-family: var(--sf-pro-display-bold); */
 }
 
 #forms_page img {
@@ -299,7 +302,7 @@ header nav > ul > li > button > .prefix .icon {
 
 #opcr_form_overview_page > div > .container > h2 {
   text-align: center;
-  font-family: var(--sf-pro-display-bold);
+  /* font-family: var(--sf-pro-display-bold); */
 }
 
 #opcr_form_overview_page .image_container > h3 {
@@ -330,7 +333,7 @@ header nav > ul > li > button > .prefix .icon {
 
 #opcr_form_page > div > .container > h2 {
   text-align: center;
-  font-family: var(--sf-pro-display-bold);
+  /* font-family: var(--sf-pro-display-bold); */
 }
 
 #opcr_form_page .image_container > h3 {
@@ -367,7 +370,7 @@ header nav > ul > li > button > .prefix .icon {
 }
 
 #typography > .container > .header > h2 {
-  font-family: var(--sf-pro-display-bold);
+  /* font-family: var(--sf-pro-display-bold); */
 }
 
 #typography > .container > .header > p {
@@ -502,7 +505,7 @@ header nav > ul > li > button > .prefix .icon {
 }
 
 #conclusion > .container > .header > h2 {
-  font-family: var(--sf-pro-display-bold);
+  /* font-family: var(--sf-pro-display-bold); */
 }
 
 #conclusion > .container > .header > p {

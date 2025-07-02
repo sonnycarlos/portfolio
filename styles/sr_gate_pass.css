@@ -38,14 +38,16 @@ header nav > ul > li > button > .prefix .icon {
 }
 
 #hero .header > h1 {
-  font-family: var(--sf-pro-display-bold);
+  /* font-family: var(--sf-pro-display-bold); */
   font-size: 24px;
 }
 
 #hero .header p {
-  line-height: 22px;
-  font-family: var(--sf-pro-display-medium);
+  line-height: 18px;
+  letter-spacing: -0.4px;
+  /* font-family: var(--sf-pro-display-medium); */
   font-size: 14px;
+  font-weight: 500;
 }
 
 #hero img {
@@ -88,7 +90,8 @@ header nav > ul > li > button > .prefix .icon {
 }
 
 #about > .container > .details > div > div > p {
-  font-family: var(--sf-pro-display-bold);
+  /* font-family: var(--sf-pro-display-bold); */
+  font-weight: 700;
 }
 
 #about > .container > .details > div > div > div {
@@ -123,7 +126,7 @@ header nav > ul > li > button > .prefix .icon {
 }
 
 #ideation > .container > .header > h2 {
-  font-family: var(--sf-pro-display-bold);
+  /* font-family: var(--sf-pro-display-bold); */
 }
 
 #ideation > .container > .header > p {
@@ -156,7 +159,7 @@ header nav > ul > li > button > .prefix .icon {
 }
 
 #mission_and_vision > .container > div > h2 {
-  font-family: var(--sf-pro-display-bold);
+  /* font-family: var(--sf-pro-display-bold); */
 }
 
 #mission_and_vision > .container > div > p {
@@ -187,7 +190,7 @@ header nav > ul > li > button > .prefix .icon {
 }
 
 #typography > .container > .header > h2 {
-  font-family: var(--sf-pro-display-bold);
+  /* font-family: var(--sf-pro-display-bold); */
 }
 
 #typography > .container > .header > p {
@@ -298,7 +301,7 @@ header nav > ul > li > button > .prefix .icon {
 #other_features > .container > h2 {
   color: var(--secondary-color);
   text-align: center;
-  font-family: var(--sf-pro-display-medium);
+  /* font-family: var(--sf-pro-display-medium); */
 }
 
 #other_features > .container > .stacks {
@@ -336,8 +339,9 @@ header nav > ul > li > button > .prefix .icon {
   color: var(--secondary-color);
   text-align: center;
   text-transform: uppercase;
-  font-family: var(--sf-pro-display-medium);
+  /* font-family: var(--sf-pro-display-medium); */
   font-size: 18px;
+  font-weight: 500;
 }
 
 #other_features > .container > .stacks > .stack > .header > p {
@@ -345,6 +349,7 @@ header nav > ul > li > button > .prefix .icon {
   line-height: 20px;
   text-align: center;
   font-size: 14px;
+  font-weight: 500;
 }
 
 #other_features > .container > .stacks > .stack_1 {
@@ -423,7 +428,7 @@ header nav > ul > li > button > .prefix .icon {
 }
 
 #conclusion > .container > .header > h2 {
-  font-family: var(--sf-pro-display-bold);
+  /* font-family: var(--sf-pro-display-bold); */
 }
 
 #conclusion > .container > .header > p {

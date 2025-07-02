@@ -39,14 +39,16 @@ header nav > ul > li > button > .prefix .icon {
 }
 
 #hero .header > h1 {
-  font-family: var(--sf-pro-display-bold);
+  /* font-family: var(--sf-pro-display-bold); */
   font-size: 24px;
 }
 
 #hero .header p {
   line-height: 18px;
-  font-family: var(--sf-pro-display-medium);
+  letter-spacing: -0.4px;
+  /* font-family: var(--sf-pro-display-medium); */
   font-size: 14px;
+  letter-spacing: -0.4px;
 }
 
 #hero img {
@@ -89,7 +91,8 @@ header nav > ul > li > button > .prefix .icon {
 }
 
 #about > .container > .details > div > div > p {
-  font-family: var(--sf-pro-display-bold);
+  /* font-family: var(--sf-pro-display-bold); */
+  font-weight: 700;
 }
 
 #about > .container > .details > div > div > div {
@@ -124,7 +127,7 @@ header nav > ul > li > button > .prefix .icon {
 }
 
 #logo > .container > .header > h2 {
-  font-family: var(--sf-pro-display-bold);
+  /* font-family: var(--sf-pro-display-bold); */
 }
 
 #logo > .container > .header > p {
@@ -159,7 +162,7 @@ header nav > ul > li > button > .prefix .icon {
 }
 
 #posters > .container > .header > h2 {
-  font-family: var(--sf-pro-display-bold);
+  /* font-family: var(--sf-pro-display-bold); */
 }
 
 #posters > .container > .header > p {
@@ -183,7 +186,7 @@ header nav > ul > li > button > .prefix .icon {
 }
 
 #typography_and_colors > .container > h2 {
-  font-family: var(--sf-pro-display-bold);
+  /* font-family: var(--sf-pro-display-bold); */
 }
 
 #typography_and_colors > .container > .stacks {
@@ -232,6 +235,7 @@ header nav > ul > li > button > .prefix .icon {
 }
 
 #typography_and_colors > .container > .stacks > .stack_2 > p {
+  letter-spacing: 1px;
   font-family: var(--neue-montreal-medium) !important;
 }
 
@@ -248,6 +252,7 @@ header nav > ul > li > button > .prefix .icon {
 }
 
 #typography_and_colors > .container > .stacks > .stack_2 > div > p {
+  letter-spacing: 2px;
   font-size: 24px;
   font-family: var(--neue-montreal-medium) !important;
   font-weight: 700;
@@ -266,6 +271,7 @@ header nav > ul > li > button > .prefix .icon {
 }
 
 #typography_and_colors > .container > .stacks > .stack_2 > div > div > p {
+  letter-spacing: 1px;
   font-family: var(--neue-montreal-medium) !important;
   font-size: 13px;
   font-weight: 700;
@@ -331,7 +337,8 @@ header nav > ul > li > button > .prefix .icon {
 }
 
 #typography_and_colors > .container > .stacks > .stack_3 > .wrapper > .color > .name_and_hex_code > .name {
-  font-family: var(--sf-pro-display-bold);
+  /* font-family: var(--sf-pro-display-bold); */
+  font-weight: 600;
 }
 
 #typography_and_colors > .container > .stacks > .stack_3 > .wrapper > .color_1 > .palette {
@@ -381,7 +388,7 @@ header nav > ul > li > button > .prefix .icon {
 }
 
 #conclusion > .container > .header > h2 {
-  font-family: var(--sf-pro-display-bold);
+  /* font-family: var(--sf-pro-display-bold); */
 }
 
 #conclusion > .container > .header > p {

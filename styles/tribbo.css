@@ -39,14 +39,16 @@ header nav > ul > li > button > .prefix .icon {
 }
 
 #hero .header > h1 {
-  font-family: var(--sf-pro-display-bold);
+  /* font-family: var(--sf-pro-display-bold); */
   font-size: 24px;
 }
 
 #hero .header p {
   line-height: 18px;
-  font-family: var(--sf-pro-display-medium);
+  letter-spacing: -0.4px;
+  /* font-family: var(--sf-pro-display-medium); */
   font-size: 14px;
+  font-weight: 500;
 }
 
 #hero img {
@@ -89,7 +91,8 @@ header nav > ul > li > button > .prefix .icon {
 }
 
 #about > .container > .details > div > div > p {
-  font-family: var(--sf-pro-display-bold);
+  /* font-family: var(--sf-pro-display-bold); */
+  font-weight: 700;
 }
 
 #about > .container > .details > div > div > div {
@@ -124,7 +127,7 @@ header nav > ul > li > button > .prefix .icon {
 }
 
 #brand_perception > div > .container > .header > h2 {
-  font-family: var(--sf-pro-display-bold);
+  /* font-family: var(--sf-pro-display-bold); */
 }
 
 #brand_perception > div > .container > .header > p {
@@ -163,7 +166,7 @@ header nav > ul > li > button > .prefix .icon {
 }
 
 #programs_stacks > div > .container > .header > h2 {
-  font-family: var(--sf-pro-display-bold);
+  /* font-family: var(--sf-pro-display-bold); */
 }
 
 #programs_stacks > div > .container > .header > p {
@@ -194,7 +197,7 @@ header nav > ul > li > button > .prefix .icon {
 #mentors_section > div > .container > h2 {
   color: var(--secondary-color);
   text-align: center;
-  font-family: var(--sf-pro-display-bold);
+  /* font-family: var(--sf-pro-display-bold); */
 }
 
 /* Testimonials Section */
@@ -209,7 +212,7 @@ header nav > ul > li > button > .prefix .icon {
 
 #testimonials_section > div > .container > h2 {
   text-align: center;
-  font-family: var(--sf-pro-display-bold);
+  /* font-family: var(--sf-pro-display-bold); */
 }
 
 #testimonials_section > div > .container > img {
@@ -228,7 +231,7 @@ header nav > ul > li > button > .prefix .icon {
 
 #faqs_section > div > .container > h2 {
   text-align: center;
-  font-family: var(--sf-pro-display-bold);
+  /* font-family: var(--sf-pro-display-bold); */
 }
 
 #faqs_section > div > .container > img {
@@ -257,7 +260,7 @@ header nav > ul > li > button > .prefix .icon {
 }
 
 #conclusion > .container > .header > h2 {
-  font-family: var(--sf-pro-display-bold);
+  /* font-family: var(--sf-pro-display-bold); */
 }
 
 #conclusion > .container > .header > p {
