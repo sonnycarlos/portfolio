@@ -305,9 +305,10 @@
   gap: 24px;
 }
 
-#resume > .container > div > .heading_and_paragraph > h3 {
+#resume > .container > div > .heading_and_paragraph > h2 {
   color: #D9D9D9;
   font-size: 24px;
+  font-weight: 600;
 }
 
 #resume > .container > div > .heading_and_paragraph > p {
@@ -443,7 +444,7 @@
     gap: 48px;
   }
 
-  #resume > .container > div > .heading_and_paragraph > h3 {
+  #resume > .container > div > .heading_and_paragraph > h2 {
     font-size: 28px;
   }
 
