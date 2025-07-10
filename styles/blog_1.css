@@ -30,7 +30,6 @@ header nav > ul > li > button > .prefix .icon {
   flex-direction: column;
   align-items: center;
   gap: 16px;
-  width: 350px;
 }
 
 #hero .header > h1,
@@ -97,10 +96,18 @@ header nav > ul > li > button > .prefix .icon {
   gap: 4px;
 }
 
+#content > .container > .texts p.with_img.two_line {
+  align-items: start;
+}
+
 #content > .container > .texts img {
   width: fit-content;
-  width: 16px;
-  height: 16px;
+  width: 18px;
+  height: 18px;
+}
+
+#content > .container > .texts p.with_img > img {
+  margin-bottom: 4px;
 }
 
 #content > .container > .texts > .separator {
@@ -118,6 +125,10 @@ header nav > ul > li > button > .prefix .icon {
 #content > .container > .texts > ul > li {
   display: flex;
   gap: 8px;
+}
+
+#content > .container > .texts > ul > li > img {
+  margin-top: 2.5px;
 }
 
 /* Screen Width: 768px */
