@@ -118,7 +118,7 @@ header nav > ul > li > button > .prefix .icon {
 }
 
 #content > .container > .texts > ul > li > img {
-  margin-top: 2.5px;
+  margin-top: 6px;
 }
 
 /* Screen Width: 768px */
@@ -218,6 +218,7 @@ header nav > ul > li > button > .prefix .icon {
   }
 
   #content > .container > .texts p {
+    line-height: 32px;
     font-size: 20px;
   }
 
