@@ -75,7 +75,7 @@ header nav > ul > li > button > .prefix .icon {
 
 #content > .container > .details > p {
   color: #BBB;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 500;
 }
 
@@ -86,8 +86,8 @@ header nav > ul > li > button > .prefix .icon {
 }
 
 #content > .container > .texts p {
-  line-height: 20px;
-  font-size: 14px;
+  line-height: 24px;
+  font-size: 16px;
   font-weight: 500;
 }
 
@@ -99,6 +99,7 @@ header nav > ul > li > button > .prefix .icon {
 
 #content > .container > .texts img {
   width: fit-content;
+  width: 16px;
   height: 16px;
 }
 
