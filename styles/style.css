@@ -103,7 +103,7 @@
 }
 
 h1, h2, h3, h4, h5, h6 {
-  letter-spacing: -0.8px !important;
+  letter-spacing: -0.5px !important;
 }
 
 body.ios_device h1,
@@ -127,7 +127,7 @@ body.android_device h6 {
 }
 
 p {
-  letter-spacing: -0.8px;
+  /* letter-spacing: -0.8px; */
 }
 
 ul {
@@ -476,6 +476,14 @@ footer > .container > .credit_and_country > .country > img {
 /* Screen Width: 1280px */
 
 @media only screen and (min-width: 1280px) {
+  h1, h2, h3, h4, h5, h6 {
+    letter-spacing: -0.8px !important;
+  }
+
+  p {
+    letter-spacing: -0.5px;
+  }
+
   /* Intro */
 
   #intro > #txt > .span {
