@@ -100,6 +100,21 @@ header nav > ul > li > button > .prefix .icon {
   height: 18px;
 }
 
+#content > .container > .texts .quote {
+  position: relative;
+  display: flex;
+}
+
+#content > .container > .texts .quote > .line {
+  position: absolute;
+  top: 0;
+  left: -10px;
+  bottom: 0;
+  width: 2px;
+  height: 100%;
+  background-color: #1D1D1F;
+}
+
 #content > .container > .texts > .separator {
   width: 100%;
   height: 1px;
@@ -147,6 +162,10 @@ header nav > ul > li > button > .prefix .icon {
   
   #hero img {
     width: 650px;
+  }
+
+  #content > .container > .texts .quote > .line {
+    left: -12px;
   }
 
   /* Content */
@@ -224,6 +243,11 @@ header nav > ul > li > button > .prefix .icon {
 
   #content > .container > .texts img {
     height: 20px;
+  }
+
+  #content > .container > .texts .quote > .line {
+    left: -24px;
+    width: 3px;
   }
 
   #content > .container > .texts > ul > li {
