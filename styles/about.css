@@ -17,7 +17,8 @@
   width: 200px;
   color: #C5C5C5;
   line-height: 100%;
-  font-family: var(--sf-pro-display-bold);
+  /* font-family: var(--sf-pro-display-bold); */
+  font-family: 'Inter', sans-serif;
   font-size: 36px;
   font-weight: 700;
 }
@@ -55,7 +56,8 @@
   color: #FFF;
   line-height: 160%;
   text-align: center;
-  font-family: var(--sf-pro-display-bold);
+  /* font-family: var(--sf-pro-display-bold); */
+  font-family: 'Inter', sans-serif;
   font-size: 18px;
   font-weight: 600;
 }
@@ -90,7 +92,8 @@
 }
 
 #work_experience_and_education > .container > div > h2 {
-  font-family: var(--sf-pro-display-bold);
+  /* font-family: var(--sf-pro-display-bold); */
+  font-family: 'Inter', sans-serif;
   font-size: 24px;
   font-weight: 700;
 }
@@ -257,9 +260,34 @@
 }
 
 #blogs > .container > .stacks > .stack > .thumbnail {
+  position: relative;
   width: 100%;
   height: 300px;
   background-size: cover;
+}
+
+#blogs > .container > .stacks > .stack:hover > .thumbnail > div {
+  opacity: 1;
+}
+
+#blogs > .container > .stacks > .stack > .thumbnail > div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  transition: all 200ms ease-in-out;
+  opacity: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(0, 0, 0, 0.5);
+}
+
+#blogs > .container > .stacks > .stack > .thumbnail > div > p {
+  color: var(--secondary-color);
 }
 
 #blogs > .container > .stacks > .stack:nth-child(1) > .thumbnail {
@@ -355,7 +383,7 @@
   
   #hero > .container > .texts > .heading_wrapper > h1 {
     width: 350px;
-    font-size: 72px;
+    font-size: 64px;
   }
   
   #hero > .container > .texts > .heading_wrapper > h1:last-child {
@@ -520,6 +548,7 @@
   }
   
   #hero > .container > .texts > .heading_wrapper > h1:last-child {
+    width: 600px;
     line-height: 100%;
     font-size: 88px;
   }

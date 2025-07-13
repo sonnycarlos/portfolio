@@ -2,26 +2,26 @@
 <html lang='en'>
 <head>
   <meta charset='UTF-8'>
-  <meta name='viewport' content='width=`, initial-scale=1.0'>
+  <meta name='viewport' content='width=device-width, initial-scale=1.0'>
   <meta property='og:image' content='https://imgur.com/a/icfXRaj'>
   <meta property='og:type' content='website'>
   <meta property='og:title' content='Esenway'>
   <meta property='og:description' content='Portfolio of Sonny Carlos'>
-  <title>Affiliate World CTA Button</title>
+  <title>Blogs</title>
   <link rel='icon' href='../assets/images/favicon.ico' type='image/x-icon'>
   <link rel='shortcut icon' href='../assets/images/favicon.ico' type='image/x-icon'>
   <link rel='apple-touch-icon' sizes='180x180' href='../assets/images/favicon.ico'>
   <link rel='stylesheet' href='../styles/style.css'>
-  <link rel='stylesheet' href='../styles/affiliate_world_cta_button_interaction.css'>
-  <link rel='stylesheet' href='../styles/animate_button.css'>
+  <link rel='stylesheet' href='../styles/blogs.css'>
   <link href='https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;700&display=swap' rel='stylesheet'>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js'></script>
 </head>
 <body>
   <!-- Menu Modal -->
   <div class='menu_modal'></div>
   
   <!-- Navigation Bar -->
-  <header id='navigation_bar' class='navigation_bar__project'>
+  <header id='navigation_bar'>
     <div class='container'>
       <nav>
         <a href='../index.html'>
@@ -43,16 +43,13 @@
           </li>
 
           <li>
-            <a href='./interactions.html'>Interactions</a>
-          </li>
-
-          <li>
-            <a href='./blogs.html'>Blogs</a>
+            <a href='./interactions.html'>Interactios</a>
           </li>
 
           <li>
             <a href='https://drive.google.com/drive/folders/13ZjfACg-nTRyGRVTn7DMDp3JTO1dfqMy?usp=sharing' target='_blank' class='btn text_btn link'>
               Resume
+              <img src='../assets/svg/icons/link_external.svg' alt='Icon' class='icon'>
             </a>
           </li>
         </ul>
@@ -67,77 +64,58 @@
     </div>
   </header>
 
-  <!-- Hero -->
-  <section id='hero'>
+  <!-- Blogs -->
+  <section id='blogs'>
     <div class='container'>
-      <h1>Affiliate World CTA Button</h1>
-      
-      <div class='stack'>
-        <button id='animate_button'>
-          <span class='default_txt txt'>Buy Tickets</span>
-          <span class='hover_txt txt'>Save Over $900!</span>
-        </button>
-      </div>
+      <div class='stacks'>
+        <a href='./blog_1.html' class='stack'>
+          <div class='thumbnail'>
+            <div>
+              <p>Click to open</p>
+            </div>
+          </div>
 
-      <div class='date_and_paragraph'>
-        <div class='date'>
-          <p>Year</p>
-          <p>2024</p>
-        </div>
+          <div class='title_and_description'>
+            <h3 class='title'>Landing a Job with a Creative Design Approach</h3>
+            <p class='description'>How I used design to make a lasting impression and ace my job interview.</p>
+          </div>
+        </a>
+        
+        <a href='./blog_2.html' class='stack'>
+          <div class='thumbnail'>
+            <div>
+              <p>Click to open</p>
+            </div>
+          </div>
 
-        <p class='paragraph'>This micro-interaction is designed to encourage users to buy tickets by drawing attention to the savings they will get. This creates a sense of urgency and highlights the value of buying early.</p>
+          <div class='title_and_description'>
+            <h3 class='title'>Enjoy The Journey, Not Just The Destination</h3>
+            <p class='description'>Finding joy and growth in every step of your personal and professional path.</p>
+          </div>
+        </a>
       </div>
     </div>
   </section>
 
-  <!-- More Interactions -->
-  <section id='more_interactions'>
+  <!-- Resume -->
+  <section id='resume'>
     <div class='container'>
-      <div class='heading_container'>
-        <span></span>
-        <h2>More interactions to play!</h2>
-      </div>
+      <div>
+        <div class='heading_and_paragraph'>
+          <h2>Check out my resume</h2>
+          <p>Are you interested in learning more about my professional background and skills? Click the button below to view my resume.</p>
+        </div>
   
-      <div class='work'>
-        <a href='./creator_conf_cta_button_interaction.html' id='creator_conf_cta_button' class='stack'>
-          <div class='thumbnail'>
-            <div>
-              <p>Click to open</p>
-            </div>
-          </div>
-  
-          <div class='title_and_year'>
-            <p class='title'>Creator Conf CTA Button</p>
-            <p class='year'>2025</p>
-          </div>
-        </a>
-  
-        <a href='./creator_conf_speakers_interaction.html' id='creator_conf_speakers' class='stack'>
-          <div class='thumbnail'>
-            <div>
-              <p>Click to open</p>
-            </div>
-          </div>
-  
-          <div class='title_and_year'>
-            <p class='title'>Creator Conf Speakers</p>
-            <p class='year'>2025</p>
-          </div>
-        </a>
-
-        <a href='./law_firm_cta_button_interaction.html' id='law_firm_cta_button' class='stack'>
-          <div class='thumbnail'>
-            <div>
-              <p>Click to open</p>
-            </div>
-          </div>
-  
-          <div class='title_and_year'>
-            <p class='title'>Law Fim CTA Button</p>
-            <p class='year'>2024</p>
-          </div>
+        <a href='https://drive.google.com/file/d/1LGaVyxa6A8J3bWm0EG-_X3MNY1oPRzkd/view?usp=sharing' target='_blank' class='btn solid_btn'>
+          <p>View Resume</p>
+    
+          <span class='suffix'>
+            <img src='../assets/svg/icons/download.svg' alt='Icon' class='icon'>
+          </span>
         </a>
       </div>
+  
+      <img src='../assets/images/resume_image.webp' alt='Image'>
     </div>
   </section>
 
@@ -178,15 +156,13 @@
     </div>
   </footer>
 
-  <!-- Script --> 
+  <!-- Script -->
   <script src='../scripts/toggle_menu_modal.js'></script>
-  <script src='../scripts/check_if_device_is_ios.js'></script>
-  <script src='../scripts/check_if_device_is_android.js'></script>
+  <script src='../scripts/hover_effect.js'></script>
   <script src='../scripts/download_resume.js'></script>
-  <script src='../scripts/intro_animation.js'></script>
+  <script src='../scripts/navigation_bar_animation.js'></script>
   <script src='../scripts/navigation_bar_animation.js'></script>
   <script src='../scripts/button_with_hammer.js'></script>
-  <script defer src='../scripts/scroll_animation.js'></script>
 
   <script>
     var currentYear = new Date().getFullYear()
