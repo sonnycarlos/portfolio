@@ -105,240 +105,6 @@ header nav > ul > li > button > .prefix .icon {
   line-height: 20px;
 }
 
-/* Brand DNA Section */
-
-#brand_dna_section > .container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 48px;
-  padding: 48px 24px;
-}
-
-#brand_dna_section > .container > h2 {
-  text-align: center;
-  /* font-family: var(--sf-pro-display-bold); */
-}
-
-#brand_dna_section > .container > div {
-  width: 100%;
-  background-color: #000;
-}
-
-#brand_dna_section > .container > div h3 {
-  color: #00A8E8;
-  font-weight: 600;
-}
-
-#brand_dna_section > .container > div p {
-  color: #FFF;
-}
-
-#brand_dna_section > .container > div > div {
-  display: flex;
-  flex-direction: column;
-  gap: 24px;
-  padding: 20px 16px;
-}
-
-#brand_dna_section > .container > div > .mission_and_vision {
-  gap: 32px;
-  padding-top: 32px;
-}
-
-#brand_dna_section > .container > div > .mission_and_vision > div {
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
-}
-
-#brand_dna_section > .container > div > .positioning_and_promise {
-  display: flex;
-  flex-direction: column;
-  gap: 32px;
-}
-
-#brand_dna_section > .container > div > .positioning_and_promise > div {
-  display: flex;
-  flex-direction: column;
-  gap: 24px;
-}
-
-#brand_dna_section > .container > div > .mission_and_vision > div > h3,
-#brand_dna_section > .container > div > .positioning_and_promise > div > h3 {
-  font-size: 24px;
-}
-
-#brand_dna_section > .container > div > .mission_and_vision > div > p,
-#brand_dna_section > .container > div > .positioning_and_promise > div > p {
-  line-height: 150%;
-  font-size: 16px;
-}
-
-#brand_dna_section > .container > div > .values > h3,
-#brand_dna_section > .container > div > .personality > h3,
-#brand_dna_section > .container > div > .key_messaging_pillars > h3 {
-  font-size: 24px;
-}
-
-#brand_dna_section > .container > div > .values > div,
-#brand_dna_section > .container > div > .personality > div,
-#brand_dna_section > .container > div > .key_messaging_pillars > div {
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
-}
-
-#brand_dna_section > .container > div > .values > div > div,
-#brand_dna_section > .container > div > .personality > div > div,
-#brand_dna_section > .container > div > .key_messaging_pillars > div > div {
-  padding: 14px;
-  border: 1px solid #595959;
-  border-radius: 8px;
-}
-
-#brand_dna_section > .container > div > .values > div > div > p,
-#brand_dna_section > .container > div > .personality > div > div > p,
-#brand_dna_section > .container > div > .key_messaging_pillars > div > div > p {
-  line-height: 140%;
-  color: #AAA;
-}
-
-#brand_dna_section > .container > div > .values > div > div > p > span,
-#brand_dna_section > .container > div > .personality > div > div > p > span,
-#brand_dna_section > .container > div > .key_messaging_pillars > div > div > p > span {
-  color: #FFF;
-  font-weight: 600;
-}
-
-#brand_dna_section > .container > div > .typography > h3 {
-  color: #FFF;
-  font-size: 24px;
-}
-
-#brand_dna_section > .container > div > .typography > div {
-  display: flex;
-  flex-direction: column;
-  gap: 40px;
-}
-
-#brand_dna_section > .container > div > .typography > div > div {
-  display: flex;
-  flex-direction: column;
-  gap: 24px;
-}
-
-#brand_dna_section > .container > div > .typography > div > div > h4 {
-  color: #00A8E8;
-  font-size: 20px;
-  font-weight: 500;
-}
-
-#brand_dna_section > .container > div > .typography > div > div > div {
-  display: flex;
-  flex-direction: column;
-  gap: 24px;
-}
-
-#brand_dna_section > .container > div > .typography > div > div > div > img {
-  width: fit-content;
-  height: 80px;
-}
-
-#brand_dna_section > .container > div > .typography > div > div > div > p {
-  width: 100%;
-  line-height: 160%;
-  letter-spacing: 0.64px;
-}
-
-#brand_dna_section > .container > div > .colors {
-  padding-bottom: 32px;
-}
-
-#brand_dna_section > .container > div > .colors > h3 {
-  color: #FFF;
-  font-size: 24px;
-}
-
-#brand_dna_section > .container > div > .colors > div {
-  display: flex;
-  flex-direction: column;
-  gap: 32px;
-}
-
-#brand_dna_section > .container > div > .colors > div > div {
-  display: flex;
-  flex-direction: column;
-  gap: 24px;
-}
-
-#brand_dna_section > .container > div > .colors > div > div > h4 {
-  color: #00A8E8;
-  letter-spacing: -0.4px;
-  font-weight: 600;
-}
-
-#brand_dna_section > .container > div > .colors > div > .primary_colors > div,
-#brand_dna_section > .container > div > .colors > div > .secondary_colors > div,
-#brand_dna_section > .container > div > .colors > div > .secondary_colors > div > div {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-}
-
-#brand_dna_section > .container > div > .colors > div > .primary_colors > div > div,
-#brand_dna_section > .container > div > .colors > div > .secondary_colors > div > div > div {
-  display: flex;
-  align-items: center;
-  gap: 16px;
-  padding: 8px;
-  border: 1px solid #595959;
-  border-radius: 8px;
-}
-
-#brand_dna_section > .container > div > .colors > div > .secondary_colors > div > div:last-child > div:last-child {
-  border: none !important;
-}
-
-#brand_dna_section > .container > div > .colors > div > .primary_colors > div > div > .palette,
-#brand_dna_section > .container > div > .colors > div > .secondary_colors > div > div > div > .palette {
-  width: 56px;
-  height: 56px;
-  border-radius: 8px;
-  background-color: #0D1B2A;
-}
-
-#brand_dna_section > .container > div > .colors > div > .primary_colors > div > div:last-child > .palette {
-  background-color: #00A8E8;
-}
-
-#brand_dna_section > .container > div > .colors > div > .secondary_colors > div > div > div:nth-child(1) > .palette {
-  background-color: #FF6B6B;
-}
-
-#brand_dna_section > .container > div > .colors > div > .secondary_colors > div > div > div:nth-child(2) > .palette {
-  background-color: #FFF;
-}
-
-#brand_dna_section > .container > div > .colors > div > .secondary_colors > div > div:last-child > div:nth-child(1) > .palette {
-  background-color: #E9ECEF;
-}
-
-#brand_dna_section > .container > div > .colors > div > .primary_colors > div > div > div:last-child,
-#brand_dna_section > .container > div > .colors > div > .secondary_colors > div > div > div > div:last-child {
-  display: flex;
-  flex-direction: column;
-  gap: 4px;
-}
-
-#brand_dna_section > .container > div > .colors > div > div > div > div .name {
-  font-size: 16px;
-}
-
-#brand_dna_section > .container > div > .colors > div > div > div > div > div .hex_code {
-  font-size: 14px;
-}
-
 /* Hero Section Content Alignment Rule Section */
 
 #adwai_hero_section_content_alignment_rule_section > .container {
@@ -512,6 +278,35 @@ header nav > ul > li > button > .prefix .icon {
   margin-top: -1px;
 }
 
+/* Mission & Vision */
+
+#mission_and_vision > .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 48px;
+  padding: 48px 24px;
+  background-color: var(--primary-color);
+}
+
+#mission_and_vision > .container > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+#mission_and_vision > .container > div > h2,
+#mission_and_vision > .container > div > p {
+  color: var(--secondary-color);
+}
+
+#mission_and_vision > .container > div > p {
+  text-align: center;
+  line-height: 20px;
+  font-size: 14px;
+}
+
 /* 404 Page Not Found Section */
 
 #page_not_found_section > .container {
@@ -534,6 +329,211 @@ header nav > ul > li > button > .prefix .icon {
 
 #page_not_found_section > .container > div > img {
   margin-top: -1px;
+}
+
+/* Typography */
+
+#typography > .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 48px;
+  padding: 48px 24px;
+}
+
+#typography > .container > .header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 24px;
+}
+
+#typography > .container > .header > * {
+  text-align: center;
+}
+
+#typography > .container > .header > h2 {
+  /* font-family: var(--sf-pro-display-bold); */
+}
+
+#typography > .container > .header > p {
+  text-align: center;
+  line-height: 20px;
+  font-size: 14px;
+}
+
+#typography > .container > .stacks {
+  display: grid;
+  grid-template-areas:
+    'stack_1 stack_1 stack_1 stack_1'
+    'stack_2 stack_2 stack_2 stack_2'
+    'stack_3 stack_3 stack_3 stack_3';
+  gap: 16px;
+  width: 100%;
+}
+
+#typography > .container > .stacks > .stack {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #F2F2F2;
+}
+
+#typography > .container > .stacks > .stack_1,
+#typography > .container > .stacks > .stack_2 {
+  gap: 24px;
+  /* width: 320px; */
+  height: 200px;
+}
+
+#typography > .container > .stacks > .stack_1 > p,
+#typography > .container > .stacks > .stack_2 > p,
+#typography > .container > .stacks > .stack_1 > div,
+#typography > .container > .stacks > .stack_2 > div {
+  width: 290px;
+}
+
+#typography > .container > .stacks > .stack_1 > p,
+#typography > .container > .stacks > .stack_2 > p {
+  font-weight: 700;
+}
+
+#typography > .container > .stacks > .stack_1 > div,
+#typography > .container > .stacks > .stack_2 > div {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+#typography > .container > .stacks > .stack_1 > div > p,
+#typography > .container > .stacks > .stack_2 > div > p {
+  /* font-family: var(--sf-pro-display-bold); */
+  font-size: 24px;
+}
+
+#typography > .container > .stacks > .stack_1 > div > p {
+  font-family: 'Roboto Mono';
+  font-weight: 700;
+}
+
+#typography > .container > .stacks > .stack_2 > div > p {
+  font-family: 'Inter';
+  font-weight: 700;
+}
+
+#typography > .container > .stacks > .stack_1 > div > div,
+#typography > .container > .stacks > .stack_2 > div > div {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+#typography > .container > .stacks > .stack_1 > div > div > p,
+#typography > .container > .stacks > .stack_2 > div > div > p {
+  /* font-family: var(--sf-pro-display-bold); */
+  font-size: 14px;
+  font-weight: 700;
+}
+
+#typography > .container > .stacks > .stack_1 > div > div > p {
+  font-family: 'Roboto Mono';
+}
+
+#typography > .container > .stacks > .stack_2 > div > div > p {
+  font-family: 'Inter';
+}
+
+#typography > .container > .stacks > .stack_1 {
+  grid-area: stack_1;
+}
+
+#typography > .container > .stacks > .stack_1 > p {
+  font-family: 'Roboto Mono';
+  font-size: 24px;
+}
+
+#typography > .container > .stacks > .stack_2 {
+  grid-area: stack_2;
+}
+
+#typography > .container > .stacks > .stack_2 > p {
+  font-family: 'Inter';
+  font-size: 24px;
+}
+
+#typography > .container > .stacks > .stack_3 {
+  position: relative;
+  grid-area: stack_3;
+  overflow: hidden;
+  height: 508px;
+  padding-top: 48px;
+}
+
+#typography > .container > .stacks > .stack_3 > img {
+  position: absolute;
+  top: 50%;
+  left: 20px;
+  transform: translateY(-50%);
+  width: fit-content;
+  height: 450px;
+}
+
+/* Hues */
+
+#hues > .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 48px;
+  padding: 48px 24px;
+}
+
+#hues > .container > h2 {
+  /* font-family: var(--sf-pro-display-bold); */
+}
+
+#hues > .container > .pallette > div {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+  height: 80px;
+}
+
+#hues > .container > .pallette {
+  width: 100%;
+  box-shadow: -10px 0px 20px 0px rgba(187, 187, 187, 0.25);
+}
+
+#hues > .container > .pallette > div:first-child {
+  background-color: #0D1B2A;
+}
+
+#hues > .container > .pallette > div:nth-child(2) {
+  background-color: #00A8E8;
+}
+
+#hues > .container > .pallette > div:nth-child(3) {
+  background-color: #FF6B6B;
+}
+
+#hues > .container > .pallette > div:nth-child(4) {
+  background-color: #FFF;
+}
+
+#hues > .container > .pallette > div:nth-child(5) {
+  background-color: #E6EBF0;
+}
+
+#hues > .container > .pallette > div > p {
+  /* font-family: var(--sf-pro-display-medium); */
+  font-size: 12px;
+}
+
+#hues > .container > .pallette > div:nth-child(1) > p,
+#hues > .container > .pallette > div:nth-child(2) > p,
+#hues > .container > .pallette > div:nth-child(3) > p {
+  color: var(--secondary-color);
 }
 
 /* Conclusion */
@@ -640,139 +640,6 @@ header nav > ul > li > button > .prefix .icon {
     line-height: 22px;
   }
 
-  /* Brand DNA Section */
-
-  #brand_dna_section > .container {
-    padding: 100px 64px;
-    gap: 100px;
-  }
-
-  #brand_dna_section > .container > h2 {
-    width: 450px;
-    font-size: 32px;
-  }
-
-  #brand_dna_section > .container > div > div {
-    gap: 24px;
-    padding: 40px 32px;
-  }
-  
-  #brand_dna_section > .container > div > .mission_and_vision {
-    gap: 48px;
-    padding-top: 64px;
-  }
-
-  #brand_dna_section > .container > div > .mission_and_vision > div {
-    gap: 20px;
-  }
-
-  #brand_dna_section > .container > div > .positioning_and_promise {
-    gap: 40px;
-  }
-
-  #brand_dna_section > .container > div > .positioning_and_promise > div {
-    gap: 24px;
-  }
-
-  #brand_dna_section > .container > div > .mission_and_vision > div > h3,
-  #brand_dna_section > .container > div > .positioning_and_promise > div > h3 {
-    font-size: 28px;
-  }
-
-  #brand_dna_section > .container > div > .mission_and_vision > div > p,
-  #brand_dna_section > .container > div > .positioning_and_promise > div > p {
-    font-size: 20px;
-  }
-
-  #brand_dna_section > .container > div > .values > h3,
-  #brand_dna_section > .container > div > .personality > h3,
-  #brand_dna_section > .container > div > .key_messaging_pillars > h3 {
-    font-size: 28px;
-  }
-
-  #brand_dna_section > .container > div > .values > div,
-  #brand_dna_section > .container > div > .personality > div,
-  #brand_dna_section > .container > div > .key_messaging_pillars > div {
-    gap: 20px;
-  }
-
-  #brand_dna_section > .container > div > .values > div > div,
-  #brand_dna_section > .container > div > .personality > div > div,
-  #brand_dna_section > .container > div > .key_messaging_pillars > div > div {
-    padding: 24px;
-  }
-
-  #brand_dna_section > .container > div > .values > div > div > p,
-  #brand_dna_section > .container > div > .personality > div,
-  #brand_dna_section > .container > div > .key_messaging_pillars > div > div > p {
-    font-size: 20px;
-  }
-
-  #brand_dna_section > .container > div > .typography {
-    gap: 48px;
-  }
-
-  #brand_dna_section > .container > div > .typography > h3 {
-    font-size: 28px;
-  }
-
-  #brand_dna_section > .container > div > .typography > div > div {
-    gap: 32px;
-  }
-
-  #brand_dna_section > .container > div > .typography > div > div > div {
-    flex-direction: row;
-    gap: 48px;
-  }
-
-  #brand_dna_section > .container > div > .typography > div > div > div > img {
-    height: 100px;
-  }
-
-  #brand_dna_section > .container > div > .typography > div > div > div > p {
-    font-size: 18px;
-  }
-
-  #brand_dna_section > .container > div > .colors {
-    padding-bottom: 64px;
-  }
-
-  #brand_dna_section > .container > div > .colors > h3 {
-    font-size: 28px;
-  }
-
-  #brand_dna_section > .container > div > .colors > div {
-    gap: 40px;
-  }
-
-  #brand_dna_section > .container > div > .colors > div > div {
-    gap: 32px;
-  }
-
-  #brand_dna_section > .container > div > .colors > div > .primary_colors > div > div,
-  #brand_dna_section > .container > div > .colors > div > .secondary_colors > div > div > div {
-    gap: 20px;
-  }
-
-  #brand_dna_section > .container > div > .colors > div > .primary_colors > div > div > .palette,
-  #brand_dna_section > .container > div > .colors > div > .secondary_colors > div > div > div > .palette {
-    width: 64px;
-    height: 64px;
-  }
-
-  #brand_dna_section > .container > div > .colors > div > .primary_colors > div > div > div:last-child,
-  #brand_dna_section > .container > div > .colors > div > .secondary_colors > div > div > div > div:last-child {
-    gap: 8px;
-  }
-
-  #brand_dna_section > .container > div > .colors > div > div > div > div .name {
-    font-size: 20px;
-  }
-
-  #brand_dna_section > .container > div > .colors > div > div > div > div > div .hex_code {
-    font-size: 16px;
-  }
-
   /* Hero Section Content Alignment Rule Section */
 
   #adwai_hero_section_content_alignment_rule_section > .container {
@@ -822,6 +689,111 @@ header nav > ul > li > button > .prefix .icon {
   #page_not_found_section > .container > h2 {
     width: 450px;
     font-size: 32px;
+  }
+
+  /* Mission & Vision */
+
+  #mission_and_vision > .container {
+    gap: 64px;
+    padding: 64px;
+  }
+
+  #mission_and_vision > .container > div {
+    width: 450px;
+  }
+
+  #mission_and_vision > .container > div > h2 {
+    font-size: 32px;
+  }
+
+  #mission_and_vision > .container > div > p {
+    line-height: 22px;
+    font-size: 16px;
+  }
+
+  /* Typography */
+
+  #typography > .container {
+    gap: 64px;
+    padding: 64px;
+  }
+
+  #typography > .container > .header > h2 {
+    font-size: 32px;
+  }
+
+  #typography > .container > .header > p {
+    line-height: 22px;
+    font-size: 16px;
+  }
+
+  #typography > .container > .stacks {
+    place-items: center;
+  }
+
+  #typography > .container > .stacks > .stack {
+    width: 656px;
+  }
+
+  #typography > .container > .stacks > .stack_1,
+  #typography > .container > .stacks > .stack_2 {
+    gap: 40px;
+    height: 284px;
+  }
+
+  #typography > .container > .stacks > .stack_1 > p,
+  #typography > .container > .stacks > .stack_2 > p,
+  #typography > .container > .stacks > .stack_1 > div,
+  #typography > .container > .stacks > .stack_2 > div {
+    width: 450px;
+  }
+  
+  #typography > .container > .stacks > .stack_1 > p,
+  #typography > .container > .stacks > .stack_2 > p {
+    font-size: 40px;
+  }
+  
+  #typography > .container > .stacks > .stack_1 > div,
+  #typography > .container > .stacks > .stack_2 > div {
+    gap: 24px;
+  }
+  
+  #typography > .container > .stacks > .stack_1 > div > p,
+  #typography > .container > .stacks > .stack_2 > div > p {
+    font-size: 40px;
+  }
+  
+  #typography > .container > .stacks > .stack_1 > div > div > p,
+  #typography > .container > .stacks > .stack_2 > div > div > p {
+    font-size: 20px;
+  }
+
+  #typography > .container > .stacks > .stack_3 > img {
+    left: 40px;
+  }
+
+  /* Hues */
+
+  #hues > .container {
+    gap: 64px;
+    padding: 64px 64px;
+  }
+
+  #hues > .container > h2 {
+    font-size: 32px;
+  }
+
+  #hues > .container > .pallette {
+    display: flex;
+    flex-direction: row;
+  }
+
+  #hues > .container > .pallette > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    height: 500px;
   }
   
   /* Conclusion */
@@ -891,122 +863,6 @@ header nav > ul > li > button > .prefix .icon {
     width: 400px;
   }
 
-  /* Brand DNA Section */
-
-  #brand_dna_section > .container {
-    gap: 80px;
-    padding: 80px 200px;
-  }
-
-  #brand_dna_section > .container > .header > h2 {
-    width: 500px;
-    font-size: 40px;
-  }
-
-  #brand_dna_section > .container > div > div {
-    width: 872px;
-  }
-
-  #brand_dna_section > .container > div > div {
-    width: 100%;
-    gap: 32px;
-    padding: 50px 64px;
-  }
-  
-  #brand_dna_section > .container > div > .mission_and_vision {
-    gap: 48px;
-    padding-top: 80px;
-  }
-
-  #brand_dna_section > .container > div > .positioning_and_promise {
-    gap: 64px;
-  }
-
-  #brand_dna_section > .container > div > .mission_and_vision > div > h3,
-  #brand_dna_section > .container > div > .positioning_and_promise > div > h3 {
-    font-size: 32px;
-  }
-
-  #brand_dna_section > .container > div > .values > h3,
-  #brand_dna_section > .container > div > .personality > h3,
-  #brand_dna_section > .container > div > .key_messaging_pillars > h3 {
-    font-size: 32px;
-  }
-
-  #brand_dna_section > .container > div > .values > div,
-  #brand_dna_section > .container > div > .personality > div,
-  #brand_dna_section > .container > div > .key_messaging_pillars > div {
-    gap: 32px;
-  }
-
-  #brand_dna_section > .container > div > .key_messaging_pillars > div {
-    flex-direction: row;
-  }
-
-  #brand_dna_section > .container > div > .key_messaging_pillars > div > div {
-    width: 33.33%;
-  }
-
-  #brand_dna_section > .container > div > .typography {
-    gap: 64px;
-  }
-
-  #brand_dna_section > .container > div > .typography > h3 {
-    font-size: 32px;
-  }
-
-  #brand_dna_section > .container > div > .typography > div {
-    gap: 64px;
-  }
-
-  #brand_dna_section > .container > div > .typography > div > div {
-    gap: 40px;
-  }
-
-  #brand_dna_section > .container > div > .typography > div > div > div {
-    gap: 80px;
-  }
-
-  #brand_dna_section > .container > div > .typography > div > div > div > img {
-    height: 150px;
-  }
-
-  #brand_dna_section > .container > div > .typography > div > div > div > p {
-    letter-spacing: 2.88px;
-    font-size: 24px;
-  }
-
-  #brand_dna_section > .container > div > .colors {
-    padding-bottom: 80px;
-  }
-
-  #brand_dna_section > .container > div > .colors > h3 {
-    font-size: 32px;
-  }
-
-  #brand_dna_section > .container > div > .colors > div {
-    gap: 40px;
-  }
-
-  #brand_dna_section > .container > div > .colors > div > div {
-    gap: 32px;
-  }
-
-  #brand_dna_section > .container > div > .colors > div > div > h4 {
-    font-size: 20px;
-  }
-
-  #brand_dna_section > .container > div > .colors > div > .primary_colors > div > div,
-  #brand_dna_section > .container > div > .colors > div > .secondary_colors > div > div > div {
-    gap: 20px;
-  }
-
-  #brand_dna_section > .container > div > .colors > div > .primary_colors > div > div > .palette,
-  #brand_dna_section > .container > div > .colors > div > .secondary_colors > div > div > div > .palette {
-    width: 64px;
-    height: 64px;
-  }
-
   /* Hero Section Content Alignment Rule Section */
   /* Landing Page Section */
   /* Buy Tickets Page Section */
@@ -1053,6 +909,47 @@ header nav > ul > li > button > .prefix .icon {
   #faqs_page_section > .container > div > img,
   #page_not_found_section > .container > div > img {
     width: 1000px;
+  }
+
+  /* Mission & Vision */
+
+  #mission_and_vision > .container {
+    gap: 80px;
+    padding: 80px;
+  }
+
+  #mission_and_vision > .container > div {
+    width: 500px;
+  }
+  
+  #mission_and_vision > .container > div > h2 {
+    font-size: 40px;
+  }
+
+  /* Typography */
+
+  #typography > .container {
+    gap: 80px;
+    padding: 80px 200px;
+  }
+
+  #typography > .container > .header {
+    width: 500px;
+  }
+
+  #typography > .container > .header > h2 {
+    font-size: 40px;
+  }
+
+  /* Hues */
+
+  #hues > .container {
+    gap: 80px;
+    padding: 80px 200px;
+  }
+
+  #hues > .container > h2 {
+    font-size: 40px;
   }
 
   /* Conclusion */
@@ -1103,13 +1000,6 @@ header nav > ul > li > button > .prefix .icon {
     padding: 0 150px;
   }
 
-  /* Brand DNA Section */
-
-  #brand_dna_section > .container {
-    gap: 120px;
-    padding: 120px 200px;
-  }
-
   /* Hero Section Content Alignment Rule Section */
   /* Landing Page Section */
   /* Buy Tickets Page Section */
@@ -1130,6 +1020,51 @@ header nav > ul > li > button > .prefix .icon {
     gap: 120px;
     padding: 120px 200px;
   }
+
+  /* Typography */
+
+  #typography > .container {
+    gap: 120px;
+    padding: 120px 200px;
+  }
+  
+  #typography > .container > .stacks {
+    grid-template-areas:
+      'stack_1 stack_1 stack_3 stack_3'
+      'stack_2 stack_2 stack_3 stack_3';
+    gap: 24px;
+    width: fit-content;
+  }
+
+  #typography > .container > .stacks > .stack_1,
+  #typography > .container > .stacks > .stack_2 {
+    width: 600px;
+    height: 260px;
+  }
+
+  #typography > .container > .stacks > .stack_3 {
+    width: 450px;
+    height: 100%;
+  }
+
+  #typography > .container > .stacks > .stack_3 > img {
+    position: absolute;
+    bottom: 0;
+    left: 20px;
+    width: fit-content;
+    height: 500px;
+  }
+
+  /* Hues */
+
+  #hues > .container {
+    gap: 120px;
+    padding: 120px 200px;
+  }
+
+  #hues > .container > .pallette {
+    width: 800px;
+  }
   
   /* Conclusion */
 
@@ -1145,12 +1080,6 @@ header nav > ul > li > button > .prefix .icon {
 
   #about > .container > div {
     padding: 0 150px;
-  }
-
-  /* Brand DNA Section */
-
-  #brand_dna_section > .container {
-    padding: 120px 400px;
   }
 }
 
