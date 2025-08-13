@@ -7,30 +7,31 @@
   padding: 48px 24px;
 }
 
-#blogs > .container > .stacks {
+#blogs > .container > .stacks,
+#blogs > .container > .stacks > div {
   display: flex;
   flex-direction: column;
   gap: 40px;
 }
 
-#blogs > .container > .stacks > .stack {
+#blogs > .container > .stacks > div > .stack {
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
 
-#blogs > .container > .stacks > .stack > .thumbnail {
+#blogs > .container > .stacks > div > .stack > .thumbnail {
   position: relative;
   width: 100%;
   height: 300px;
   background-size: cover;
 }
 
-#blogs > .container > .stacks > .stack:hover > .thumbnail > div {
+#blogs > .container > .stacks > div > .stack:hover > .thumbnail > div {
   opacity: 1;
 }
 
-#blogs > .container > .stacks > .stack > .thumbnail > div {
+#blogs > .container > .stacks > div > .stack > .thumbnail > div {
   position: absolute;
   top: 0;
   left: 0;
@@ -46,34 +47,38 @@
   background-color: rgb(0, 0, 0, 0.5);
 }
 
-#blogs > .container > .stacks > .stack > .thumbnail > div > p {
+#blogs > .container > .stacks > div > .stack > .thumbnail > div > p {
   color: var(--secondary-color);
 }
 
-#blogs > .container > .stacks > .stack:nth-child(1) > .thumbnail {
+#blogs > .container > .stacks > div:nth-child(1) > .stack:nth-child(1) > .thumbnail {
   background-image: url('../assets/images/thumbnails/blog_post_1.webp');
 }
 
-#blogs > .container > .stacks > .stack:nth-child(2) > .thumbnail {
+#blogs > .container > .stacks > div:nth-child(1) > .stack:nth-child(2) > .thumbnail {
   background-image: url('../assets/images/thumbnails/blog_post_2.webp');
 }
 
-#blogs > .container > .stacks > .stack > .title_and_description {
+#blogs > .container > .stacks > div:nth-child(2) > .stack:nth-child(1) > .thumbnail {
+  background-image: url('../assets/images/thumbnails/blog_post_3.webp');
+}
+
+#blogs > .container > .stacks > div > .stack > .title_and_description {
   display: flex;
   flex-direction: column;
   gap: 4px;
 }
 
-#blogs > .container > .stacks > .stack > .title_and_description > * {
+#blogs > .container > .stacks > div > .stack > .title_and_description > * {
   color: #CCC;
 }
 
-#blogs > .container > .stacks > .stack > .title_and_description > .title {
+#blogs > .container > .stacks > div > .stack > .title_and_description > .title {
   font-size: 18px;
   font-weight: 550;
 }
 
-#blogs > .container > .stacks > .stack > .title_and_description > .description {
+#blogs > .container > .stacks > div > .stack > .title_and_description > .description {
   font-size: 14px;
 }
 
@@ -137,20 +142,20 @@
     padding: 80px 64px;
   }
 
-  #blogs > .container > .stacks {
+  #blogs > .container > .stacks > div {
     flex-direction: row;
     gap: 32px;
   }
 
-  #blogs > .container > .stacks > .stack > .thumbnail {
+  #blogs > .container > .stacks > div > .stack > .thumbnail {
     height: 266px;
   }
 
-  #blogs > .container > .stacks > .stack > .title_and_description > .title {
+  #blogs > .container > .stacks > div > .stack > .title_and_description > .title {
     font-size: 20px;
   }
 
-  #blogs > .container > .stacks > .stack > .title_and_description > .description {
+  #blogs > .container > .stacks > div > .stack > .title_and_description > .description {
     font-size: 16px;
   }
 
@@ -192,16 +197,16 @@
     padding: 80px 120px;
   }
 
-  #blogs > .container > .stacks {
+  #blogs > .container > .stacks > div {
     flex-direction: row;
     gap: 32px;
   }
 
-  #blogs > .container > .stacks > .stack {
+  #blogs > .container > .stacks > div > .stack {
     width: 100%;
   }
 
-  #blogs > .container > .stacks > .stack > .thumbnail {
+  #blogs > .container > .stacks > div > .stack > .thumbnail {
     height: 380px;
   }
 
@@ -245,7 +250,7 @@
     padding: 80px 220px;
   }
 
-  #blogs > .container > .stacks > .stack > .thumbnail {
+  #blogs > .container > .stacks > div > .stack > .thumbnail {
     height: 420px;
   }
 
