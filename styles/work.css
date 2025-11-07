@@ -89,6 +89,10 @@
   color: #CCC;
 }
 
+#museo > .container > .projects > #istack_conferences > .thumbnail {
+  background-image: url('../assets/images/thumbnails/istack_conferences.webp');
+}
+
 #museo > .container > .projects > #awc_networking_app > .thumbnail {
   background-image: url('../assets/images/thumbnails/awc_networking_app.webp');
 }
