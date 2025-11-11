@@ -692,7 +692,7 @@
 
   #tagline > .container {
     gap: 24px;
-    padding: 120px 24px 80px;
+    padding: 175px 24px 120px;
   }
 
   #tagline > .container > h2 {
@@ -733,12 +733,6 @@
 
   #blogs > .container {
     padding: 80px 200px;
-  }
-
-  /* Tagline */
-
-  #tagline > .container {
-    padding-top: 150px;
   }
 
   /* Resume */
