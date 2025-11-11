@@ -319,6 +319,31 @@
   font-size: 14px;
 }
 
+/* Tagline */
+
+#tagline > .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 64px 24px 48px;
+}
+
+#tagline > .container > h2 {
+  width: 260px;
+  color: #C5C5C5;
+  line-height: 100%;
+  font-size: 32px;
+  font-weight: 600;
+}
+
+#tagline > .container > p {
+  width: 260px;
+  color: #C5C5C5;
+  line-height: 20px;
+  font-size: 16px;
+}
+
 /* Resume */
 
 #resume > .container {
@@ -501,6 +526,24 @@
     font-size: 16px;
   }
 
+  /* Tagline */
+
+  #tagline > .container {
+    gap: 24px;
+    padding: 100px 24px 80px;
+  }
+
+  #tagline > .container > h2 {
+    width: 480px;
+    font-size: 48px;
+  }
+
+  #tagline > .container > p {
+    width: 480px;
+    line-height: 120%;
+    font-size: 24px;
+  }
+
   /* Resume */
 
   #resume > .container {
@@ -645,6 +688,23 @@
     height: 380px;
   }
 
+  /* Tagline */
+
+  #tagline > .container {
+    gap: 24px;
+    padding: 120px 24px 80px;
+  }
+
+  #tagline > .container > h2 {
+    width: 500px;
+    line-height: 110%;
+    font-size: 48px;
+  }
+
+  #tagline > .container > p {
+    width: 500px;
+  }
+
   /* Resume */
 
   #resume > .container {
@@ -673,6 +733,12 @@
 
   #blogs > .container {
     padding: 80px 200px;
+  }
+
+  /* Tagline */
+
+  #tagline > .container {
+    padding-top: 150px;
   }
 
   /* Resume */
