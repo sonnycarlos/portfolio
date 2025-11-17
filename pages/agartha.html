@@ -261,42 +261,7 @@
   </section>
 
   <!-- Footer -->
-  <footer>
-    <div class='container'>
-      <div class='text_and_links'>
-        <p>There's a seat waiting for you at tables you haven't even seen yet.</p>
-
-        <div class='links'>
-          <a href='mailto:holasonnycarlos@gmail.com?subject=Mail%20from%20website'>Email</a>
-          <a href='https://www.linkedin.com/in/sonnyccarlos/' target='_blank'>LinkedIn</a>
-          <a href='https://www.behance.net/sonnycarlos' target='_blank'>Behance</a>
-          <a href='https://dribbble.com/sonnycarlos' target='_blank'>Dribbble</a>
-          <a href='https://medium.com/@holasonnycarlos' target='_blank'>Medium</a>
-          <a href='https://substack.com/@sonnycarlos' target='_blank'>Substack</a>
-          <a href='https://github.com/sonnycarlos' target='_blank'>Github</a>
-          <a href='https://twitter.com/sonnyccarlos' target='_blank'>Twitter</a>
-          <a href='https://www.instagram.com/sonnyangelsburger/' target='_blank'>Instagram</a>
-          <a href='https://www.facebook.com/sonnyangel696' target='_blank'>Facebook</a>
-        </div>
-      </div>
-
-      <div class='logo_and_paragraph'>
-        <img src='../assets/svg/brand_logo.svg' alt='Brand Logo'>
-        <p>Landing humans on my portfolio and bringing them back to Earth with new ideas</p>
-      </div>
-
-      <span class='separator'></span>
-
-      <div class='credit_and_country'>
-        <p class='credit'>© <span id='current_year'></span> Sonny Carlos</p>
-
-        <div class='country'>
-          <p>Philippines</p>
-          <img src='../assets/svg/icons/flag.svg' alt='Icon'>
-        </div>
-      </div>
-    </div>
-  </footer>
+  <section include-html='../components/footer.html'></section>
 
   <!-- Script --> 
   <script src='../scripts/toggle_menu_modal.js'></script>
@@ -306,10 +271,5 @@
   <script src='../scripts/intro_animation.js'></script>
   <script src='../scripts/navigation_bar_animation.js'></script>
   <script defer src='../scripts/scroll_animation.js'></script>
-
-  <script>
-    var currentYear = new Date().getFullYear()
-    document.getElementById('current_year').textContent = currentYear
-  </script>
 </body>
 </html>
