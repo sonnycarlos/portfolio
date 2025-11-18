@@ -356,11 +356,11 @@ body {
 }
 
 #blogs > .container > .stacks > .stack:nth-child(1) > .thumbnail {
-  background-image: url('../assets/images/thumbnails/blog_post_1.webp');
+  background-image: url('../assets/images/thumbnails/blog_1.webp');
 }
 
 #blogs > .container > .stacks > .stack:nth-child(2) > .thumbnail {
-  background-image: url('../assets/images/thumbnails/blog_post_2.webp');
+  background-image: url('../assets/images/thumbnails/blog_2.webp');
 }
 
 #blogs > .container > .stacks > .stack > .title_and_description {
