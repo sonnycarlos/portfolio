@@ -64,6 +64,10 @@
   background-image: url('../assets/images/thumbnails/blog_3.webp');
 }
 
+#blogs > .container > .stacks > div:nth-child(2) > .stack:nth-child(2) > .thumbnail {
+  background-image: url('../assets/images/thumbnails/blog_4.webp');
+}
+
 #blogs > .container > .stacks > div > .stack > .title_and_description {
   display: flex;
   flex-direction: column;
