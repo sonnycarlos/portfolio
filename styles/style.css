@@ -46,8 +46,18 @@
 }
 
 @font-face {
+  font-family: 'NeueMontreal-Regular';
+  src: url('../assets/fonts/NeueMontreal-Regular.otf');
+}
+
+@font-face {
   font-family: 'NeueMontreal-Medium';
   src: url('../assets/fonts/NeueMontreal-Medium.otf');
+}
+
+@font-face {
+  font-family: 'NeueMontreal-Bold';
+  src: url('../assets/fonts/NeueMontreal-Bold.otf');
 }
 
 @font-face {
@@ -103,7 +113,7 @@
 }
 
 h1, h2, h3, h4, h5, h6 {
-  letter-spacing: -0.5px !important;
+  letter-spacing: -0.25px !important;
 }
 
 body.ios_device h1,
@@ -477,11 +487,11 @@ footer > .container > .credit_and_country > .country > img {
 
 @media only screen and (min-width: 1280px) {
   h1, h2, h3, h4, h5, h6 {
-    letter-spacing: -0.8px !important;
+    letter-spacing: -0.25px !important;
   }
 
   p {
-    letter-spacing: -0.5px;
+    /* letter-spacing: -0.5px; */
   }
 
   /* Intro */
