@@ -29,7 +29,7 @@ header nav > ul > li > button > .prefix .icon {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 16px;
+  gap: 12px;
   width: 350px;
 }
 
@@ -119,7 +119,7 @@ header nav > ul > li > button > .prefix .icon {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 24px;
+  gap: 12px;
 }
 
 #brand_perception > div > .container > .header > * {
@@ -158,7 +158,7 @@ header nav > ul > li > button > .prefix .icon {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 24px;
+  gap: 12px;
 }
 
 #programs_stacks > div > .container > .header > * {
@@ -252,7 +252,7 @@ header nav > ul > li > button > .prefix .icon {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 24px;
+  gap: 12px;
 }
 
 #conclusion > .container > .header > * {
@@ -292,7 +292,7 @@ header nav > ul > li > button > .prefix .icon {
   }
 
   #hero .header {
-    gap: 24px;
+    gap: 14px;
     width: 600px;
   }
   
@@ -346,6 +346,7 @@ header nav > ul > li > button > .prefix .icon {
   }
 
   #brand_perception > div > .container > .header {
+    gap: 14px;
     width: 450px;
   }
 
@@ -366,6 +367,7 @@ header nav > ul > li > button > .prefix .icon {
   }
 
   #programs_stacks > div > .container > .header {
+    gap: 14px;
     width: 450px;
   }
 
@@ -424,6 +426,7 @@ header nav > ul > li > button > .prefix .icon {
   }
 
   #conclusion > .container > .header {
+    gap: 14px;
     width: 450px;
   }
 

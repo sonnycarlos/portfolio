@@ -29,7 +29,7 @@ header nav > ul > li > button > .prefix .icon {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 16px;
+  gap: 12px;
   width: 350px;
 }
 
@@ -119,7 +119,7 @@ header nav > ul > li > button > .prefix .icon {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 24px;
+  gap: 12px;
 }
 
 #hero_section > .container > .header > * {
@@ -150,7 +150,7 @@ header nav > ul > li > button > .prefix .icon {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 24px;
+  gap: 12px;
 }
 
 #cta_button > .container > .header > * {
@@ -250,7 +250,7 @@ header nav > ul > li > button > .prefix .icon {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 24px;
+  gap: 12px;
 }
 
 #past_speakers_section > .container > .header > * {
@@ -531,7 +531,7 @@ header nav > ul > li > button > .prefix .icon {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 24px;
+  gap: 12px;
 }
 
 #conclusion > .container > .header > * {
@@ -575,7 +575,7 @@ header nav > ul > li > button > .prefix .icon {
   }
 
   #hero .header {
-    gap: 24px;
+    gap: 14px;
     width: 600px;
   }
   
@@ -629,6 +629,7 @@ header nav > ul > li > button > .prefix .icon {
   }
 
   #hero_section > .container > .header {
+    gap: 14px;
     width: 450px;
   }
 
@@ -649,6 +650,7 @@ header nav > ul > li > button > .prefix .icon {
   }
 
   #cta_button > .container > .header {
+    gap: 14px;
     width: 450px;
   }
 
@@ -714,6 +716,7 @@ header nav > ul > li > button > .prefix .icon {
   }
 
   #past_speakers_section > .container > .header {
+    gap: 14px;
     width: 450px;
   }
 
@@ -869,6 +872,7 @@ header nav > ul > li > button > .prefix .icon {
   }
 
   #conclusion > .container > .header {
+    gap: 14px;
     width: 450px;
   }
 

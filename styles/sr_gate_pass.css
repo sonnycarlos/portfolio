@@ -28,7 +28,7 @@ header nav > ul > li > button > .prefix .icon {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 16px;
+  gap: 12px;
   width: 350px;
 }
 
@@ -118,7 +118,7 @@ header nav > ul > li > button > .prefix .icon {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 24px;
+  gap: 12px;
 }
 
 #ideation > .container > .header > * {
@@ -150,7 +150,7 @@ header nav > ul > li > button > .prefix .icon {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 24px;
+  gap: 12px;
 }
 
 #mission_and_vision > .container > div > h2,
@@ -182,7 +182,7 @@ header nav > ul > li > button > .prefix .icon {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 24px;
+  gap: 12px;
 }
 
 #typography > .container > .header > * {
@@ -332,7 +332,7 @@ header nav > ul > li > button > .prefix .icon {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 16px;
+  gap: 12px;
 }
 
 #other_features > .container > .stacks > .stack > .header > h3 {
@@ -420,7 +420,7 @@ header nav > ul > li > button > .prefix .icon {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 24px;
+  gap: 12px;
 }
 
 #conclusion > .container > .header > * {
@@ -456,7 +456,7 @@ header nav > ul > li > button > .prefix .icon {
   }
 
   #hero .header {
-    gap: 24px;
+    gap: 14px;
     width: 600px;
   }
   
@@ -510,6 +510,7 @@ header nav > ul > li > button > .prefix .icon {
   }
 
   #ideation > .container > .header {
+    gap: 14px;
     width: 450px;
   }
 
@@ -530,6 +531,7 @@ header nav > ul > li > button > .prefix .icon {
   }
 
   #mission_and_vision > .container > div {
+    gap: 14px;
     width: 450px;
   }
 
@@ -547,6 +549,10 @@ header nav > ul > li > button > .prefix .icon {
   #typography > .container {
     gap: 64px;
     padding: 64px;
+  }
+
+  #typography > .container > .header {
+    gap: 14px;
   }
 
   #typography > .container > .header > h2 {
@@ -627,6 +633,10 @@ header nav > ul > li > button > .prefix .icon {
     width: 450px;
   }
 
+  #other_features > .container > .stacks > .stack > .header {
+    gap: 14px;
+  }
+
   #other_features > .container > .stacks > .stack > .header > p {
     line-height: 22px;
     font-size: 16px;
@@ -655,6 +665,7 @@ header nav > ul > li > button > .prefix .icon {
   }
 
   #conclusion > .container > .header {
+    gap: 14px;
     width: 450px;
   }
 

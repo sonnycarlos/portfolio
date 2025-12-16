@@ -29,7 +29,7 @@ header nav > ul > li > button > .prefix .icon {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 16px;
+  gap: 12px;
   width: 350px;
 }
 
@@ -119,7 +119,7 @@ header nav > ul > li > button > .prefix .icon {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 24px;
+  gap: 12px;
 }
 
 #design_process > div > .container > .header > * {
@@ -154,7 +154,7 @@ header nav > ul > li > button > .prefix .icon {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 24px;
+  gap: 12px;
 }
 
 #hero_section > div > .container > .header > * {
@@ -186,7 +186,7 @@ header nav > ul > li > button > .prefix .icon {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 24px;
+  gap: 12px;
 }
 
 #trusted_by_section > div > .container > .header > * {
@@ -217,7 +217,7 @@ header nav > ul > li > button > .prefix .icon {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 24px;
+  gap: 12px;
 }
 
 #strong_arm_scholarship_section > div > .container > .header > * {
@@ -248,7 +248,7 @@ header nav > ul > li > button > .prefix .icon {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 24px;
+  gap: 12px;
 }
 
 #blogs_section > div > .container > .header > * {
@@ -279,7 +279,7 @@ header nav > ul > li > button > .prefix .icon {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 24px;
+  gap: 12px;
 }
 
 #stay_informed_section > div > .container > .header > * {
@@ -310,7 +310,7 @@ header nav > ul > li > button > .prefix .icon {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 24px;
+  gap: 12px;
 }
 
 #conclusion > .container > .header > * {
@@ -350,7 +350,7 @@ header nav > ul > li > button > .prefix .icon {
   }
 
   #hero .header {
-    gap: 24px;
+    gap: 14px;
     width: 600px;
   }
   
@@ -404,6 +404,7 @@ header nav > ul > li > button > .prefix .icon {
   }
 
   #design_process > div > .container > .header {
+    gap: 14px;
     width: 450px;
   }
 
@@ -428,6 +429,7 @@ header nav > ul > li > button > .prefix .icon {
   }
 
   #hero_section > div > .container > .header {
+    gap: 14px;
     width: 450px;
   }
 
@@ -457,6 +459,7 @@ header nav > ul > li > button > .prefix .icon {
   }
 
   #trusted_by_section > div > .container > .header {
+    gap: 14px;
     width: 450px;
   }
 
@@ -477,6 +480,7 @@ header nav > ul > li > button > .prefix .icon {
   }
 
   #strong_arm_scholarship_section > div > .container > .header {
+    gap: 14px;
     width: 450px;
   }
 
@@ -497,6 +501,7 @@ header nav > ul > li > button > .prefix .icon {
   }
 
   #blogs_section > div > .container > .header {
+    gap: 14px;
     width: 450px;
   }
 
@@ -517,6 +522,7 @@ header nav > ul > li > button > .prefix .icon {
   }
 
   #stay_informed_section > div > .container > .header {
+    gap: 14px;
     width: 450px;
   }
 
@@ -537,6 +543,7 @@ header nav > ul > li > button > .prefix .icon {
   }
 
   #conclusion > .container > .header {
+    gap: 14px;
     width: 450px;
   }
 

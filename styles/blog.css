@@ -29,7 +29,7 @@ header nav > ul > li > button > .prefix .icon {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 16px;
+  gap: 12px;
 }
 
 #hero .header > h1,
@@ -147,7 +147,7 @@ header nav > ul > li > button > .prefix .icon {
   }
 
   #hero .header {
-    gap: 24px;
+    gap: 14px;
     width: 600px;
   }
   

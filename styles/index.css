@@ -7,7 +7,7 @@ body {
 #heading_container > .container {
   display: flex;
   flex-direction: column;
-  gap: 14px;
+  gap: 8px;
   padding: 48px 24px;
 }
 
@@ -400,7 +400,7 @@ body {
 #resume > .container > div > .heading_and_paragraph {
   display: flex;
   flex-direction: column;
-  gap: 24px;
+  gap: 12px;
 }
 
 #resume > .container > div > .heading_and_paragraph > h2 {
@@ -573,6 +573,10 @@ body {
 
   #resume > .container > div {
     gap: 48px;
+  }
+
+  #resume > .container > div > .heading_and_paragraph {
+    gap: 14px;
   }
 
   #resume > .container > div > .heading_and_paragraph > h2 {
