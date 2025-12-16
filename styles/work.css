@@ -93,6 +93,14 @@
   background-image: url('../assets/images/thumbnails/istack_conferences.webp');
 }
 
+#museo > .container > .projects > #ad_world_prime > .thumbnail {
+  background-image: url('../assets/images/thumbnails/ad_world_prime.webp');
+}
+
+#museo > .container > .projects > #ecw25 > .thumbnail {
+  background-image: url('../assets/images/thumbnails/ecw25.webp');
+}
+
 #museo > .container > .projects > #awc_networking_app > .thumbnail {
   background-image: url('../assets/images/thumbnails/awc_networking_app.webp');
 }

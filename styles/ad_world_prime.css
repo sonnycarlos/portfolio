@@ -1,0 +1,913 @@
+/* Navigation Bar */
+
+header nav > a > .logo {
+  filter: invert(0%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(0%) contrast(75%);
+}
+
+header nav > ul > li > a,
+header nav > ul > li > .link {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+header nav > ul > li > button > .prefix .icon {
+  filter: invert(0%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(0%) contrast(75%);
+}
+
+/* Hero */
+
+#hero > .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 64px;
+  padding: 64px 24px;
+}
+
+#hero .header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  width: 350px;
+}
+
+#hero .header > h1,
+#hero .header > p {
+  text-align: center;
+}
+
+#hero .header > h1 {
+  /* font-family: var(--sf-pro-display-bold); */
+  font-size: 24px;
+}
+
+#hero .header p {
+  line-height: 18px;
+  letter-spacing: -0.4px;
+  /* font-family: var(--sf-pro-display-medium); */
+  font-size: 14px;
+  letter-spacing: -0.4px;
+}
+
+#hero img {
+  width: 350px;
+}
+
+/* About */
+
+#about {
+  background-color: #F2F2F2;
+}
+
+#about > .container {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding: 48px 24px;
+}
+
+#about > .container > .details {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+#about > .container > .details > div {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+#about > .container > .details > div > div {
+  display: flex;
+  gap: 12px;
+}
+
+#about > .container > .details p {
+  line-height: 20px;
+  font-size: 14px;
+}
+
+#about > .container > .details > div > div > p {
+  /* font-family: var(--sf-pro-display-bold); */
+  font-weight: 700;
+}
+
+#about > .container > .details > div > div > div {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+#about > .container > .details > p {
+  line-height: 20px;
+}
+
+/* New Year Flash Sale 2026 */
+
+#new_year_flash_sale_2026 > .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 48px;
+  padding: 48px 24px;
+}
+
+#new_year_flash_sale_2026 > .container > .header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+#new_year_flash_sale_2026 > .container > .header > * {
+  text-align: center;
+}
+
+#new_year_flash_sale_2026 > .container > .header > p {
+  text-align: center;
+  line-height: 20px;
+  font-size: 14px;
+}
+
+#new_year_flash_sale_2026 > .container > img {
+  width: fill-container;
+}
+
+#new_year_flash_sale_2026 > .container > p {
+  line-height: 22px;
+  text-align: center;
+}
+
+/* New Mini Campaign Design */
+
+#new_mini_campaign_design > .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 48px;
+  padding: 48px 24px;
+}
+
+#new_mini_campaign_design > .container > .header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+#new_mini_campaign_design > .container > .header > * {
+  text-align: center;
+}
+
+#new_mini_campaign_design > .container > .header > p {
+  text-align: center;
+  line-height: 20px;
+  font-size: 14px;
+}
+
+#new_mini_campaign_design > .container > img {
+  width: fill-container;
+}
+
+#new_mini_campaign_design > .container > p {
+  text-align: center;
+}
+
+#new_mini_campaign_design > .container > .image_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+#new_mini_campaign_design > .container > .image_container > p {
+  font-weight: 600;
+}
+
+/* Login Page */
+
+#login_page > .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 48px;
+  padding: 48px 24px;
+}
+
+#login_page > .container > h2 {
+  text-align: center;
+}
+
+#login_page > .container > img {
+  width: fill-container;
+}
+
+/* Graphic Design Work */
+
+#graphic_design_work > .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 48px;
+  padding: 48px 24px;
+  background-color: #F1F1F1;
+}
+
+#graphic_design_work > .container > .header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+#graphic_design_work > .container > .header > * {
+  text-align: center;
+}
+
+#graphic_design_work > .container > .header > p {
+  text-align: center;
+  line-height: 20px;
+  font-size: 14px;
+}
+
+#graphic_design_work > .container > #bfcm_pricing_ad {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+#graphic_design_work > .container > #bfcm_pricing_ad > p {
+  font-weight: 600;
+}
+
+#graphic_design_work > .container > #bfcm_pricing_ad > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+#graphic_design_work > .container > #bfcm_pricing_ad > div > div {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+#graphic_design_work > .container > #bfcm_pricing_ad > div > div > img,
+#graphic_design_work > .container > #bfcm_pricing_ad > div > img {
+  width: 50%;
+}
+
+#graphic_design_work > .container > #bfcm_pricing_ad > div > div:nth-child(1) > img:nth-child(3),
+#graphic_design_work > .container > #bfcm_pricing_ad > div > div:nth-child(2) > img:nth-child(3) {
+  display: none;
+}
+
+#graphic_design_work > .container > #festival_posters {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+#graphic_design_work > .container > #festival_posters > p {
+  font-weight: 600;
+}
+
+#graphic_design_work > .container > #festival_posters > div {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+#graphic_design_work > .container > #festival_posters > div > div {
+  display: flex;
+  gap: 10px;
+}
+
+#graphic_design_work > .container > #festival_posters > div > div > img {
+  width: 33.333%;
+}
+
+#graphic_design_work > .container > #campaign_posters {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+#graphic_design_work > .container > #campaign_posters > p {
+  font-weight: 600;
+}
+
+#graphic_design_work > .container > #campaign_posters > div {
+  display: flex;
+  gap: 10px;
+}
+
+#graphic_design_work > .container > #campaign_posters > div > img {
+  width: 50%;
+}
+
+#graphic_design_work > .container > #carousel_ads {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+#graphic_design_work > .container > #carousel_ads > p {
+  font-weight: 600;
+}
+
+#graphic_design_work > .container > #carousel_ads > div {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+#graphic_design_work > .container > #carousel_ads > div > div {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+#graphic_design_work > .container > #carousel_ads img {
+  width: 50%;
+}
+
+#graphic_design_work > .container > #carousel_ads > div:first-of-type > div:nth-child(1) > img:nth-child(3),
+#graphic_design_work > .container > #carousel_ads > div:first-of-type > div:nth-child(2) > img:nth-child(2),
+#graphic_design_work > .container > #carousel_ads > div:first-of-type > div:nth-child(2) > img:nth-child(4),
+#graphic_design_work > .container > #carousel_ads > div:first-of-type > div:nth-child(3) > img:nth-child(1) {
+  display: none;
+}
+
+#graphic_design_work > .container > div:last-child {
+  display: flex;
+  gap: 10px;
+}
+
+#graphic_design_work > .container > div:last-child > img {
+  width: 50%;
+}
+
+/* Conclusion */
+
+#conclusion > .container  {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 48px;
+  padding: 48px 24px;
+}
+
+#conclusion > .container > .header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+#conclusion > .container > .header > * {
+  text-align: center;
+}
+
+#conclusion > .container > .header > h2 {
+  /* font-family: var(--sf-pro-display-bold); */
+}
+
+#conclusion > .container > .header > p {
+  text-align: center;
+  line-height: 20px;
+  font-size: 14px;
+}
+
+#conclusion > .container > .header > p > a {
+  text-decoration: underline;
+}
+
+#conclusion > .container > .btn > .suffix {
+  transition: all 250ms ease;
+}
+
+#conclusion > .container > .btn:hover > .suffix {
+  transform: translateX(2px);
+}
+
+/* Screen Width: 768px */
+
+@media only screen and (min-width: 768px) {
+  /* Hero */
+
+  #hero > .container {
+    gap: 64px;
+    padding: 80px 24px;
+  }
+
+  #hero .header {
+    gap: 24px;
+    width: 600px;
+  }
+  
+  #hero .header > h1 {
+    font-size: 32px;
+  }
+  
+  #hero .header p {
+    line-height: 20px;
+    font-size: 16px;
+  }
+  
+  #hero img {
+    width: 650px;
+  }
+
+  /* About */
+
+  #about > .container {
+    gap: 80px;
+    padding: 100px 64px;
+  }
+
+  #about > .container > .details {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  #about > .container > .details > div > div {
+    gap: 16px;
+  }
+
+  #about > .container > .details > div > div > div {
+    gap: 8px;
+  }
+
+  #about > .container > .details p {
+    font-size: 16px;
+  }
+
+  #about > .container > .details > p {
+    width: 350px;
+    line-height: 22px;
+  }
+
+  /* New Year Flash Sale 2026 */
+
+  #new_year_flash_sale_2026 > .container {
+    padding: 64px;
+    gap: 64px;
+  }
+
+  #new_year_flash_sale_2026 > .container > .header {
+    width: 450px;
+  }
+
+  #new_year_flash_sale_2026 > .container > .header > h2 {
+    font-size: 32px;
+  }
+
+  #new_year_flash_sale_2026 > .container > .header > p {
+    line-height: 22px;
+    font-size: 16px;
+  }
+
+  #new_year_flash_sale_2026 > .container > img {
+    width: 650px;
+  }
+
+  #new_year_flash_sale_2026 > .container > p {
+    width: 500px;
+  }
+
+  /* New Mini Campaign Design */
+
+  #new_mini_campaign_design > .container {
+    padding: 64px;
+    gap: 64px;
+  }
+
+  #new_mini_campaign_design > .container > .header {
+    width: 450px;
+  }
+
+  #new_mini_campaign_design > .container > .header > h2 {
+    font-size: 32px;
+  }
+
+  #new_mini_campaign_design > .container > .header > p {
+    line-height: 22px;
+    font-size: 16px;
+  }
+
+  #new_mini_campaign_design > .container > img {
+    width: 650px;
+  }
+
+  #new_mini_campaign_design > .container > p {
+    width: 500px;
+  }
+
+  #new_mini_campaign_design > .container > .image_container {
+    gap: 24px;
+  }
+
+  /* Login Page */
+
+  #login_page > .container {
+    padding: 64px;
+    gap: 64px;
+  }
+
+  #login_page > .container > h2 {
+    font-size: 32px;
+  }
+
+  #login_page > .container > img {
+    width: 650px;
+  }
+
+  /* Graphic Design Work */
+
+  #graphic_design_work > .container {
+    padding: 64px;
+    gap: 64px;
+  }
+
+  #graphic_design_work > .container > .header {
+    width: 450px;
+  }
+
+  #graphic_design_work > .container > .header > h2 {
+    font-size: 32px;
+  }
+
+  #graphic_design_work > .container > .header > p {
+    line-height: 22px;
+    font-size: 16px;
+  }
+
+  #graphic_design_work > .container > #bfcm_pricing_ad > div,
+  #graphic_design_work > .container > #bfcm_pricing_ad > div > div {
+    gap: 12px;
+  }
+
+  #graphic_design_work > .container > #bfcm_pricing_ad > div > div:nth-child(1) > img:nth-child(3),
+  #graphic_design_work > .container > #bfcm_pricing_ad > div > div:nth-child(2) > img:nth-child(3) {
+    display: block;
+  }
+
+  #bfcm_pricing_ad > div > div:nth-child(2) > img:nth-child(1) {
+    display: none;
+  }
+
+  #bfcm_pricing_ad > div > img {
+    display: none;
+  }
+
+  #graphic_design_work > .container > #bfcm_pricing_ad img {
+    width: 33.333% !important;
+  }
+
+  #graphic_design_work > .container > #festival_posters > div,
+  #graphic_design_work > .container > #festival_posters > div > div {
+    gap: 12px;
+  }
+
+  #graphic_design_work > .container > #campaign_posters > div {
+    gap: 12px;
+  }
+
+  #graphic_design_work > .container > #campaign_posters > div > img {
+    width: 220px;
+  }
+
+  #graphic_design_work > .container > #carousel_ads > div > div:nth-child(3) {
+    display: none;
+  }
+
+  #graphic_design_work > .container > #carousel_ads > div:first-of-type img {
+    width: 33.333%;
+  }
+
+  #graphic_design_work > .container > #carousel_ads > div:first-of-type > div:nth-child(1) > img:nth-child(3),
+  #graphic_design_work > .container > #carousel_ads > div:first-of-type > div:nth-child(2) > img:nth-child(2),
+  #graphic_design_work > .container > #carousel_ads > div:first-of-type > div:nth-child(2) > img:nth-child(4) {
+    display: block;
+  }
+
+  #graphic_design_work > .container > #carousel_ads > div:first-of-type > div:nth-child(2) > img:nth-child(1) {
+    display: none;
+  }
+
+  #graphic_design_work > .container > #carousel_ads > div:nth-of-type(2) img,
+  #graphic_design_work > .container > #carousel_ads > div:nth-of-type(3) img {
+    width: 200px;
+  }
+
+  /* Conclusion */
+
+  #conclusion > .container {
+    gap: 64px;
+    padding: 64px;
+  }
+
+  #conclusion > .container > .header {
+    width: 450px;
+  }
+
+  #conclusion > .container > .header > h2 {
+    font-size: 32px;
+  }
+
+  #conclusion > .container > .header > p {
+    line-height: 22px;
+    font-size: 16px;
+  }
+}
+
+/* Screen Width: 900px */
+
+@media only screen and (min-width: 900px) {
+  /* About */
+
+  #about > .container > .details {
+    justify-content: center;
+    gap: 120px;
+  }
+}
+
+/* Screen Width: 1280px */
+
+@media only screen and (min-width: 1280px) {
+  /* Hero */
+
+  #hero > .container {
+    gap: 80px;
+  }
+
+  #hero img {
+    width: 850px;
+  }
+
+  /* About */
+
+  #about > .container {
+    padding: 120px 200px;
+  }
+
+  #about > .container > .details {
+    padding: 0 96px;
+  }
+
+  #about > .container > .details > div > div {
+    width: 250px;
+  }
+
+  #about > .container > .details > p {
+    width: 400px;
+  }
+
+  /* New Year Flash Sale 2026 */
+
+  #new_year_flash_sale_2026 > .container {
+    gap: 80px;
+    padding: 80px 200px;
+  }
+
+  #new_year_flash_sale_2026 > .container > .header {
+    width: 500px;
+  }
+
+  #new_year_flash_sale_2026 > .container > .header > h2 {
+    font-size: 40px;
+  }
+
+  #new_year_flash_sale_2026 > .container > img {
+    width: 1000px;
+  }
+
+  /* New Mini Campaign Design */
+
+  #new_mini_campaign_design > .container {
+    gap: 80px;
+    padding: 80px 200px;
+  }
+
+  #new_mini_campaign_design > .container > .header {
+    width: fit-content;
+  }
+
+  #new_mini_campaign_design > .container > .header > h2 {
+    font-size: 40px;
+  }
+
+  #new_mini_campaign_design > .container > img,
+  #new_mini_campaign_design > .container > .image_container > img {
+    width: 1000px;
+  }
+
+  /* Login Page */
+
+  #login_page > .container {
+    gap: 80px;
+    padding: 80px 200px;
+  }
+
+  #login_page > .container > h2 {
+    font-size: 40px;
+  }
+
+  #login_page > .container > img {
+    width: 1000px;
+  }
+
+  /* Graphic Design Work */
+
+  #graphic_design_work > .container {
+    gap: 80px;
+    padding: 80px 200px;
+  }
+
+  #graphic_design_work > .container > .header {
+    width: 500px;
+  }
+
+  #graphic_design_work > .container > .header > h2 {
+    font-size: 40px;
+  }
+
+  #graphic_design_work > .container > #campaign_posters img {
+    width: 350px !important;
+  }
+
+  #graphic_design_work > .container > #carousel_ads > div:last-of-type {
+    flex-direction: row;
+  }
+
+  #graphic_design_work > .container > #carousel_ads > div:last-of-type img {
+    width: 50%;
+  }
+
+  /* Conclusion */
+
+  #conclusion > .container {
+    gap: 80px;
+    padding: 80px 200px;
+  }
+
+  #conclusion > .container > .header {
+    width: 500px;
+  }
+
+  #conclusion > .container > .header > h2 {
+    font-size: 40px;
+  }
+}
+
+/* Screen Width: 1440px */
+
+@media only screen and (min-width: 1440px) {
+  /* Hero */
+
+  #hero > .container {
+    gap: 64px;
+  }
+
+  #hero .header {
+    width: 650px;
+  }
+  
+  #hero .header > h1 {
+    font-size: 40px;
+  }
+  
+  #hero .header p {
+    line-height: 22px;
+    font-size: 18px;
+  }
+
+  /* About */
+
+  #about > .container {
+    padding: 120px 200px;
+  }
+
+  #about > .container > .details {
+    padding: 0 150px;
+  }
+
+  /* New Year Flash Sale 2026 */
+
+  #new_year_flash_sale_2026 > .container {
+    gap: 120px;
+    padding: 120px 200px;
+  }
+
+  /* New Mini Campaign Design */
+
+  #new_mini_campaign_design > .container {
+    gap: 120px;
+    padding: 120px 200px;
+  }
+
+  /* Login Page */
+
+  #login_page > .container {
+    gap: 120px;
+    padding: 120px 200px;
+  }
+
+  /* Graphic Design Work */
+
+  #graphic_design_work > .container {
+    gap: 120px;
+    padding: 120px 200px;
+  }
+
+  #graphic_design_work > .container > #bfcm_pricing_ad > div {
+    flex-direction: row;
+  }
+
+  #graphic_design_work > .container > #bfcm_pricing_ad > div img {
+    width: 250px !important;
+  }
+
+  #graphic_design_work > .container > #festival_posters > div img,
+  #graphic_design_work > .container > #campaign_posters > div img,
+  #graphic_design_work > .container > #carousel_ads > div img {
+    width: 300px !important;
+  }
+
+  #graphic_design_work > .container > #carousel_ads > div:last-of-type img {
+    width: 250px !important;
+  }
+
+  #graphic_design_work > .container > div:last-child img {
+    width: 350px;
+  }
+  
+  /* Conclusion */
+
+  #conclusion > .container {
+    padding: 120px 200px;
+  }
+}
+
+/* Screen Width: 1745px */
+
+@media only screen and (min-width: 1745px) {
+  /* About */
+
+  #about > .container > div {
+    padding: 0 150px;
+  }
+
+  /* New Year Flash Sale 2026 */
+
+  #new_year_flash_sale_2026 > .container {
+    padding: 120px 400px;
+  }
+
+  /* New Mini Campaign Design */
+
+  #new_mini_campaign_design > .container {
+    padding: 120px 400px;
+  }
+
+  /* Login Page */
+
+  #login_page > .container {
+    padding: 120px 400px;
+  }
+
+  /* Graphic Design Work */
+
+  #graphic_design_work > .container {
+    padding: 120px 400px;
+  }
+}
+
+/* Screen Width: 1872px */
+
+@media only screen and (min-width: 1872px) {
+  /* About */
+
+  #about > .container {
+    padding: 120px 400px;
+  }
+}
+
+/* Screen Width: 1920px */
+
+@media only screen and (min-width: 1920px) {
+  /* About */
+
+  #about > .container {
+    padding: 120px 450px;
+  }
+}
