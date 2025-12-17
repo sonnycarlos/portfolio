@@ -683,12 +683,13 @@ header nav > ul > li > button > .prefix .icon {
     padding: 80px 200px;
   }
 
-  #new_year_flash_sale_2026 > .container > .header {
-    width: 500px;
+  #new_year_flash_sale_2026 > .container > .header > h2 {
+    width: 600px;
+    font-size: 40px;
   }
 
-  #new_year_flash_sale_2026 > .container > .header > h2 {
-    font-size: 40px;
+  #new_year_flash_sale_2026 > .container > .header > p {
+    width: 500px;
   }
 
   #new_year_flash_sale_2026 > .container > img {
@@ -810,6 +811,10 @@ header nav > ul > li > button > .prefix .icon {
   #new_year_flash_sale_2026 > .container {
     gap: 120px;
     padding: 120px 200px;
+  }
+
+  #new_year_flash_sale_2026 > .container > .header {
+    width: fit-content !important;
   }
 
   /* New Mini Campaign Design */
