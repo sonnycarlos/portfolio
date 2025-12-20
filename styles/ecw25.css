@@ -1,0 +1,754 @@
+/* Navigation Bar */
+
+header nav > a > .logo {
+  filter: invert(0%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(0%) contrast(75%);
+}
+
+header nav > ul > li > a,
+header nav > ul > li > .link {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+header nav > ul > li > button > .prefix .icon {
+  filter: invert(0%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(0%) contrast(75%);
+}
+
+/* Hero */
+
+#hero > .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 64px;
+  padding: 64px 24px;
+}
+
+#hero .header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  width: 350px;
+}
+
+#hero .header > h1,
+#hero .header > p {
+  text-align: center;
+}
+
+#hero .header > h1 {
+  /* font-family: var(--sf-pro-display-bold); */
+  font-size: 24px;
+}
+
+#hero .header p {
+  line-height: 18px;
+  letter-spacing: -0.4px;
+  /* font-family: var(--sf-pro-display-medium); */
+  font-size: 14px;
+  letter-spacing: -0.4px;
+}
+
+#hero img {
+  width: 350px;
+}
+
+/* About */
+
+#about {
+  background-color: #F2F2F2;
+}
+
+#about > .container {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding: 48px 24px;
+}
+
+#about > .container > .details {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+#about > .container > .details > div {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+#about > .container > .details > div > div {
+  display: flex;
+  gap: 12px;
+}
+
+#about > .container > .details p {
+  line-height: 20px;
+  font-size: 14px;
+}
+
+#about > .container > .details > div > div > p {
+  /* font-family: var(--sf-pro-display-bold); */
+  font-weight: 700;
+}
+
+#about > .container > .details > div > div > div {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+#about > .container > .details > p {
+  line-height: 20px;
+}
+
+/* Speaker Announcement Ads */
+
+#speaker_announcement_ads > .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 48px;
+  padding: 48px 24px;
+}
+
+#speaker_announcement_ads > .container > h2 {
+  text-align: center;
+}
+
+#speaker_announcement_ads > .container > .images {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+#speaker_announcement_ads > .container > .images > div {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+#speaker_announcement_ads > .container > .images img {
+  width: 50%;
+}
+
+#speaker_announcement_ads > .container > .images > div:nth-child(1) > img:nth-child(3) {
+  display: none;
+}
+
+#speaker_announcement_ads > .container > .images > div:nth-child(2) > img:nth-child(3) {
+  display: none;
+}
+
+/* Workshop Speakers Walk-Ons */
+
+#workshop_speakers_walk-ons > .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 48px;
+  padding: 48px 24px;
+}
+
+#workshop_speakers_walk-ons > .container > h2 {
+  text-align: center;
+}
+
+#workshop_speakers_walk-ons > .container > .images {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+#workshop_speakers_walk-ons > .container > .images > div {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+#workshop_speakers_walk-ons > .container > .images img {
+  width: 275px;
+}
+
+/* Creative Ads */
+
+#creative_ads > .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 48px;
+  padding: 48px 24px;
+}
+
+#creative_ads > .container > h2 {
+  text-align: center;
+}
+
+#creative_ads > .container > .images {
+  display: flex;
+  gap: 10px;
+}
+
+#creative_ads > .container > .images > img {
+  width: 50%;
+}
+
+/* Other Digital Assets */
+
+#other_digital_assets > .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 48px;
+  padding: 48px 24px;
+}
+
+#other_digital_assets > .container > h2 {
+  text-align: center;
+}
+
+#other_digital_assets > .container > .images {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+#other_digital_assets > .container > .images > div {
+  display: flex;
+  gap: 10px;
+}
+
+#other_digital_assets > .container > .images img {
+  width: 50%;
+}
+
+/* Speaker Headshots */
+
+#speaker_headshots > .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 48px;
+  padding: 48px 24px;
+}
+
+#speaker_headshots > .container > h2 {
+  text-align: center;
+}
+
+#speaker_headshots > .container > .images {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+
+#speaker_headshots > .container > .images img {
+  width: 120px;
+}
+
+/* Conclusion */
+
+#conclusion > .container  {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 48px;
+  padding: 48px 24px;
+}
+
+#conclusion > .container > .header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+
+#conclusion > .container > .header > * {
+  text-align: center;
+}
+
+#conclusion > .container > .header > h2 {
+  /* font-family: var(--sf-pro-display-bold); */
+}
+
+#conclusion > .container > .header > p {
+  text-align: center;
+  line-height: 20px;
+  font-size: 14px;
+}
+
+#conclusion > .container > .header > p > a {
+  text-decoration: underline;
+}
+
+#conclusion > .container > img {
+  width: 100%;
+}
+
+#conclusion > .container > .btn > .suffix {
+  transition: all 250ms ease;
+}
+
+#conclusion > .container > .btn:hover > .suffix {
+  transform: translateX(2px);
+}
+
+/* Screen Width: 768px */
+
+@media only screen and (min-width: 768px) {
+  /* Hero */
+
+  #hero > .container {
+    gap: 64px;
+    padding: 80px 24px;
+  }
+
+  #hero .header {
+    gap: 14px;
+    width: 600px;
+  }
+  
+  #hero .header > h1 {
+    font-size: 32px;
+  }
+  
+  #hero .header p {
+    line-height: 20px;
+    font-size: 16px;
+  }
+  
+  #hero img {
+    width: 650px;
+  }
+
+  /* About */
+
+  #about > .container {
+    gap: 80px;
+    padding: 100px 64px;
+  }
+
+  #about > .container > .details {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  #about > .container > .details > div > div {
+    gap: 16px;
+  }
+
+  #about > .container > .details > div > div > div {
+    gap: 8px;
+  }
+
+  #about > .container > .details p {
+    font-size: 16px;
+  }
+
+  #about > .container > .details > p {
+    width: 350px;
+    line-height: 22px;
+  }
+
+  /* Speaker Announcement Ads */
+
+  #speaker_announcement_ads > .container {
+    padding: 64px;
+    gap: 64px;
+  }
+
+  #speaker_announcement_ads > .container > h2 {
+    width: 450px;
+    font-size: 32px;
+  }
+
+  #speaker_announcement_ads > .container > .images,
+  #speaker_announcement_ads > .container > .images > div  {
+    gap: 12px;
+  }
+
+  #speaker_announcement_ads > .container > .images img {
+    width: 200px;
+  }
+
+  #speaker_announcement_ads > .container > .images > div:nth-child(1) > img:nth-child(3) {
+    display: block;
+  }
+
+  #speaker_announcement_ads > .container > .images > div:nth-child(2) > img:nth-child(1) {
+    display: none;
+  }
+
+  #speaker_announcement_ads > .container > .images > div:nth-child(2) > img:nth-child(3) {
+    display: block;
+  }
+
+  #speaker_announcement_ads > .container > .images > div:nth-child(3) > img {
+    display: none;
+  }
+
+  /* Workshop Speakers Walk-Ons */
+
+  #workshop_speakers_walk-ons > .container {
+    padding: 64px;
+    gap: 64px;
+  }
+
+  #workshop_speakers_walk-ons > .container > h2 {
+    font-size: 32px;
+  }
+
+  #workshop_speakers_walk-ons > .container > .images,
+  #workshop_speakers_walk-ons > .container > .images > div  {
+    gap: 12px;
+  }
+
+  #workshop_speakers_walk-ons > .container > .images > div {
+    flex-direction: row;
+  }
+
+  #workshop_speakers_walk-ons > .container > .images img {
+    width: 300px;
+  }
+
+  /* Creative Ads */
+
+  #creative_ads > .container {
+    padding: 64px;
+    gap: 64px;
+  }
+
+  #creative_ads > .container > h2 {
+    width: 450px;
+    font-size: 32px;
+  }
+
+  #creative_ads > .container > .images  {
+    gap: 12px;
+  }
+
+  #creative_ads > .container > .images > img {
+    width: 250px;
+  }
+
+  /* Other Digital Assets */
+
+  #other_digital_assets > .container {
+    padding: 64px;
+    gap: 64px;
+  }
+
+  #other_digital_assets > .container > h2 {
+    width: 450px;
+    font-size: 32px;
+  }
+
+  #other_digital_assets > .container > .images,
+  #other_digital_assets > .container > .images > div  {
+    gap: 12px;
+  }
+
+  #other_digital_assets > .container > .images img {
+    width: 220px;
+  }
+
+  /* Speaker Headshots */
+
+  #speaker_headshots > .container {
+    padding: 64px;
+    gap: 64px;
+  }
+
+  #speaker_headshots > .container > h2 {
+    width: 450px;
+    font-size: 32px;
+  }
+
+  #speaker_headshots > .container > .images {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 12px;
+  }
+
+  /* Conclusion */
+
+  #conclusion > .container {
+    gap: 64px;
+    padding: 64px;
+  }
+
+  #conclusion > .container > .header {
+    gap: 14px;
+    width: 450px;
+  }
+
+  #conclusion > .container > .header > h2 {
+    font-size: 32px;
+  }
+
+  #conclusion > .container > .header > p {
+    line-height: 22px;
+    font-size: 16px;
+  }
+
+  #conclusion > .container > img {
+    width: 650px;
+  }
+}
+
+/* Screen Width: 900px */
+
+@media only screen and (min-width: 900px) {
+  /* About */
+
+  #about > .container > .details {
+    justify-content: center;
+    gap: 120px;
+  }
+}
+
+/* Screen Width: 1280px */
+
+@media only screen and (min-width: 1280px) {
+  /* Hero */
+
+  #hero > .container {
+    gap: 80px;
+  }
+
+  #hero img {
+    width: 850px;
+  }
+
+  /* About */
+
+  #about > .container {
+    padding: 120px 200px;
+  }
+
+  #about > .container > .details {
+    padding: 0 96px;
+  }
+
+  #about > .container > .details > div > div {
+    width: 250px;
+  }
+
+  #about > .container > .details > p {
+    width: 400px;
+  }
+
+  /* Speaker Announcement Ads */
+
+  #speaker_announcement_ads > .container {
+    gap: 80px;
+    padding: 80px 200px;
+  }
+
+  #speaker_announcement_ads > .container > h2 {
+    width: 500px;
+    font-size: 40px;
+  }
+
+  #speaker_announcement_ads > .container > .images img {
+    width: 250px;
+  }
+
+  /* Workshop Speakers Walk-Ons */
+
+  #workshop_speakers_walk-ons > .container {
+    gap: 80px;
+    padding: 80px 200px;
+  }
+
+  #workshop_speakers_walk-ons > .container > h2 {
+    font-size: 40px;
+  }
+
+  #workshop_speakers_walk-ons > .container > .images img {
+    width: 400px;
+  }
+
+  /* Creative Ads */
+
+  #creative_ads > .container {
+    gap: 80px;
+    padding: 80px 200px;
+  }
+
+  #creative_ads > .container > h2 {
+    font-size: 40px;
+  }
+
+  #creative_ads > .container > .images > img {
+    width: 350px;
+  }
+
+  /* Other Digital Assets */
+
+  #other_digital_assets > .container {
+    gap: 80px;
+    padding: 80px 200px;
+  }
+
+  #other_digital_assets > .container > h2 {
+    font-size: 40px;
+  }
+
+  #other_digital_assets > .container > .images img {
+    width: 350px;
+  }
+
+  /* Speaker Headshots */
+
+  #speaker_headshots > .container {
+    gap: 80px;
+    padding: 80px 200px;
+  }
+
+  #speaker_headshots > .container > h2 {
+    font-size: 40px;
+  }
+
+  #speaker_headshots > .container > .images img {
+    width: 200px;
+  }
+
+  /* Conclusion */
+
+  #conclusion > .container {
+    gap: 80px;
+    padding: 80px 200px;
+  }
+
+  #conclusion > .container > .header {
+    width: 500px;
+  }
+
+  #conclusion > .container > .header > h2 {
+    font-size: 40px;
+  }
+}
+
+/* Screen Width: 1440px */
+
+@media only screen and (min-width: 1440px) {
+  /* Hero */
+
+  #hero > .container {
+    gap: 64px;
+  }
+
+  #hero .header {
+    width: 650px;
+  }
+  
+  #hero .header > h1 {
+    font-size: 40px;
+  }
+  
+  #hero .header p {
+    line-height: 22px;
+    font-size: 18px;
+  }
+
+  /* About */
+
+  #about > .container {
+    padding: 120px 200px;
+  }
+
+  #about > .container > .details {
+    padding: 0 150px;
+  }
+
+  /* Speaker Announcement Ads */
+
+  #speaker_announcement_ads > .container {
+    gap: 120px;
+    padding: 120px 200px;
+  }
+  
+  /* Workshop Speakers Walk-Ons */
+
+  #workshop_speakers_walk-ons > .container {
+    gap: 120px;
+    padding: 120px 200px;
+  }
+
+  /* Creative Ads */
+
+  #creative_ads > .container {
+    gap: 120px;
+    padding: 120px 200px;
+  }
+
+  /* Speaker Headshots */
+
+  #speaker_headshots > .container {
+    gap: 120px;
+    padding: 120px 200px;
+  }
+
+  /* Conclusion */
+
+  #conclusion > .container {
+    padding: 120px 200px;
+  }
+}
+
+/* Screen Width: 1745px */
+
+@media only screen and (min-width: 1745px) {
+  /* About */
+
+  #about > .container > div {
+    padding: 0 150px;
+  }
+
+  /* Speaker Announcement Ads */
+
+  #speaker_announcement_ads > .container {
+    padding: 120px 400px;
+  }
+
+  /* Workshop Speakers Walk-Ons */
+
+  #workshop_speakers_walk-ons > .container {
+    padding: 120px 400px;
+  }
+
+  /* Creative Ads */
+
+  #creative_ads > .container {
+    padding: 120px 400px;
+  }
+
+  /* Speaker Headshots */
+
+  #speaker_headshots > .container {
+    padding: 120px 400px;
+  }
+}
+
+/* Screen Width: 1872px */
+
+@media only screen and (min-width: 1872px) {
+  /* About */
+
+  #about > .container {
+    padding: 120px 400px;
+  }
+}
+
+/* Screen Width: 1920px */
+
+@media only screen and (min-width: 1920px) {
+  /* About */
+
+  #about > .container {
+    padding: 120px 450px;
+  }
+}
