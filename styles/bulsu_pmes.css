@@ -544,7 +544,7 @@ header nav > ul > li > button > .prefix .icon {
 }
 
 #conclusion > .container > .members > div > .member > img {
-  width: fit-content;
+  width: 190px !important;
   height: 250px;
 }
 
@@ -932,10 +932,11 @@ header nav > ul > li > button > .prefix .icon {
   }
   
   #conclusion > .container > .members > div > .member > img {
+    width: 288px !important;
     height: 380px;
   }
 
-  #conclusion > .container > .members > div > #sonny > img {
+  /* #conclusion > .container > .members > div > #sonny > img {
     width: 242.36px;
   }
   
@@ -953,7 +954,7 @@ header nav > ul > li > button > .prefix .icon {
   
   #conclusion > .container > .members > div > #rigel > img {
     width: 288.24px;
-  }
+  } */
 }
 
 /* Screen Width: 900px */
@@ -1151,11 +1152,8 @@ header nav > ul > li > button > .prefix .icon {
   }
   
   #conclusion > .container > .members > div > .member > img {
+    width: 288px !important;
     height: 380px;
-  }
-
-  #conclusion > .container > button {
-    width: 130px;
   }
 
   #conclusion > .container > button:hover > .suffix {
