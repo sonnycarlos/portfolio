@@ -26,6 +26,7 @@
 }
 
 #hero > .container > .texts > .heading_wrapper > h1:last-child {
+  margin-top: 6px;
   color: #232323;
   font-weight: 700;
 }
@@ -410,6 +411,7 @@
   }
   
   #hero > .container > .texts > .heading_wrapper > h1:last-child {
+    margin-top: 12px;
     line-height: 90%;
     font-size: 60px;
   }
