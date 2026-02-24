@@ -93,6 +93,10 @@
   background-image: url('../assets/images/thumbnails/istack_conferences.webp');
 }
 
+#museo > .container > .projects > #affiliate_world_conferences > .thumbnail {
+  background-image: url('../assets/images/thumbnails/affiliate_world_conferences.webp');
+}
+
 #museo > .container > .projects > #ad_world_prime > .thumbnail {
   background-image: url('../assets/images/thumbnails/ad_world_prime.webp');
 }
