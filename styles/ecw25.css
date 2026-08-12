@@ -45,10 +45,8 @@ header nav > ul > li > button > .prefix .icon {
 
 #hero .header p {
   line-height: 18px;
-  letter-spacing: -0.4px;
   /* font-family: var(--sf-pro-display-medium); */
   font-size: 14px;
-  letter-spacing: -0.4px;
 }
 
 #hero img {
