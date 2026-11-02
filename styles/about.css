@@ -40,6 +40,10 @@
   margin-bottom: -4px;
 }
 
+#hero > .container > .image_container > img {
+  width: 150px !important;
+}
+
 /* Introduction */
 
 #introduction > .container {
@@ -61,174 +65,38 @@
   font-weight: 600;
 }
 
-/* Work Experience & Education */
+/* Sonny Carlos */
 
-#work_experience_and_education > .container {
+#sonny_carlos > .container {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
-  gap: 64px;
+  gap: 24px;
   padding: 64px 24px;
 }
 
-#work_experience_and_education > .container .icon {
-  width: 32px;
-  height: 32px;
+#sonny_carlos > .container h2,
+#sonny_carlos > .container p {
+  text-align: center;
 }
 
-#work_experience_and_education > .container .header.desktop {
-  display: none !important;
+#sonny_carlos > .container #img_1,
+#sonny_carlos > .container #img_4,
+#sonny_carlos > .container #img_5 {
+  width: 300px;
+  height: 375px;
 }
 
-#work_experience_and_education > .container > div {
+#sonny_carlos > .container > #image_container {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 40px;
-  width: 100%;
+  gap: 24px;
 }
 
-#work_experience_and_education > .container > div > h2 {
-  /* font-family: var(--sf-pro-display-bold); */
-  font-family: 'Inter', sans-serif;
-  font-size: 24px;
-  font-weight: 700;
-}
-
-#work_experience_and_education > .container > div > .container {
+#sonny_carlos > .container > .paragraph_container {
   display: flex;
   flex-direction: column;
-  gap: 8px;
-}
-
-#work_experience_and_education > .container > div > .container > .experience {
-  display: flex;
-  gap: 16px;
-}
-
-#work_experience_and_education > .container > div > .container > .experience > .icon_and_line {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 8px;
-}
-
-#work_experience_and_education > .container > div > .container > .experience > .icon_and_line > .line {
-  display: inline-block;
-  width: 1px;
-  height: 100%;
-  background-color: #DDD;
-}
-
-#work_experience_and_education > .container > div > .container > .experience > .details {
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-  width: 100%;
-}
-
-#work_experience_and_education > .container > div > .container > .experience > .details > .header {
-  margin-bottom: 16px;
-}
-
-#work_experience_and_education > .container > div > .container > .experience > .details > .header,
-#work_experience_and_education > .container > div > .container > .experience > .details > .header > div {
-  display: flex;
-  flex-direction: column;
-  gap: 2px;
-}
-
-#work_experience_and_education > .container > div > .container > .experience > .details > .header > div > p {
-  /* font-family: var(--sf-pro-display-medium); */
-  letter-spacing: -0.16px;
-  font-size: 14px;
-  font-weight: 550;
-}
-
-#work_experience_and_education > .container > div > .container > .experience > .details > .header > div > p:last-child,
-#work_experience_and_education > .container > div > .container > .experience > .details > .experience > .details > .header > div > p:last-child {
-  /* font-family: var(--sf-pro-display-regular); */
-  letter-spacing: -0.16px;
-  font-weight: 500;
-}
-
-#work_experience_and_education > .container > div > .container > .experience > .details > .paragraphs {
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
-}
-
-#work_experience_and_education > .container > div > .container > .experience > .details > p,
-#work_experience_and_education > .container > div > .container > .experience > .details > .paragraphs > p {
-  width: 100%;
-  margin-top: -8px;
-  padding-bottom: 16px;
-  color: #999;
-  font-size: 12px;
-}
-
-#work_experience_and_education > .container > div > .container > .experience > .details > .paragraphs > p {
-  padding-bottom: 12px;
-}
-
-#work_experience_and_education > .container > div > .container > .experience > .details > .experience {
-  display: flex;
-  gap: 16px;
-}
-
-#work_experience_and_education > .container > div > .container > .experience > .details > .experience > .icon_and_line {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 8px;
-}
-
-#work_experience_and_education > .container > div > .container > .experience > .details > .experience > .icon_and_line > .line {
-  display: inline-block;
-  width: 1px;
-  height: 100%;
-  background-color: #EEE;
-}
-
-#work_experience_and_education > .container > div > .container > .experience > .details > .experience > .details {
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
-  padding-bottom: 16px;
-  width: 100%;
-}
-
-#work_experience_and_education > .container > div > .container > .experience > .details > .experience > .details > .header,
-#work_experience_and_education > .container > div > .container > .experience > .details > .experience > .details > .header > div {
-  display: flex;
-  flex-direction: column;
-  gap: 2px;
-}
-
-#work_experience_and_education > .container > div > .container > .experience > .details > .experience > .details > .header > div > p {
-  color: #232323;
-  /* font-family: var(--sf-pro-display-medium); */
-  font-size: 14px;
-  font-weight: 550;
-}
-
-#work_experience_and_education > .container > div > .container > .experience > .details > .experience > .details > .header > div:last-child > p {
-  color: #CCC;
-}
-
-#work_experience_and_education > .container > div > .container > .experience > .details > .experience > .details p {
-  color: #999;
-  line-height: 18px;
-  font-size: 12px;
-  font-weight: 500;
-}
-
-#work_experience_and_education > .container > div > .container > .experience > .details > .experience > .details > .paragraphs {
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
+  gap: 20px;
 }
 
 /* Blogs */
@@ -316,31 +184,6 @@
   font-size: 14px;
 }
 
-/* Tagline */
-
-#tagline > .container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 20px;
-  padding: 64px 24px 48px;
-}
-
-#tagline > .container > h2 {
-  width: 260px;
-  color: #C5C5C5;
-  line-height: 100%;
-  font-size: 32px;
-  font-weight: 600;
-}
-
-#tagline > .container > p {
-  width: 260px;
-  color: #C5C5C5;
-  line-height: 20px;
-  font-size: 16px;
-}
-
 /* Resume */
 
 #resume > .container {
@@ -421,11 +264,8 @@
   }
   
   #hero > .container > .image_container > img {
-    width: 682px;
-    height: 330px;
-    /* width: fit-content;
-    height: 750px;
-    margin-left: -260px; */
+    width: 275px !important;
+    height: 345px !important;
   }
 
   /* Introduction */
@@ -439,61 +279,31 @@
     font-size: 22px;
   }
 
-  /* Work Experience & Education */
+  /* Sonny Carlos */
 
-  #work_experience_and_education > .container {
-    padding: 80px 64px;
+  #sonny_carlos > .container {
+    gap: 32px;
+    padding: 100px 64px;
   }
 
-  #work_experience_and_education > .container .icon {
-    width: 40px;
-    height: 40px;
+  #sonny_carlos > .container #img_1 {
+    width: 400px;
+    height: 500px;
   }
 
-  #work_experience_and_education > .container > div > h2 {
-    font-size: 28px;
+  #sonny_carlos > .container #img_2,
+  #sonny_carlos > .container #img_3 {
+    width: 650px;
+    height: 433px;
   }
 
-  #work_experience_and_education > .container > div > .container > .experience {
-    gap: 20px;
+  #sonny_carlos > .container > #image_container {
+    flex-direction: row;
+    gap: 16px;
   }
 
-  #work_experience_and_education > .container > div > .container > .experience > .details > .header {
-    margin-bottom: 32px;
-  }
-
-  #work_experience_and_education > .container > div > .container > .experience > .details > .header > div > p {
-    font-size: 16px;
-  }
-
-  #work_experience_and_education > .container > div > .container > .experience > .details > p,
-  #work_experience_and_education > .container > div > .container > .experience > .details > .paragraphs > p {
-    margin-top: -16px;
-    padding-bottom: 32px;
-    font-size: 14px;
-  }
-
-  #work_experience_and_education > .container > div > .container > .experience > .details > .experience > .details {
+  #sonny_carlos > .container > .paragraph_container {
     gap: 24px;
-    padding-bottom: 32px;
-  }
-
-  #work_experience_and_education > .container > div > .container > .experience > .details > .header,
-  #work_experience_and_education > .container > div > .container > .experience > .details > .header > div {
-    gap: 4px;
-  }
-
-  #work_experience_and_education > .container > div > .container > .experience > .details > .experience > .details > .header > div > p {
-    font-size: 16px;
-  }
-  
-  #work_experience_and_education > .container > div > .container > .experience > .details > .experience > .details p {
-    line-height: 20px;
-    font-size: 14px;
-  }
-  
-  #work_experience_and_education > .container > div > .container > .experience > .details > .experience > .details > .paragraphs {
-    gap: 14px;
   }
 
   /* Blogs */
@@ -522,24 +332,6 @@
 
   #blogs > .container > .stacks > .stack > .title_and_description > .description {
     font-size: 16px;
-  }
-
-  /* Tagline */
-
-  #tagline > .container {
-    gap: 24px;
-    padding: 100px 24px 80px;
-  }
-
-  #tagline > .container > h2 {
-    width: 480px;
-    font-size: 48px;
-  }
-
-  #tagline > .container > p {
-    width: 480px;
-    line-height: 120%;
-    font-size: 24px;
   }
 
   /* Resume */
@@ -608,64 +400,14 @@
     width: 800px;
   }
 
-  /* Work Experience & Education */
+  /* Sonny Carlos */
 
-  #work_experience_and_education > .container {
-    gap: 100px;
-    padding: 100px 200px;
+  #sonny_carlos > .container p {
+    width: 500px;
   }
 
-  #work_experience_and_education > .container .header.mobile {
-    display: none !important;
-  }
-
-  #work_experience_and_education > .container .header.desktop {
-    display: flex !important;
-  }
-
-  #work_experience_and_education > .container > div {
-    width: 750px;
-    gap: 80px;
-  }
-
-  #work_experience_and_education > .container > div > h2 {
-    font-size: 32px;
-  }
-
-  #work_experience_and_education > .container > div > .container > .experience > .details > .header {
-    margin-bottom: 40px;
-  }
-
-  #work_experience_and_education > .container > div > .container > .experience > .details > .header > div,
-  #work_experience_and_education > .container > div > .container > .experience > .details > .experience > .details > .header > div {
-    width: 100%;
-    flex-direction: row;
-    justify-content: space-between;
-  }
-
-  #work_experience_and_education > .container > div > .container > .experience > .details > .header > div > p:last-child,
-  #work_experience_and_education > .container > div > .container > .experience > .details > .experience > .details > .header > div > p:last-child {
-    color: #CCC !important;
-  }
-
-  #work_experience_and_education > .container > div > .container > .experience > .details > .header > div:last-child > p,
-  #work_experience_and_education > .container > div > .container > .experience > .details > .experience > .details > .header > div:last-child > p {
-    color: #232323;
-  }
-
-  #work_experience_and_education > .container > div > .container > .experience > .details > p,
-  #work_experience_and_education > .container > div > .container > .experience > .details > .paragraphs > p {
-    margin-top: -24px;
-    padding-bottom: 32px;
-    font-size: 14px;
-  }
-
-  #work_experience_and_education > .container > div > .container > .experience > .details > .experience > .details {
-    padding-bottom: 40px;
-  }
-  
-  #work_experience_and_education > .container > div > .container > .experience > .details > .experience > .details > .paragraphs {
-    gap: 20px;
+  #sonny_carlos > .container > #img_6 {
+    width: 500px;
   }
 
   /* Blogs */
@@ -685,23 +427,6 @@
 
   #blogs > .container > .stacks > .stack > .thumbnail {
     height: 380px;
-  }
-
-  /* Tagline */
-
-  #tagline > .container {
-    gap: 24px;
-    padding: 175px 24px 120px;
-  }
-
-  #tagline > .container > h2 {
-    width: 500px;
-    line-height: 110%;
-    font-size: 48px;
-  }
-
-  #tagline > .container > p {
-    width: 500px;
   }
 
   /* Resume */
